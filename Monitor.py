@@ -7,15 +7,15 @@ class Monitor:
 	def __init__(self):
 
 		self.log_file = open("/home/sourabh/Desktop/Sherry/log.txt", 'a')
-		log_file.write("\nSession started\n")
+		self.log_file.write("\nSession started\n")
 
-		os.system('cat /proc/cmdline >> ' + "/home/sourabh/Desktop/Sherry/log.txt")
+		os.system('cat /proc/cmdline >> ' + " /home/sourabh/Desktop/Sherry/log.txt")
 		
 		self.interrupt_name = '0000:00:1f.2'						#HDD interrupt name
 		ff = open("/home/sourabh/Desktop/Sherry/input", "r")		
 
 		self.path = "/home/sourabh/Desktop/Sherry/exp" + ff.readlines()[0].split('\n')[0] + "/"
-		log_file.write("\nDirectory :: " + self.path)
+		self.log_file.write("\nDirectory :: " + self.path + "\n")
 
 		#if(self.path[-1] != '/'):
 		#	self.path = self.path + '/'
@@ -31,30 +31,30 @@ class Monitor:
 				self.d[j[0]] = j[1]	
 
 		if(self.d['b_smp_affinity'] == 'true'):
-			log_file.write("Core affinity started")
+			self.log_file.write("Core affinity started --- ")
 			self.set_core_affinity()
-			log_file.write("Core affinity closed")
+			self.log_file.write("Core affinity closed\n")
 
 
-		log_file.write("Monitoring started")
+		self.log_file.write("Monitoring started --- ")
 		self.start_monitor()
-		log_file.write("Monitoring stopped")
+		self.log_file.write("Monitoring stopped\n")
 
 
-		log_file.write("txt copy started")
+		self.log_file.write("txt copy started --- ")
 		self.copy()
-		log_file.write("txt copy stopped")
+		self.log_file.write("txt copy stopped\n")
 
 		#print("rm " + self.path + "txt/*")
 		#print("rm /home/sourabh/Desktop/" + self.d['stress'] + '/*')
 
-		log_file.write("Removing txt started")
+		self.log_file.write("Removing txt started --- ")
 		os.system("sudo rm " + self.path + "txt/*")
-		log_file.write("Removing txt stopped")
+		self.log_file.write("Removing txt stopped\n")
 
-		log_file.write("Removing big started")
+		self.log_file.write("Removing big started --- ")
 		os.system("sudo rm /home/sourabh/Desktop/" + self.d['stress'] + '/*')
-		log_file.write("Removing txt stopped")
+		self.log_file.write("Removing txt stopped\n")
 
 
 	def set_core_affinity(self):

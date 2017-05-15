@@ -1,0 +1,9 @@
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash isolcpus=3 vt.handoff=7
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash isolcpus=3 vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp2/Core affinity startedCore affinity closedMonitoring startedMonitoring stoppedtxt copy startedtxt copy stoppedRemoving txt startedRemoving txt stoppedRemoving big startedRemoving txt stopped
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp2/Core affinity startedCore affinity closedMonitoring started
