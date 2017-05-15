@@ -1,0 +1,6 @@
+import os
+import time
+
+os.system('echo 1')
+os.system('cp /media/sourabh/SHERRY/Big/* /home/sourabh/Desktop/big_files')
+os.system('echo 3')

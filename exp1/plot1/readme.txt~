@@ -1,0 +1,5 @@
+plot_int false
+plot_disk false
+plot_core false
+plot_memory true
+plot_disk_rw false

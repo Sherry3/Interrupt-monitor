@@ -1,0 +1,2 @@
+cd files
+./runall.sh
