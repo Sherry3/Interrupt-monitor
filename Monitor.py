@@ -8,8 +8,6 @@ class Monitor:
 
 		self.log_file = open("/home/sourabh/Desktop/Sherry/log.txt", 'a')
 		self.log_file.write("\nSession started\n")
-
-		os.system('cat /proc/cmdline >> ' + " /home/sourabh/Desktop/Sherry/log.txt")
 		
 		self.interrupt_name = '0000:00:1f.2'						#HDD interrupt name
 		ff = open("/home/sourabh/Desktop/Sherry/input", "r")		
@@ -49,13 +47,15 @@ class Monitor:
 		#print("rm /home/sourabh/Desktop/" + self.d['stress'] + '/*')
 
 		self.log_file.write("Removing txt started --- ")
-		os.system("sudo rm " + self.path + "txt/*")
+		os.system("rm " + self.path + "txt/*")
 		self.log_file.write("Removing txt stopped\n")
 
-		self.log_file.write("Removing big started --- ")
-		os.system("sudo rm /home/sourabh/Desktop/" + self.d['stress'] + '/*')
-		self.log_file.write("Removing txt stopped\n")
+		self.log_file.write("Removing " + self.d['stress'] + " started --- ")
+		os.system("rm /home/sourabh/Desktop/" + self.d['stress'] + '/*')
+		self.log_file.write("Removing " + self.d['stress'] + " stopped\n")
+		self.log_file.close()
 
+		os.system('cat /proc/cmdline >> ' + " /home/sourabh/Desktop/Sherry/log.txt")
 
 	def set_core_affinity(self):
 		irqs = os.listdir("/proc/irq")
@@ -183,8 +183,8 @@ class Monitor:
 		fw.close()
 
 		to = self.path + "plot" + num
-		os.system('sudo mkdir ' + to)
-		os.system('sudo cp ' + self.path + 'txt/* ' + to)		
+		os.system('mkdir ' + to)
+		os.system('cp ' + self.path + 'txt/* ' + to)		
 
 
 A = Monitor()

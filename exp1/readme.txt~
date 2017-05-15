@@ -1,4 +1,5 @@
 data 6GB 
+irq_balance false 
 isolated false 
 b_smp_affinity false 
 other_irqs 0x00 
