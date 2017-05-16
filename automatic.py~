@@ -1,3 +1,0 @@
-sleep(600)
-os.system('python3 /home/sourabh/Desktop/Sherry/monitor.py')
-shutdown -r
