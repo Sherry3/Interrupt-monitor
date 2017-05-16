@@ -66,7 +66,7 @@ class Plot():
 
 			if(j % 5 == 3):
 				k = i.split()
-				#print(k[2][:-1])
+				print(k[2][:-1])
 				used.append(float(k[2][:-1]))
 				shared.append(float(k[4][:-1]))
 				buff.append(float(k[5][:-1]))
