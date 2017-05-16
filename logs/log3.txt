@@ -138,12 +138,3 @@ txt copy started --- txt copy stopped
 Removing txt started --- Removing txt stopped
 Removing big_files started --- Removing big_files stopped
 BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
-
-Session started
-
-Directory :: /home/sourabh/Desktop/Sherry/exp3/
-Core affinity started --- Core affinity closed
-Monitoring started --- Monitoring stopped
-txt copy started --- txt copy stopped
-Removing txt started --- Removing txt stopped
-Removing big_files started --- Removing big_files stopped
