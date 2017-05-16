@@ -44,15 +44,15 @@ class Monitor:
 		self.log_file.write("txt copy stopped\n")
 
 		#print("rm " + self.path + "txt/*")
-		#print("rm /home/sourabh/Desktop/" + self.d['stress'] + '/*')
+		#print("rm /home/sourabh/Desktop/" + self.d['stress2'] + '/*')
 
 		self.log_file.write("Removing txt started --- ")
 		os.system("rm " + self.path + "txt/*")
 		self.log_file.write("Removing txt stopped\n")
 
-		self.log_file.write("Removing " + self.d['stress'] + " started --- ")
-		os.system("rm /home/sourabh/Desktop/" + self.d['stress'] + '/*')
-		self.log_file.write("Removing " + self.d['stress'] + " stopped\n")
+		self.log_file.write("Removing " + self.d['stress2'] + " started --- ")
+		os.system("rm /home/sourabh/Desktop/" + self.d['stress2'] + '/*')
+		self.log_file.write("Removing " + self.d['stress2'] + " stopped\n")
 		self.log_file.close()
 
 		os.system('cat /proc/cmdline >> ' + " /home/sourabh/Desktop/Sherry/log.txt")
@@ -102,7 +102,7 @@ class Monitor:
 				if(self.d['taskset'] == 'true'):
 					cmd = 'taskset ' + self.d['taskset_affinity']
 			
-				if(self.d['stress'] == 'true'):
+				if(self.d['stress1'] == 'true'):
 					cmd = cmd + ' stress'
 					if(self.d['stress_disk'] == 'true'):
 						cmd = cmd + " -d " + self.d['disk_workers'] + ' --hdd-bytes ' + self.d['disk_size']
@@ -114,12 +114,12 @@ class Monitor:
 					cmd = cmd + ' -t ' + self.d['stress_period']
 					os.system(cmd + "&")
 
-				elif(self.d['stress'] == 'small_files'):
-					cmd = cmd + ' cp /media/sourabh/SHERRY/Small/* /home/sourabh/Desktop/' + self.d['stress']
+				elif(self.d['stress2'] == 'small_files'):
+					cmd = cmd + ' cp /media/sourabh/SHERRY/Small/* /home/sourabh/Desktop/' + self.d['stress2']
 					os.system(cmd + "&")
 
-				elif(self.d['stress'] == 'big_files'):
-					cmd = cmd + ' cp /media/sourabh/SHERRY/Big/* /home/sourabh/Desktop/' + self.d['stress']
+				elif(self.d['stress2'] == 'big_files'):
+					cmd = cmd + ' cp /media/sourabh/SHERRY/Big/* /home/sourabh/Desktop/' + self.d['stress2']
 					os.system(cmd + "&")
 
 			#Memory info
