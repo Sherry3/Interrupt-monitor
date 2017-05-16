@@ -5,9 +5,9 @@ b_smp_affinity true
 other_irqs 08 
 hdd_irqs 08 
 b_disk_rw false 
-work_delay 30 
-copy_time 60 
-after_copy_time 30 
+work_delay 300 
+copy_time 600 
+after_copy_time 300 
 taskset false 
 taskset_affinity 0x00 
 stress big_files 

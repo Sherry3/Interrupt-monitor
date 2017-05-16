@@ -1,10 +1,10 @@
-exp1 and exp2 completed
+exp1, exp2 completed
 
-exp1 	- normal 
-     	- irqbalance off
-	- big files
+exp3	- irqbalance off
+	- all interrupts to core 3
+ 
+exp3	- irqbalance off
+	- all interrupts to core 3 
 
-exp2 	- all interrupts to 3rd core
-	- 3rd core isolated
-	- irqbalance off
-	- big files 
+exp3	- irqbalance off
+	- all interrupts to core 3 
