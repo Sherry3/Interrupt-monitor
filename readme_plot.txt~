@@ -1,5 +1,5 @@
 plot_int false
-plot_disk true
+plot_disk false
 plot_core false
 plot_memory false
 plot_disk_rw false
