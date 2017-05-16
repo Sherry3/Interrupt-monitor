@@ -1,14 +1,25 @@
 import matplotlib.pyplot as plt
+import sys
 
 class Plot():
 	def __init__(self):
-		self.path = input("Enter input directory : ")
+		if(len(sys.argv) > 1):
+			self.path = "exp" + sys.argv[1] + "/plot" + sys.argv[2]
+			self.exp = sys.argv[1] + "_" + sys.argv[2]
+		else:
+			self.path = input("Enter input directory : ")
+			self.exp = self.path.split("/")[0][3] + "_" + self.path.split("/")[1][4]			
+
 		self.path = "/home/sourabh/Desktop/Sherry/" + self.path
 
 		if(self.path[-1] != '/'):
 			self.path = self.path + '/'
 
-		f = open(self.path + "../readme_plot.txt", "r")
+		if(len(sys.argv) > 1 and sys.argv[3] == 'global'):
+			f = open(self.path + "../../readme_plot.txt", "r")
+		else:
+			f = open(self.path + "../readme_plot.txt", "r")
+
 		lines = f.readlines()
 
 		self.d ={}
@@ -26,7 +37,7 @@ class Plot():
 			if(i != "\n"):
 				intr.append(int(i.split()[int(self.d['int_core']) + 1]))
 
-		plt.title('HDD interrupts')
+		plt.title('HDD interrupts ' + self.exp)
 		plt.plot(range(len(intr)), intr, 'k')
 		plt.axis([0, len(intr), min(intr), max(intr)])
 		plt.show()
@@ -63,28 +74,28 @@ class Plot():
 			j += 1
 	
 
-		plt.title('free and active')
+		plt.title('free and active ' + self.exp)
 		plt.plot(range(len(free)), free, 'ro')
 		plt.plot(range(len(active)), active, 'go')
 		plt.axis([0, len(free), min([min(free), min(active)]), max(max(free), max(active))])
 		plt.show()
 
-		plt.title('used')
+		plt.title('used ' + self.exp)
 		plt.plot(range(len(used)), used, 'ro')
 		plt.axis([0, len(used), min(used), max(used)])
 		plt.show()
 
-		plt.title('shared')
+		plt.title('shared ' + self.exp)
 		plt.plot(range(len(shared)), shared, 'ro')
 		plt.axis([0, len(shared), min(shared), max(shared)])
 		plt.show()
 
-		plt.title('buffer')
+		plt.title('buffer ' + self.exp)
 		plt.plot(range(len(buff)), buff, 'ro')
 		plt.axis([0, len(buff), min(buff), max(buff)])
 		plt.show()
 
-		plt.title('cached')
+		plt.title('cached ' + self.exp)
 		plt.plot(range(len(cache)), cache, 'ro')
 		plt.axis([0, len(cache), min(cache), max(cache)])
 		plt.show()
@@ -122,7 +133,7 @@ class Plot():
 
 		if(choice == 1):
 			for i in range(5):
-				plt.title('CPU ' + str(i))
+				plt.title('CPU ' + str(i) + ' ' + self.exp)
 				plt.plot(range(len(usr[i])), usr[i], 'ro')
 				plt.plot(range(len(sys[i])), sys[i], 'bo')
 				plt.plot(range(len(iowait[i])), iowait[i], 'g+')
@@ -132,7 +143,7 @@ class Plot():
 				plt.show()
 
 		else:
-			plt.title('usr')
+			plt.title('usr ' + self.exp)
 			plt.plot(range(len(usr[0])), usr[0], 'r+')
 			plt.plot(range(len(usr[1])), usr[1], 'g+')
 			plt.plot(range(len(usr[2])), usr[2], 'b+')
@@ -141,7 +152,7 @@ class Plot():
 			plt.axis([0, len(usr[0]), 0, 100])
 			plt.show()
 
-			plt.title('sys')
+			plt.title('sys ' + self.exp)
 			plt.plot(range(len(sys[0])), sys[0], 'r+')
 			plt.plot(range(len(sys[1])), sys[1], 'g+')
 			plt.plot(range(len(sys[2])), sys[2], 'b+')
@@ -150,7 +161,7 @@ class Plot():
 			plt.axis([0, len(usr[0]), 0, 100])
 			plt.show()
 
-			plt.title('iowait')
+			plt.title('iowait ' + self.exp)
 			plt.plot(range(len(iowait[0])), iowait[0], 'r+')
 			plt.plot(range(len(iowait[1])), iowait[1], 'g+')
 			plt.plot(range(len(iowait[2])), iowait[2], 'b+')
@@ -159,7 +170,7 @@ class Plot():
 			plt.axis([0, len(usr[0]), 0, 100])
 			plt.show()
 
-			plt.title('idle')
+			plt.title('idle ' + self.exp)
 			plt.plot(range(len(idle[0])), idle[0], 'r+')
 			plt.plot(range(len(idle[1])), idle[1], 'g+')
 			plt.plot(range(len(idle[2])), idle[2], 'b+')
@@ -187,27 +198,27 @@ class Plot():
 				r.append(int(j[4]))
 				w.append(int(j[5]))
 
-		plt.title('tps')
+		plt.title('tps ' + self.exp)
 		plt.plot(range(len(tps)), tps, 'ro')
 		plt.axis([0, len(tps), min(tps), max(tps)])
 		plt.show()
 
-		plt.title('read/s (KB)')
+		plt.title('read/s (KB) ' + self.exp)
 		plt.plot(range(len(r_s)), r_s, 'ro')
 		plt.axis([0, len(r_s), min(r_s), max(r_s)])
 		plt.show()
 
-		plt.title('write/s (KB)')
+		plt.title('write/s (KB) ' + self.exp)
 		plt.plot(range(len(w_s)), w_s, 'ro')
 		plt.axis([0, len(w_s), min(w_s), max(w_s)])
 		plt.show()
 
-		plt.title('read (KB)')
+		plt.title('read (KB) ' + self.exp)
 		plt.plot(range(len(r)), r, 'ro')
 		plt.axis([0, len(r), min(r), max(r)])
 		plt.show()
 
-		plt.title('write (KB)')
+		plt.title('write (KB) ' + self.exp)
 		plt.plot(range(len(w)), w, 'ro')
 		plt.axis([0, len(w), min(w), max(w)])
 		plt.show()	
