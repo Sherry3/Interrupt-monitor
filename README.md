@@ -1,6 +1,6 @@
-exp4 running
+exp5 running
 
-exp1, exp2, exp3, exp4 completed
+exp1, exp2, exp3, exp4(3 plots) completed
 
 exp1	- irqbalance off
 	- big files
