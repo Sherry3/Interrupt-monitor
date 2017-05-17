@@ -112,15 +112,19 @@ class Monitor:
 						cmd = cmd + " -m " + self.d['memory_workers'] + ' --vm-bytes ' + self.d['memory_size']
 
 					cmd = cmd + ' -t ' + self.d['stress_period']
+
 					os.system(cmd + "&")
+					self.log_file.write("Reached stress1 --- " + self.d['stress1'])
 
 				elif(self.d['stress2'] == 'small_files'):
 					cmd = cmd + ' cp /media/sourabh/SHERRY/Small/* /home/sourabh/Desktop/' + self.d['stress2']
 					os.system(cmd + "&")
+					self.log_file.write("Reached stress2 --- " + self.d['stress2'])
 
 				elif(self.d['stress2'] == 'big_files'):
 					cmd = cmd + ' cp /media/sourabh/SHERRY/Big/* /home/sourabh/Desktop/' + self.d['stress2']
 					os.system(cmd + "&")
+					self.log_file.write("Reached stress2 --- " + self.d['stress2'])
 
 			#Memory info
 			if(self.d['b_memory'] == 'true'):
