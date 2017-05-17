@@ -137,18 +137,33 @@ class Monitor:
 					cmd1 = cmd1 + ' -t ' + self.d['stress_period']
 
 					os.system(cmd1 + "&")
-					self.log_file.write("Reached stress1" + self.d['stress1'] + "\n")
+					self.log_file.write("Reached stress1 " + self.d['stress1'] + "\n")
 					self.log_file.write("Executing "+ cmd1 + "&\n")
 
 				#New command
 				cmd2 = ''
+
+				if(self.d['b_time'] == 'true'):
+					fmat = '"Elapsed_Time %e\n'
+					fmat = fmat + 'Kernel_Time %S\n'
+					fmat = fmat + 'User_Time %U\n'
+					fmat = fmat + 'Major_Page_Faults %F\n'
+					fmat = fmat + 'Minor_Page_Faults %R\n'
+					fmat = fmat + 'Maximum_Resident_Set_Size %M\n'
+					fmat = fmat + 'CPU %P\n'
+					fmat = fmat + 'Swapped_Out_From_Main_Memory %W\n'
+					fmat = fmat + 'Context_Switch_Forced %c\n'
+					fmat = fmat + 'Context_Switch %w\n\n"'
+
+					cmd2 = cmd2 + '/usr/bin/time -a -f ' + fmat + ' -o ' + self.path + 'time.txt '
+
 				if(self.d['taskset'] == 'true'):
-					cmd2 = 'taskset ' + self.d['taskset_affinity']
+					cmd2 = cmd2 + ' taskset ' + self.d['taskset_affinity']
 
 				if(self.d['stress2'] == 'small_files'):
 					cmd2 = cmd2 + ' cp /media/sourabh/SHERRY/Small/* /home/sourabh/Desktop/' + self.d['stress2']
 					os.system(cmd2 + "&")
-					self.log_file.write("Reached stress2" + self.d['stress2'])
+					self.log_file.write("Reached stress2 " + self.d['stress2'])
 					self.log_file.write("Executing "+ cmd2 + "&\n")
 
 				if(self.d['stress2'] == 'big_files'):
