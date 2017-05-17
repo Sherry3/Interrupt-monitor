@@ -1,6 +1,6 @@
 data 6GB 
 irq_balance false 
-isolated 3 
+isolated false 
 b_smp_affinity true 
 other_irqs 08 
 hdd_irqs 08 
