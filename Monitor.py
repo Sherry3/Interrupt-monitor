@@ -10,10 +10,31 @@ class Monitor:
 		self.log_file.write("\nSession started\n")
 		
 		self.interrupt_name = '0000:00:1f.2'						#HDD interrupt name
-		ff = open("/home/sourabh/Desktop/Sherry/input", "r")		
 
-		self.path = "/home/sourabh/Desktop/Sherry/exp" + ff.readlines()[0].split('\n')[0] + "/"
+		#Experiment number
+		ff_input = "/home/sourabh/Desktop/Sherry/input" 				#Experiment number input file
+		ffr = open(ff_input, "r")		
+		
+		ff_num = ffr.readlines()[0].split('\n')[0]
+
+		self.path = "/home/sourabh/Desktop/Sherry/exp" + ff_num + "/"			#Experiment path
 		self.log_file.write("\nDirectory :: " + self.path + "\n")
+		ffr.close()
+		
+		'''
+		ffw = open(ff_input, 'w')							
+		if(ff_num == "4"):
+			ffw.write(str(int(ff_num) + 1))
+			self.log_file.write("Changed to " + str(int(ff_num) + 1) + "\n")
+	
+		elif(ff_num == "5"):
+			ffw.write(str(int(ff_num) - 1))
+			self.log_file.write("Changed to " + str(int(ff_num) - 1) + "\n")
+
+		ffw.close()
+		'''
+		#Experiment number
+		
 
 		#if(self.path[-1] != '/'):
 		#	self.path = self.path + '/'
@@ -34,7 +55,7 @@ class Monitor:
 			self.log_file.write("Core affinity closed\n")
 
 
-		self.log_file.write("Monitoring started --- ")
+		self.log_file.write("Monitoring started\n")
 		self.start_monitor()
 		self.log_file.write("Monitoring stopped\n")
 
@@ -51,8 +72,10 @@ class Monitor:
 		self.log_file.write("Removing txt stopped\n")
 
 		self.log_file.write("Removing " + self.d['stress2'] + " started --- ")
+		#os.system("ls /home/sourabh/Desktop/" + self.d['stress2'] + " >> /home/sourabh/Desktop/Sherry/log.txt")
 		os.system("rm /home/sourabh/Desktop/" + self.d['stress2'] + '/*')
 		self.log_file.write("Removing " + self.d['stress2'] + " stopped\n")
+		
 		self.log_file.close()
 
 		os.system('cat /proc/cmdline >> ' + " /home/sourabh/Desktop/Sherry/log.txt")
@@ -98,33 +121,41 @@ class Monitor:
 				print(k)
 
 			if(k == int(self.d['work_delay'])):
-				cmd = ''
+				cmd1 = ''
 				if(self.d['taskset'] == 'true'):
-					cmd = 'taskset ' + self.d['taskset_affinity']
+					cmd1 = 'taskset ' + self.d['taskset_affinity']
 			
 				if(self.d['stress1'] == 'true'):
-					cmd = cmd + ' stress'
+					cmd1 = cmd1 + ' stress'
 					if(self.d['stress_disk'] == 'true'):
-						cmd = cmd + " -d " + self.d['disk_workers'] + ' --hdd-bytes ' + self.d['disk_size']
+						cmd1 = cmd1 + " -d " + self.d['disk_workers'] + ' --hdd-bytes ' + self.d['disk_size']
 					if(self.d['stress_cores'] == 'true'):
-						cmd = cmd + " -c " + self.d['core_workers']
+						cmd1 = cmd1 + " -c " + self.d['core_workers']
 					if(self.d['stress_memory'] == 'true'):
-						cmd = cmd + " -m " + self.d['memory_workers'] + ' --vm-bytes ' + self.d['memory_size']
+						cmd1 = cmd1 + " -m " + self.d['memory_workers'] + ' --vm-bytes ' + self.d['memory_size']
 
-					cmd = cmd + ' -t ' + self.d['stress_period']
+					cmd1 = cmd1 + ' -t ' + self.d['stress_period']
 
-					os.system(cmd + "&")
-					self.log_file.write("Reached stress1 --- " + self.d['stress1'])
+					os.system(cmd1 + "&")
+					self.log_file.write("Reached stress1" + self.d['stress1'] + "\n")
+					self.log_file.write("Executing "+ cmd1 + "&\n")
 
-				elif(self.d['stress2'] == 'small_files'):
-					cmd = cmd + ' cp /media/sourabh/SHERRY/Small/* /home/sourabh/Desktop/' + self.d['stress2']
-					os.system(cmd + "&")
-					self.log_file.write("Reached stress2 --- " + self.d['stress2'])
+				#New command
+				cmd2 = ''
+				if(self.d['taskset'] == 'true'):
+					cmd2 = 'taskset ' + self.d['taskset_affinity']
 
-				elif(self.d['stress2'] == 'big_files'):
-					cmd = cmd + ' cp /media/sourabh/SHERRY/Big/* /home/sourabh/Desktop/' + self.d['stress2']
-					os.system(cmd + "&")
-					self.log_file.write("Reached stress2 --- " + self.d['stress2'])
+				if(self.d['stress2'] == 'small_files'):
+					cmd2 = cmd2 + ' cp /media/sourabh/SHERRY/Small/* /home/sourabh/Desktop/' + self.d['stress2']
+					os.system(cmd2 + "&")
+					self.log_file.write("Reached stress2" + self.d['stress2'])
+					self.log_file.write("Executing "+ cmd2 + "&\n")
+
+				if(self.d['stress2'] == 'big_files'):
+					cmd2 = cmd2 + ' cp /media/sourabh/SHERRY/Big/* /home/sourabh/Desktop/' + self.d['stress2']
+					os.system(cmd2 + "&")
+					self.log_file.write("Reached stress2" + self.d['stress2'] + "\n")
+					self.log_file.write("Executing "+ cmd2 + "&\n")
 
 			#Memory info
 			if(self.d['b_memory'] == 'true'):
