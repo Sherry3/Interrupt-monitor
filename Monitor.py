@@ -236,5 +236,8 @@ class Monitor:
 		os.system('mkdir ' + to)
 		os.system('cp ' + self.path + 'txt/* ' + to)		
 
+		if(num == "36"):
+			os.system("sudo shutdown now")
+
 
 A = Monitor()

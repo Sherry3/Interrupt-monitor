@@ -134,9 +134,9 @@ class Plot():
 			for i in range(5):
 				plt.title('CPU ' + str(i) + ' ' + self.exp)
 				plt.plot(range(len(usr[i])), usr[i], 'ro')
-				plt.plot(range(len(sys[i])), sys[i], 'bo')
-				plt.plot(range(len(iowait[i])), iowait[i], 'g+')
-				plt.plot(range(len(idle[i])), idle[i], 'gs')
+				plt.plot(range(len(sys[i])), sys[i], 'b+')
+				plt.plot(range(len(iowait[i])), iowait[i], 'r+')
+				plt.plot(range(len(idle[i])), idle[i], 'g+')
 
 				plt.axis([0, len(usr[i]), 0, 100])
 				plt.show()
