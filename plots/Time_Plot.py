@@ -40,7 +40,7 @@ class Plot():
 			k = 0
 			for j in self.path:
 				#print(self.data[j][i])
-				plt.plot(range(len(self.data[j][i])), self.data[j][i], pattern[k])
+				plt.plot(range(len(self.data[j][i]) + 1)[1:], self.data[j][i], pattern[k])
 				mi = min(mi, min(self.data[j][i]))
 				mx = max(mx, max(self.data[j][i]))
 				k = k + 1
