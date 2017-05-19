@@ -59,10 +59,9 @@ class Monitor:
 		self.start_monitor()
 		self.log_file.write("Monitoring stopped\n")
 
-		if(ff_num != "3"):
-			self.log_file.write("txt copy started --- ")
-			self.copy()
-			self.log_file.write("txt copy stopped\n")
+		self.log_file.write("txt copy started --- ")
+		self.copy()
+		self.log_file.write("txt copy stopped\n")
 
 		#print("rm " + self.path + "txt/*")
 		#print("rm /home/sourabh/Desktop/" + self.d['stress2'] + '/*')
@@ -236,4 +235,9 @@ class Monitor:
 		os.system('mkdir ' + to)
 		os.system('cp ' + self.path + 'txt/* ' + to)		
 
+		if(num == "35"):
+			ffw = open("/home/sourabh/Desktop/Sherry/input", 'w')							
+			ffw.write("8")
+			ffw.close()
+	
 A = Monitor()
