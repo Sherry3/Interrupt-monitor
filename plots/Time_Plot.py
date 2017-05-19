@@ -5,9 +5,22 @@ class Plot():
 	def __init__(self):
 		self.path = []
 		self.data = {}
+		self.pattern = []
 
-		for a in sys.argv[1:]:
-			self.path.append("/home/sourabh/Desktop/Sherry/exp" + a + "/time.txt")
+		if(len(sys.argv) != 1):
+			self.pattern = ['go', 'ro', 'yo', 'bo']
+			for a in sys.argv[1:]:
+				self.path.append("/home/sourabh/Desktop/Sherry/exp" + a + "/time.txt")
+		else:		
+			exp = input("Experiments : ").split()
+			self.pattern = input("Grapg symbols : ").split()
+
+			if(len(exp) != len(self.pattern)):
+				print("Experiment and graph symbols must have same number of values")
+				exit()
+	
+			for i in exp:
+				self.path.append("/home/sourabh/Desktop/Sherry/exp" + i + "/time.txt")
 			
 		f = open(self.path[0], 'r')
 		lines = f.readlines()
@@ -33,14 +46,13 @@ class Plot():
 	def plot(self, attr):
 		for i in attr:
 			plt.title(i)
-			pattern = ['go', 'ro', 'yo', 'bo']
 			mi = min(self.data[self.path[0]][i])
 			mx = min(self.data[self.path[0]][i])
 			
 			k = 0
 			for j in self.path:
 				#print(self.data[j][i])
-				plt.plot(range(len(self.data[j][i]) + 1)[1:], self.data[j][i], pattern[k])
+				plt.plot(range(len(self.data[j][i]) + 1)[1:], self.data[j][i], self.pattern[k])
 				mi = min(mi, min(self.data[j][i]))
 				mx = max(mx, max(self.data[j][i]))
 				k = k + 1

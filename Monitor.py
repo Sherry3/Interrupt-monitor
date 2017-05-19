@@ -236,5 +236,4 @@ class Monitor:
 		os.system('mkdir ' + to)
 		os.system('cp ' + self.path + 'txt/* ' + to)		
 
-
 A = Monitor()
