@@ -1,6 +1,6 @@
 data 6GB 
 irq_balance false 
-isolated 3 
+isolated 3  
 b_smp_affinity true 
 other_irqs 08 
 hdd_irqs 08 
@@ -25,3 +25,4 @@ b_memory true
 b_core true 
 b_disk true 
 b_int true 
+b_time true 

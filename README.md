@@ -1,8 +1,8 @@
-exp7 running
+exp3 running for time
 
-exp1, exp2, exp3, exp4, exp5 completed(time is not used)
+exp1, exp3, exp4, exp5 completed(time is not used)
 
-exp6, exp7 completed
+exp6, exp7, exp2 completed
 
 -------------------------------------------------------
 Versions:-
@@ -10,6 +10,10 @@ Versions:-
 4.2	- stable
 
 5.0	- time included
+
+5.2	- exp6, ex7, exp2 completed with time
+
+5.3	- exp3 running
 -------------------------------------------------------
 
 exp1	- irqbalance off

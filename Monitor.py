@@ -59,10 +59,10 @@ class Monitor:
 		self.start_monitor()
 		self.log_file.write("Monitoring stopped\n")
 
-
-		self.log_file.write("txt copy started --- ")
-		self.copy()
-		self.log_file.write("txt copy stopped\n")
+		if(ff_num != "3"):
+			self.log_file.write("txt copy started --- ")
+			self.copy()
+			self.log_file.write("txt copy stopped\n")
 
 		#print("rm " + self.path + "txt/*")
 		#print("rm /home/sourabh/Desktop/" + self.d['stress2'] + '/*')
@@ -235,9 +235,6 @@ class Monitor:
 		to = self.path + "plot" + num
 		os.system('mkdir ' + to)
 		os.system('cp ' + self.path + 'txt/* ' + to)		
-
-		if(num == "36"):
-			os.system("sudo shutdown now")
 
 
 A = Monitor()
