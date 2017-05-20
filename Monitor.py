@@ -11,6 +11,13 @@ class Monitor:
 		
 		self.interrupt_name = '0000:00:1f.2'						#HDD interrupt name
 
+		self.next_exp = {}
+		self.next_exp["1"] = "8"
+		self.next_exp["8"] = "51"
+		self.next_exp["51"] = "53"
+		self.next_exp["53"] = "56"
+		self.next_exp["56"] = "58"
+
 		#Experiment number
 		ff_input = "/home/sourabh/Desktop/Sherry/input" 				#Experiment number input file
 		ffr = open(ff_input, "r")		
@@ -56,11 +63,11 @@ class Monitor:
 
 
 		self.log_file.write("Monitoring started\n")
-		self.start_monitor()
+		self.start_monitor1()
 		self.log_file.write("Monitoring stopped\n")
 
 		self.log_file.write("txt copy started --- ")
-		self.copy()
+		limit_reached = self.copy()
 		self.log_file.write("txt copy stopped\n")
 
 		#print("rm " + self.path + "txt/*")
@@ -70,14 +77,27 @@ class Monitor:
 		os.system("rm " + self.path + "txt/*")
 		self.log_file.write("Removing txt stopped\n")
 
-		self.log_file.write("Removing " + self.d['stress2'] + " started --- ")
-		#os.system("ls /home/sourabh/Desktop/" + self.d['stress2'] + " >> /home/sourabh/Desktop/Sherry/log.txt")
-		os.system("rm /home/sourabh/Desktop/" + self.d['stress2'] + '/*')
-		self.log_file.write("Removing " + self.d['stress2'] + " stopped\n")
+		if(self.d['stress2'] != "false"):
+			self.log_file.write("Removing " + self.d['stress2'] + " started --- ")
+			#os.system("ls /home/sourabh/Desktop/" + self.d['stress2'] + " >> /home/sourabh/Desktop/Sherry/log.txt")
+			os.system("rm /home/sourabh/Desktop/" + self.d['stress2'] + '/*')
+			self.log_file.write("Removing " + self.d['stress2'] + " stopped\n")
 		
+		os.system('cat /proc/cmdline >> ' + " /home/sourabh/Desktop/Sherry/log.txt")
+		
+		if(limit_reached):		
+			ffw = open(ff_input, 'w')
+			ffw.write(self.next_exp[ff_num])
+			self.log_file.write("Changed to " + self.next_exp[ff_num] + "\n")
+
+			ffw.close()
+			
+			self.log_file.write("Limit reached\n")
+			self.log_file.close()
+			os.system("shutdown now")
+
 		self.log_file.close()
 
-		os.system('cat /proc/cmdline >> ' + " /home/sourabh/Desktop/Sherry/log.txt")
 
 	def set_core_affinity(self):
 		irqs = os.listdir("/proc/irq")
@@ -103,7 +123,7 @@ class Monitor:
 			os.system('sudo echo ' + self.d['hdd_irqs'] + ' > ' + "/proc/irq/" + str(j) + "/smp_affinity")
 			#print("Affinity updated to 08 of " + "/proc/irq/" + str(j) + "/smp_affinity")
 
-	def start_monitor(self):
+	def start_monitor1(self):
 		f_m = open(self.path + "txt/memory.txt", "w+")
 		f_c = open(self.path + "txt/cores.txt", "w+")
 		f_d = open(self.path + "txt/disk.txt", "w+")
@@ -221,6 +241,126 @@ class Monitor:
 			
 			time.sleep(1)
 
+
+	def start_monitor2(self):
+		f_m = open(self.path + "txt/memory.txt", "w+")
+		f_c = open(self.path + "txt/cores.txt", "w+")
+		f_d = open(self.path + "txt/disk.txt", "w+")
+		f_h = open(self.path + "txt/hdd_int.txt", "w+")
+
+		#Disk read/write
+		#if(self.d['b_disk_rw'] == 'true')
+		#	system.os("dstat -d >" +  self.path + "txt/disk_rw.txt&")
+
+
+		for k in range(int(self.d['work_delay']) + int(self.d['copy_time']) + int(self.d['after_copy_time'])):
+
+			if(k % 100 == 1):
+				print(k)
+
+			if(k == int(self.d['work_delay'])):
+				cmd1 = ''
+				if(self.d['taskset'] == 'true'):
+					cmd1 = 'taskset ' + self.d['taskset_affinity']
+			
+				if(self.d['stress1'] == 'true'):
+					cmd1 = cmd1 + ' stress'
+					if(self.d['stress_disk'] == 'true'):
+						cmd1 = cmd1 + " -d " + self.d['disk_workers'] + ' --hdd-bytes ' + self.d['disk_size']
+					if(self.d['stress_cores'] == 'true'):
+						cmd1 = cmd1 + " -c " + self.d['core_workers']
+					if(self.d['stress_memory'] == 'true'):
+						cmd1 = cmd1 + " -m " + self.d['memory_workers'] + ' --vm-bytes ' + self.d['memory_size']
+
+					cmd1 = cmd1 + ' -t ' + self.d['stress_period']
+
+					os.system(cmd1 + "&")
+					self.log_file.write("Reached stress1 " + self.d['stress1'] + "\n")
+					self.log_file.write("Executing "+ cmd1 + "&\n")
+
+				#New command
+				cmd2 = ''
+
+				if(self.d['b_time'] == 'true'):
+					fmat = '"Elapsed_Time %e\n'
+					fmat = fmat + 'Kernel_Time %S\n'
+					fmat = fmat + 'User_Time %U\n'
+					fmat = fmat + 'Major_Page_Faults %F\n'
+					fmat = fmat + 'Minor_Page_Faults %R\n'
+					fmat = fmat + 'Maximum_Resident_Set_Size %M\n'
+					fmat = fmat + 'CPU %P\n'
+					fmat = fmat + 'Swapped_Out_From_Main_Memory %W\n'
+					fmat = fmat + 'Context_Switch_Forced %c\n'
+					fmat = fmat + 'Context_Switch %w\n\n"'
+
+					cmd2 = cmd2 + '/usr/bin/time -a -f ' + fmat + ' -o ' + self.path + 'time.txt '
+
+				if(self.d['taskset'] == 'true'):
+					cmd2 = cmd2 + ' taskset ' + self.d['taskset_affinity']
+
+				if(self.d['stress2'] == 'small_files'):
+					cmd2 = cmd2 + ' cp /media/sourabh/SHERRY/Small/* /home/sourabh/Desktop/' + self.d['stress2']
+					os.system(cmd2 + "&")
+					self.log_file.write("Reached stress2 " + self.d['stress2'])
+					self.log_file.write("Executing "+ cmd2 + "&\n")
+
+				if(self.d['stress2'] == 'big_files'):
+					cmd2 = cmd2 + ' cp /media/sourabh/SHERRY/Big/* /home/sourabh/Desktop/' + self.d['stress2']
+					os.system(cmd2 + "&")
+					self.log_file.write("Reached stress2" + self.d['stress2'] + "\n")
+					self.log_file.write("Executing "+ cmd2 + "&\n")
+
+			#Memory info
+			if(self.d['b_memory'] == 'true'):
+				mem = open("/proc/meminfo", "r")
+				lines = mem.readlines()
+
+				for i in [0, 1, 6]:
+					f_m.write(lines[i])
+
+				cmd = ['free', '-h',]
+				lines = subprocess.Popen(cmd, stdout=subprocess.PIPE).communicate()[0].decode("utf-8").split('\n')
+
+				f_m.write(lines[1] + "\n")
+				f_m.write("\n")
+	
+			#Cores info
+			if(self.d['b_core'] == 'true'):
+				cmd = ['mpstat', '-P', 'ALL']
+				lines = subprocess.Popen( cmd, stdout=subprocess.PIPE).communicate()[0].decode("utf-8").split('\n')
+
+				for i in lines[2:-1]:
+					f_c.write(i + "\n")
+			
+				f_c.write("\n")
+
+
+			#Disk info
+			if(self.d['b_disk'] == 'true'):	
+				cmd = ['iostat']
+				lines = subprocess.Popen( cmd, stdout=subprocess.PIPE).communicate()[0].decode("utf-8").split('\n')
+
+				for i in range(5, 7):
+					f_d.write(lines[i] + '\n')
+			
+				f_d.write("\n")
+
+			#HDD Interrupts
+			if(self.d['b_int'] == 'true'):
+				f_int = open("/proc/interrupts", "r")
+				j = '0'
+
+				lines = f_int.readlines()
+				for i in lines:
+					if(len(i.split()) == 8 and (i.split())[7] == self.interrupt_name):
+						f_h.write(i + "\n")
+						j = (i.split())[0].split(':')[0]
+			
+				f_h.write("\n")
+			
+			time.sleep(1)
+
+
 	def copy(self):	
 		fr = open(self.path + 'plot_num.txt', 'r')
 		num = fr.readlines()[0].split('\n')[0]
@@ -235,9 +375,9 @@ class Monitor:
 		os.system('mkdir ' + to)
 		os.system('cp ' + self.path + 'txt/* ' + to)		
 
-		if(num == "35"):
-			ffw = open("/home/sourabh/Desktop/Sherry/input", 'w')							
-			ffw.write("8")
-			ffw.close()
+		if(num == "30"):
+			return True
+		else:
+			return False
 	
 A = Monitor()
