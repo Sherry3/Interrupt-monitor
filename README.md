@@ -13,7 +13,9 @@ Versions:-
 
 5.2	- exp6, ex7, exp2 completed with time
 
-5.3	- exp3 running
+5.3	- exp3 completed
+
+6.0	- experiments are running with time(1, 8, 51, 53, 56, 58)
 -------------------------------------------------------
 
 exp1	- irqbalance off

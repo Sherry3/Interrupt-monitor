@@ -17,6 +17,7 @@ class Monitor:
 		self.next_exp["51"] = "53"
 		self.next_exp["53"] = "56"
 		self.next_exp["56"] = "58"
+		self.next_exp["58"] = "58"
 
 		#Experiment number
 		ff_input = "/home/sourabh/Desktop/Sherry/input" 				#Experiment number input file
