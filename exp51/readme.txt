@@ -11,7 +11,7 @@ after_copy_time 200
 taskset false 
 taskset_affinity 0x00 
 stress1 false 
-stress2 big_files 
+stress2 small_files 
 stress_disk false 
 disk_workers 0 
 disk_size 0 

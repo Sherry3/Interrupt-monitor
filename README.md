@@ -24,15 +24,6 @@ exp2	- irqbalance off
 	- all interrupts to core 3 
 	- big files
 
-exp3	- irqbalance off
-	- all interrupts to core 3 
-	- big files
-
-exp4	- irqbalance off
-	- all interrupts to core 3 
-	- big files
-	- stress 8 cores for 500s
-
 exp5	- irqbalance off
 	- core 3 isolated
 	- all interrupts to core 3 
@@ -52,3 +43,4 @@ exp7	- equivalent to exp5 with time
 	- big files
 	- stress 8 cores for 500s
 
+exp5[x]	- Similar to exp[x] with small_files
