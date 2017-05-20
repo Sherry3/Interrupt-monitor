@@ -84,21 +84,16 @@ class Monitor:
 			os.system("rm /home/sourabh/Desktop/" + self.d['stress2'] + '/*')
 			self.log_file.write("Removing " + self.d['stress2'] + " stopped\n")
 		
-		os.system('cat /proc/cmdline >> ' + " /home/sourabh/Desktop/Sherry/log.txt")
-		
-		if(limit_reached == "30"):		
+		if(limit_reached == 30):
+			self.log_file.write("Limit reached\n")
 			ffw = open(ff_input, 'w')
 			ffw.write(self.next_exp[ff_num])
 			self.log_file.write("Changed to " + self.next_exp[ff_num] + "\n")
-
 			ffw.close()
 			
-			self.log_file.write("Limit reached\n")
-			self.log_file.close()
-			os.system("shutdown now")
-
 		self.log_file.close()
-
+		os.system('cat /proc/cmdline >> ' + " /home/sourabh/Desktop/Sherry/log.txt")
+		
 
 	def set_core_affinity(self):
 		irqs = os.listdir("/proc/irq")
@@ -376,6 +371,6 @@ class Monitor:
 		os.system('mkdir ' + to)
 		os.system('cp ' + self.path + 'txt/* ' + to)		
 
-		return num
+		return int(num)
 	
 A = Monitor()
