@@ -85,7 +85,7 @@ class Monitor:
 		
 		os.system('cat /proc/cmdline >> ' + " /home/sourabh/Desktop/Sherry/log.txt")
 		
-		if(limit_reached):		
+		if(limit_reached == "30"):		
 			ffw = open(ff_input, 'w')
 			ffw.write(self.next_exp[ff_num])
 			self.log_file.write("Changed to " + self.next_exp[ff_num] + "\n")
@@ -375,9 +375,6 @@ class Monitor:
 		os.system('mkdir ' + to)
 		os.system('cp ' + self.path + 'txt/* ' + to)		
 
-		if(num == "30"):
-			return True
-		else:
-			return False
+		return num
 	
 A = Monitor()
