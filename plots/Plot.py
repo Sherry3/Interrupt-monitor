@@ -46,7 +46,7 @@ class Plot():
 		f = open(self.path + "hdd_int.txt", "r")
 		lines = f.readlines()
 
-		intr1 = [0]
+		intr1 = [int(lines[0].split()[int(self.d['int_core']) + 1])]
 		intr2 = []
 
 		for i in lines:
@@ -58,7 +58,7 @@ class Plot():
 
 		plt.title('HDD interrupts ' + self.exp)
 		plt.plot(range(len(intr2)), intr2, 'g+')
-		plt.axis([0, len(intr2), 0, 100])
+		plt.axis([0, len(intr2), 0, max(intr2)])
 		plt.show()
 
 	def plot_memory(self):

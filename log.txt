@@ -1,0 +1,322 @@
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp101/
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp101/time.txt  stress -d 1 --hdd-bytes 1G -t 500&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Changed to 104
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp104/
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp104/time.txt  stress -d 1 --hdd-bytes 4G -t 500&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Changed to 116
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp116/
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp116/time.txt  stress -d 1 --hdd-bytes 16G -t 500&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Changed to 164
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp164/
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp164/time.txt  stress -d 1 --hdd-bytes 64G -t 500&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Changed to 101
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp101/
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp101/time.txt  stress -d 1 --hdd-bytes 1G -t 500&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Changed to 104
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp104/
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp104/time.txt  stress -d 1 --hdd-bytes 4G -t 500&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Changed to 116
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp116/
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp116/time.txt  stress -d 1 --hdd-bytes 16G -t 500&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Changed to 164
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp164/
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp164/time.txt  stress -d 1 --hdd-bytes 64G -t 500&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Changed to 101
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp101/
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp101/time.txt  stress -d 1 --hdd-bytes 1G -t 500&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Changed to 104
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp104/
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp104/time.txt  stress -d 1 --hdd-bytes 4G -t 500&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Changed to 116
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp116/
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp116/time.txt  stress -d 1 --hdd-bytes 16G -t 500&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Changed to 164
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp164/
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp164/time.txt  stress -d 1 --hdd-bytes 64G -t 500&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Changed to 101
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp101/
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp101/time.txt  stress -d 1 --hdd-bytes 1G -t 500&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Changed to 104
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp104/
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp104/time.txt  stress -d 1 --hdd-bytes 4G -t 500&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Changed to 116
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
