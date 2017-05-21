@@ -121,6 +121,7 @@ class Monitor:
 			if(k % 100 == 1):
 				print(k)
 
+
 			if(k == int(self.d['work_delay'])):
 				cmd1 = ''
 

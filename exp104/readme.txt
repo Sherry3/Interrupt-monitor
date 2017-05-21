@@ -1,4 +1,4 @@
-data 6GB 
+data 4GB 
 irq_balance false 
 isolated false 
 b_smp_affinity false 
