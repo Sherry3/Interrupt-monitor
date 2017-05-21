@@ -322,19 +322,6 @@ Context_Switch_Forced 39
 Context_Switch 21908
 
 
-Command exited with non-zero status 1
-Elapsed_Time 0.08
-Kernel_Time 0.00
-User_Time 0.00
-Major_Page_Faults 2
-Minor_Page_Faults 120
-Maximum_Resident_Set_Size 2540
-CPU 0%
-Swapped_Out_From_Main_Memory 0
-Context_Switch_Forced 1
-Context_Switch 4
-
-
 Elapsed_Time 306.40
 Kernel_Time 16.62
 User_Time 0.12

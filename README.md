@@ -1,8 +1,5 @@
-exp3 running for time
 
-exp1, exp3, exp4, exp5 completed(time is not used)
-
-exp6, exp7, exp2 completed
+exp1, exp2, exp3, exp6, exp7, exp8 completed
 
 -------------------------------------------------------
 Versions:-
@@ -15,7 +12,11 @@ Versions:-
 
 5.3	- exp3 completed
 
-6.0	- experiments are running with time(1, 8, 51, 53, 56, 58)
+6.0	- experiments completed with time(1, 8)
+	- Introduced (51, 52, 53, 56, 57, 58)
+	- Started (101, 104, 116, 164)
+
+6.1	- Running (101, 104, 116, 164)
 -------------------------------------------------------
 
 exp1	- irqbalance off
@@ -45,4 +46,18 @@ exp7	- equivalent to exp5 with time
 	- big files
 	- stress 8 cores for 500s
 
+exp8	- irqbalance off
+	- stress 8 cores for 500s
+	- big files
+ 
 exp5[x]	- Similar to exp[x] with small_files
+exp1[x]	- are for #int/s
+
+exp101	- 1G of stress on harddisk
+
+exp104	- 4G of stress on harddisk
+
+exp116	- 16G of stress on harddisk
+
+exp164	- 64G of stress on harddisk
+

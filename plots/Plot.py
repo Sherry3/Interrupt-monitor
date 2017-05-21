@@ -27,7 +27,7 @@ class Plot():
 			j = i.split('\n')[0].split()
 			self.d[j[0]] = j[1]	
 	
-	def plot_int(self):
+	def plot_int1(self):
 		f = open(self.path + "hdd_int.txt", "r")
 		lines = f.readlines()
 
@@ -42,6 +42,24 @@ class Plot():
 		plt.axis([0, len(intr), min(intr), max(intr)])
 		plt.show()
 
+	def plot_int2(self):
+		f = open(self.path + "hdd_int.txt", "r")
+		lines = f.readlines()
+
+		intr1 = [0]
+		intr2 = []
+
+		for i in lines:
+			if(i != "\n"):
+				intr1.append(int(i.split()[int(self.d['int_core']) + 1]))
+
+		for i in range(len(intr1)):
+			intr2.append(intr1[i] - intr1[i-1])
+
+		plt.title('HDD interrupts ' + self.exp)
+		plt.plot(range(len(intr2)), intr2, 'g+')
+		plt.axis([0, len(intr2), 0, 100])
+		plt.show()
 
 	def plot_memory(self):
 		f = open(self.path + "memory.txt", "r")
@@ -225,8 +243,10 @@ class Plot():
 #	def plot_disk_rw(self):
 		
 a = Plot()
-if(a.d['plot_int'] == 'true'):
-	a.plot_int()
+if(a.d['plot_int'] == '1'):
+	a.plot_int1()
+if(a.d['plot_int'] == '2'):
+	a.plot_int2()
 if(a.d['plot_core'] == 'true'):
 	a.plot_core()
 if(a.d['plot_disk'] == 'true'):

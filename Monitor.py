@@ -11,15 +11,12 @@ class Monitor:
 		
 		self.interrupt_name = '0000:00:1f.2'						#HDD interrupt name
 
-		'''
+		
 		self.next_exp = {}
-		self.next_exp["1"] = "8"
-		self.next_exp["8"] = "51"
-		self.next_exp["51"] = "53"
-		self.next_exp["53"] = "56"
-		self.next_exp["56"] = "58"
-		self.next_exp["58"] = "58"
-		'''
+		self.next_exp["101"] = "104"
+		self.next_exp["104"] = "116"
+		self.next_exp["116"] = "164"
+		self.next_exp["164"] = "101"
 
 		#Experiment number
 		ff_input = "/home/sourabh/Desktop/Sherry/input" 				#Experiment number input file
@@ -30,19 +27,6 @@ class Monitor:
 		self.path = "/home/sourabh/Desktop/Sherry/exp" + ff_num + "/"			#Experiment path
 		self.log_file.write("\nDirectory :: " + self.path + "\n")
 		ffr.close()
-		
-		'''
-		ffw = open(ff_input, 'w')							
-		if(ff_num == "4"):
-			ffw.write(str(int(ff_num) + 1))
-			self.log_file.write("Changed to " + str(int(ff_num) + 1) + "\n")
-	
-		elif(ff_num == "5"):
-			ffw.write(str(int(ff_num) - 1))
-			self.log_file.write("Changed to " + str(int(ff_num) - 1) + "\n")
-
-		ffw.close()
-		'''
 		#Experiment number
 		
 
@@ -85,9 +69,9 @@ class Monitor:
 			#os.system("ls /home/sourabh/Desktop/" + self.d['stress2'] + " >> /home/sourabh/Desktop/Sherry/log.txt")
 			os.system("rm /home/sourabh/Desktop/" + self.d['stress2'] + '/*')
 			self.log_file.write("Removing " + self.d['stress2'] + " stopped\n")
-		
+	
 		#if(limit_reached == 30):
-		self.log_file.write("Limit reached\n")
+		#self.log_file.write("Limit reached\n")
 		ffw = open(ff_input, 'w')
 		ffw.write(self.next_exp[ff_num])
 		self.log_file.write("Changed to " + self.next_exp[ff_num] + "\n")
