@@ -6,13 +6,13 @@ other_irqs 00
 hdd_irqs 00 
 b_disk_rw false 
 work_delay 100 
-copy_time 600 
-after_copy_time 200 
+copy_time 500 
+after_copy_time 300 
 taskset false 
 taskset_affinity 0x00 
 stress1 true 
 stress2 false 
-stress_disk false 
+stress_disk true 
 disk_workers 1 
 disk_size 64G 
 stress_cores false 
@@ -20,7 +20,7 @@ core_workers 0
 stress_memory false 
 memory_workers 0 
 memory_size 0 
-stress_period 0 
+stress_period 500 
 b_memory true 
 b_core true 
 b_disk true 

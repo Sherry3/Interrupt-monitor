@@ -123,6 +123,21 @@ class Monitor:
 
 			if(k == int(self.d['work_delay'])):
 				cmd1 = ''
+
+				if(self.d['b_time'] == 'true'):
+					fmat = '"Elapsed_Time %e\n'
+					fmat = fmat + 'Kernel_Time %S\n'
+					fmat = fmat + 'User_Time %U\n'
+					fmat = fmat + 'Major_Page_Faults %F\n'
+					fmat = fmat + 'Minor_Page_Faults %R\n'
+					fmat = fmat + 'Maximum_Resident_Set_Size %M\n'
+					fmat = fmat + 'CPU %P\n'
+					fmat = fmat + 'Swapped_Out_From_Main_Memory %W\n'
+					fmat = fmat + 'Context_Switch_Forced %c\n'
+					fmat = fmat + 'Context_Switch %w\n\n"'
+
+					cmd1 = cmd1 + '/usr/bin/time -a -f ' + fmat + ' -o ' + self.path + 'time.txt '
+
 				if(self.d['taskset'] == 'true'):
 					cmd1 = 'taskset ' + self.d['taskset_affinity']
 			
