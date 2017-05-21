@@ -86,14 +86,12 @@ class Monitor:
 			os.system("rm /home/sourabh/Desktop/" + self.d['stress2'] + '/*')
 			self.log_file.write("Removing " + self.d['stress2'] + " stopped\n")
 		
-		if(limit_reached == 30):
-			self.log_file.write("Limit reached\n")
-			ffw = open(ff_input, 'w')
-			ffw.write("8")
-			self.log_file.write("Changed to 8\n")
-			#ffw.write(self.next_exp[ff_num])
-			#self.log_file.write("Changed to " + self.next_exp[ff_num] + "\n")
-			ffw.close()
+		#if(limit_reached == 30):
+		self.log_file.write("Limit reached\n")
+		ffw = open(ff_input, 'w')
+		ffw.write(self.next_exp[ff_num])
+		self.log_file.write("Changed to " + self.next_exp[ff_num] + "\n")
+		ffw.close()
 			
 		self.log_file.close()
 		os.system('cat /proc/cmdline >> ' + " /home/sourabh/Desktop/Sherry/log.txt")
