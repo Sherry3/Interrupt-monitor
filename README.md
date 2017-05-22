@@ -1,5 +1,6 @@
 
 exp1, exp2, exp3, exp6, exp7, exp8 completed
+exp101, exp104, exp116, exp164, exp165 completed
 
 -------------------------------------------------------
 Versions:-
@@ -16,7 +17,8 @@ Versions:-
 	- Introduced (51, 52, 53, 56, 57, 58)
 	- Started (101, 104, 116, 164)
 
-6.1	- Running (101, 104, 116, 164)
+6.1	- 101, 104, 116, 164, 165 completed
+	- 201, 404, 416, 464, 465 running
 -------------------------------------------------------
 
 exp1	- irqbalance off
@@ -60,4 +62,17 @@ exp104	- 4G of stress on harddisk
 exp116	- 16G of stress on harddisk
 
 exp164	- 64G of stress on harddisk
+
+exp165	- 128G of stress on harddisk
+
+exp404	- 4G of stress on harddisk with 8 threads
+
+exp416	- 16G of stress on harddisk with 8 threads
+
+exp464	- 64G of stress on harddisk with 8 threads
+
+exp465	- 128G of stress on harddisk with 8 threads
+
+exp201	- irqbalance off
+	- multiple big files
 

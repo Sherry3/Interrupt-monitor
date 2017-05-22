@@ -13,11 +13,11 @@ class Monitor:
 
 		
 		self.next_exp = {}
-		self.next_exp["101"] = "104"
-		self.next_exp["104"] = "116"
-		self.next_exp["116"] = "164"
-		self.next_exp["164"] = "165"
-		self.next_exp["165"] = "101"
+		self.next_exp["201"] = "404"
+		self.next_exp["404"] = "416"
+		self.next_exp["416"] = "464"
+		self.next_exp["464"] = "465"
+		self.next_exp["465"] = "201"
 
 		#Experiment number
 		ff_input = "/home/sourabh/Desktop/Sherry/input" 				#Experiment number input file
@@ -189,6 +189,14 @@ class Monitor:
 					os.system(cmd2 + "&")
 					self.log_file.write("Reached stress2" + self.d['stress2'] + "\n")
 					self.log_file.write("Executing "+ cmd2 + "&\n")
+
+				if(self.d['stress2'] == 'multiple_big_files'):
+					for i in range(3):
+						cmd_temp = cmd2 + ' cp /media/sourabh/SHERRY/Big/' + str(i + 1) + '.mkv /home/sourabh/Desktop/' + self.d['stress2']
+						os.system(cmd_temp + "&")
+						self.log_file.write("Reached stress2" + self.d['stress2'] + "\n")
+						self.log_file.write("Executing "+ cmd_temp + "&\n")
+
 
 			#Memory info
 			if(self.d['b_memory'] == 'true'):
