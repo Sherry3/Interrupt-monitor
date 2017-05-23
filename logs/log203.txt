@@ -1,7 +1,7 @@
 
 Session started
 
-Directory :: /home/sourabh/Desktop/Sherry/exp502/
+Directory :: /home/sourabh/Desktop/Sherry/exp203/
 Monitoring started
 Reached stress1 true
 Executing /usr/bin/time -a -f "Elapsed_Time %e
@@ -15,7 +15,7 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp502/time.txt  stress -t 700&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  stress -t 700&
 Reached stress2multiple_big_files
 Executing /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -28,7 +28,7 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp502/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
 Reached stress2multiple_big_files
 Executing /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -41,7 +41,7 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp502/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
 Reached stress2multiple_big_files
 Executing /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -54,18 +54,16 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp502/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
 Monitoring stopped
 txt copy started --- txt copy stopped
 Removing txt started --- Removing txt stopped
 Removing multiple_big_files started --- Removing multiple_big_files stopped
-Changed to 501
-BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
-
+Changed to 202
 
 Session started
 
-Directory :: /home/sourabh/Desktop/Sherry/exp202/
+Directory :: /home/sourabh/Desktop/Sherry/exp203/
 Monitoring started
 Reached stress1 true
 Executing /usr/bin/time -a -f "Elapsed_Time %e
@@ -79,7 +77,7 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  stress -t 700&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  stress -t 700&
 Reached stress2multiple_big_files
 Executing /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -92,7 +90,7 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
 Reached stress2multiple_big_files
 Executing /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -105,7 +103,7 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
 Reached stress2multiple_big_files
 Executing /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -118,16 +116,16 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
 Monitoring stopped
 txt copy started --- txt copy stopped
 Removing txt started --- Removing txt stopped
 Removing multiple_big_files started --- Removing multiple_big_files stopped
-Changed to 203
+Changed to 202
 
 Session started
 
-Directory :: /home/sourabh/Desktop/Sherry/exp202/
+Directory :: /home/sourabh/Desktop/Sherry/exp203/
 Monitoring started
 Reached stress1 true
 Executing /usr/bin/time -a -f "Elapsed_Time %e
@@ -141,7 +139,7 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  stress -t 700&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  stress -t 700&
 Reached stress2multiple_big_files
 Executing /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -154,7 +152,7 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
 Reached stress2multiple_big_files
 Executing /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -167,7 +165,7 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
 Reached stress2multiple_big_files
 Executing /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -180,16 +178,16 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
 Monitoring stopped
 txt copy started --- txt copy stopped
 Removing txt started --- Removing txt stopped
 Removing multiple_big_files started --- Removing multiple_big_files stopped
-Changed to 203
+Changed to 202
 
 Session started
 
-Directory :: /home/sourabh/Desktop/Sherry/exp202/
+Directory :: /home/sourabh/Desktop/Sherry/exp203/
 Monitoring started
 Reached stress1 true
 Executing /usr/bin/time -a -f "Elapsed_Time %e
@@ -203,7 +201,7 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  stress -t 700&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  stress -t 700&
 Reached stress2multiple_big_files
 Executing /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -216,7 +214,7 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
 Reached stress2multiple_big_files
 Executing /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -229,7 +227,7 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
 Reached stress2multiple_big_files
 Executing /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -242,16 +240,16 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
 Monitoring stopped
 txt copy started --- txt copy stopped
 Removing txt started --- Removing txt stopped
 Removing multiple_big_files started --- Removing multiple_big_files stopped
-Changed to 203
+Changed to 202
 
 Session started
 
-Directory :: /home/sourabh/Desktop/Sherry/exp202/
+Directory :: /home/sourabh/Desktop/Sherry/exp203/
 Monitoring started
 Reached stress1 true
 Executing /usr/bin/time -a -f "Elapsed_Time %e
@@ -265,7 +263,7 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  stress -t 700&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  stress -t 700&
 Reached stress2multiple_big_files
 Executing /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -278,7 +276,7 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
 Reached stress2multiple_big_files
 Executing /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -291,7 +289,7 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
 Reached stress2multiple_big_files
 Executing /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -304,16 +302,16 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
 Monitoring stopped
 txt copy started --- txt copy stopped
 Removing txt started --- Removing txt stopped
 Removing multiple_big_files started --- Removing multiple_big_files stopped
-Changed to 203
+Changed to 202
 
 Session started
 
-Directory :: /home/sourabh/Desktop/Sherry/exp202/
+Directory :: /home/sourabh/Desktop/Sherry/exp203/
 Monitoring started
 Reached stress1 true
 Executing /usr/bin/time -a -f "Elapsed_Time %e
@@ -327,7 +325,7 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  stress -t 700&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  stress -t 700&
 Reached stress2multiple_big_files
 Executing /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -340,7 +338,7 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
 Reached stress2multiple_big_files
 Executing /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -353,7 +351,7 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
 Reached stress2multiple_big_files
 Executing /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -366,16 +364,16 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
 Monitoring stopped
 txt copy started --- txt copy stopped
 Removing txt started --- Removing txt stopped
 Removing multiple_big_files started --- Removing multiple_big_files stopped
-Changed to 203
+Changed to 202
 
 Session started
 
-Directory :: /home/sourabh/Desktop/Sherry/exp202/
+Directory :: /home/sourabh/Desktop/Sherry/exp203/
 Monitoring started
 Reached stress1 true
 Executing /usr/bin/time -a -f "Elapsed_Time %e
@@ -389,7 +387,7 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  stress -t 700&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  stress -t 700&
 Reached stress2multiple_big_files
 Executing /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -402,7 +400,7 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
 Reached stress2multiple_big_files
 Executing /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -415,7 +413,7 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
 Reached stress2multiple_big_files
 Executing /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -428,71 +426,9 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
+" -o /home/sourabh/Desktop/Sherry/exp203/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
 Monitoring stopped
 txt copy started --- txt copy stopped
 Removing txt started --- Removing txt stopped
 Removing multiple_big_files started --- Removing multiple_big_files stopped
-Changed to 203
-
-Session started
-
-Directory :: /home/sourabh/Desktop/Sherry/exp202/
-Monitoring started
-Reached stress1 true
-Executing /usr/bin/time -a -f "Elapsed_Time %e
-Kernel_Time %S
-User_Time %U
-Major_Page_Faults %F
-Minor_Page_Faults %R
-Maximum_Resident_Set_Size %M
-CPU %P
-Swapped_Out_From_Main_Memory %W
-Context_Switch_Forced %c
-Context_Switch %w
-
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  stress -t 700&
-Reached stress2multiple_big_files
-Executing /usr/bin/time -a -f "Elapsed_Time %e
-Kernel_Time %S
-User_Time %U
-Major_Page_Faults %F
-Minor_Page_Faults %R
-Maximum_Resident_Set_Size %M
-CPU %P
-Swapped_Out_From_Main_Memory %W
-Context_Switch_Forced %c
-Context_Switch %w
-
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
-Reached stress2multiple_big_files
-Executing /usr/bin/time -a -f "Elapsed_Time %e
-Kernel_Time %S
-User_Time %U
-Major_Page_Faults %F
-Minor_Page_Faults %R
-Maximum_Resident_Set_Size %M
-CPU %P
-Swapped_Out_From_Main_Memory %W
-Context_Switch_Forced %c
-Context_Switch %w
-
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
-Reached stress2multiple_big_files
-Executing /usr/bin/time -a -f "Elapsed_Time %e
-Kernel_Time %S
-User_Time %U
-Major_Page_Faults %F
-Minor_Page_Faults %R
-Maximum_Resident_Set_Size %M
-CPU %P
-Swapped_Out_From_Main_Memory %W
-Context_Switch_Forced %c
-Context_Switch %w
-
-" -o /home/sourabh/Desktop/Sherry/exp202/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
-Monitoring stopped
-txt copy started --- txt copy stopped
-Removing txt started --- Removing txt stopped
-Removing multiple_big_files started --- Removing multiple_big_files stopped
-Changed to 203
+Changed to 202

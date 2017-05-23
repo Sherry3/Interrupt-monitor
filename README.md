@@ -5,7 +5,7 @@ exp101, exp104, exp116, exp164, exp165 completed
 
 exp201, exp404, exp416, exp464, exp465 completed
 
-exp202, exp203 running
+exp202, exp203, exp501, exp502, exp503 running
 -------------------------------------------------------
 Versions:-
 
@@ -26,9 +26,8 @@ Versions:-
 
 6.2	- 201, 404, 416, 464, 465 completed
 
-6.3	- running 202, 203	
-
-7.0	- Underclock CPU
+6.3	- running 202, 203, 501, 502, 503	
+	- Underclocked CPU
 -------------------------------------------------------
 
 exp1	- irqbalance off
@@ -92,4 +91,18 @@ exp202	- irqbalance off
 exp203	- irqbalance off
 	- multiple big files
 	- stress 50 cores
+
+exp501	- irqbalance off
+	- multiple big files
+	- cpu_frequency
+
+exp502	- irqbalance off
+	- multiple big files
+	- stress 10 cores
+	- cpu_frequency
+
+exp503	- irqbalance off
+	- multiple big files
+	- stress 50 cores
+	- cpu_frequency
 

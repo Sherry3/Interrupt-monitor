@@ -21,6 +21,7 @@ stress_memory false
 memory_workers 0 
 memory_size 0 
 stress_period 0 
+cpu_freq true 
 b_memory true 
 b_core true 
 b_disk true 

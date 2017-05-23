@@ -15,12 +15,13 @@ stress2 multiple_big_files
 stress_disk false 
 disk_workers 0 
 disk_size 0 
-stress_cores false 
+stress_cores true 
 core_workers 10 
 stress_memory false 
 memory_workers 0 
 memory_size 0 
 stress_period 700 
+cpu_freq true 
 b_memory true 
 b_core true 
 b_disk true 

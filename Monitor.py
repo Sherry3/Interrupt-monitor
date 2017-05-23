@@ -9,8 +9,11 @@ class Monitor:
 		self.interrupt_name = '0000:00:1f.2'						#HDD interrupt name
 		
 		self.next_exp = {}
+		self.next_exp["501"] = "502"
+		self.next_exp["502"] = "503"
+		self.next_exp["503"] = "202"
 		self.next_exp["202"] = "203"
-		self.next_exp["203"] = "202"
+		self.next_exp["203"] = "501"
 	
 		#Experiment number
 		ff_input = "/home/sourabh/Desktop/Sherry/input" 				#Experiment number input file
@@ -19,11 +22,14 @@ class Monitor:
 		ff_num = ffr.readlines()[0].split('\n')[0]
 
 		self.path = "/home/sourabh/Desktop/Sherry/exp" + ff_num + "/"			#Experiment path
+		self.log_file_path = ''
 
 		try:
-			self.log_file = open("/home/sourabh/Desktop/Sherry/log" + ff_num + ".txt", 'a+')
+			self.log_file_path = "/home/sourabh/Desktop/Sherry/log" + ff_num + ".txt"
+			self.log_file = open(self.log_file_path, 'a+')
 		except:
-			self.log_file = open("/home/sourabh/Desktop/Sherry/log.txt", 'a')
+			self.log_file_path = "/home/sourabh/Desktop/Sherry/log.txt"
+			self.log_file = open(self.log_file_path, 'a')
 		
 		self.log_file.write("\nSession started\n")
 		self.log_file.write("\nDirectory :: " + self.path + "\n")
@@ -49,6 +55,11 @@ class Monitor:
 			self.set_core_affinity()
 			self.log_file.write("Core affinity closed\n")
 
+
+		if('cpu_freq' in self.d and self.d['cpu_freq'] == 'true'):
+			self.log_file.write("CPU frequency started\n")
+			self.change_cpu_frequency()
+			self.log_file.write("CPU frequency stopped\n")
 
 		self.log_file.write("Monitoring started\n")
 		self.start_monitor1()
@@ -79,7 +90,7 @@ class Monitor:
 		ffw.close()
 			
 		self.log_file.close()
-		os.system('cat /proc/cmdline >> ' + " /home/sourabh/Desktop/Sherry/log.txt")
+		os.system('cat /proc/cmdline >> ' + self.log_file_path)
 		
 
 	def set_core_affinity(self):
@@ -111,6 +122,7 @@ class Monitor:
 		f_c = open(self.path + "txt/cores.txt", "w+")
 		f_d = open(self.path + "txt/disk.txt", "w+")
 		f_h = open(self.path + "txt/hdd_int.txt", "w+")
+
 
 		#Disk read/write
 		#if(self.d['b_disk_rw'] == 'true')
@@ -383,5 +395,13 @@ class Monitor:
 		os.system('cp ' + self.path + 'txt/* ' + to)		
 
 		return int(num)
+
+	def change_cpu_frequency():
+		os.system('sudo cat /sys/devices/system/cpu/cpufreq/policy0/scaling_min_freq > /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq')
+		os.system('sudo cat /sys/devices/system/cpu/cpufreq/policy1/scaling_min_freq > /sys/devices/system/cpu/cpufreq/policy1/scaling_max_freq')
+		os.system('sudo cat /sys/devices/system/cpu/cpufreq/policy2/scaling_min_freq > /sys/devices/system/cpu/cpufreq/policy2/scaling_max_freq')
+		os.system('sudo cat /sys/devices/system/cpu/cpufreq/policy3/scaling_min_freq > /sys/devices/system/cpu/cpufreq/policy3/scaling_max_freq')
 	
+
+
 A = Monitor()
