@@ -19,6 +19,8 @@ Versions:-
 
 6.1	- 101, 104, 116, 164, 165 completed
 	- 201, 404, 416, 464, 465 running
+
+6.2	- 
 -------------------------------------------------------
 
 exp1	- irqbalance off
@@ -53,7 +55,6 @@ exp8	- irqbalance off
 	- big files
  
 exp5[x]	- Similar to exp[x] with small_files
-exp1[x]	- are for #int/s
 
 exp101	- 1G of stress on harddisk
 
