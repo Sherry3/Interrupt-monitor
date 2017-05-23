@@ -89,7 +89,7 @@ exp202	- irqbalance off
 	- multiple big files
 	- stress 10 cores
 
-exp202	- irqbalance off
+exp203	- irqbalance off
 	- multiple big files
 	- stress 50 cores
 
