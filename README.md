@@ -23,6 +23,7 @@ Versions:-
 6.2	- 201, 404, 416, 464, 465 completed
 
 7.0	- Underclock CPU
+	- 501, 502 running
 -------------------------------------------------------
 
 exp1	- irqbalance off
@@ -78,4 +79,13 @@ exp465	- 128G of stress on harddisk with 8 threads
 
 exp201	- irqbalance off
 	- multiple big files
+
+exp501	- irqbalance off
+	- multiple big files
+	- cpu underclocked
+
+exp501	- irqbalance off
+	- multiple big files
+	- cpu underclocked
+	- stress 10 cores
 

@@ -13,12 +13,9 @@ class Monitor:
 
 		
 		self.next_exp = {}
-		self.next_exp["201"] = "404"
-		self.next_exp["404"] = "416"
-		self.next_exp["416"] = "464"
-		self.next_exp["464"] = "465"
-		self.next_exp["465"] = "201"
-
+		self.next_exp["501"] = "502"
+		self.next_exp["502"] = "501"
+	
 		#Experiment number
 		ff_input = "/home/sourabh/Desktop/Sherry/input" 				#Experiment number input file
 		ffr = open(ff_input, "r")		
