@@ -396,7 +396,7 @@ class Monitor:
 
 		return int(num)
 
-	def change_cpu_frequency():
+	def change_cpu_frequency(self):
 		os.system('sudo cat /sys/devices/system/cpu/cpufreq/policy0/scaling_min_freq > /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq')
 		os.system('sudo cat /sys/devices/system/cpu/cpufreq/policy1/scaling_min_freq > /sys/devices/system/cpu/cpufreq/policy1/scaling_max_freq')
 		os.system('sudo cat /sys/devices/system/cpu/cpufreq/policy2/scaling_min_freq > /sys/devices/system/cpu/cpufreq/policy2/scaling_max_freq')
