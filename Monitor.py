@@ -6,14 +6,11 @@ import time
 class Monitor:
 	def __init__(self):
 
-		self.log_file = open("/home/sourabh/Desktop/Sherry/log.txt", 'a')
-		self.log_file.write("\nSession started\n")
-		
 		self.interrupt_name = '0000:00:1f.2'						#HDD interrupt name
-
 		
 		self.next_exp = {}
-		self.next_exp["202"] = "202"
+		self.next_exp["202"] = "203"
+		self.next_exp["203"] = "202"
 	
 		#Experiment number
 		ff_input = "/home/sourabh/Desktop/Sherry/input" 				#Experiment number input file
@@ -22,6 +19,13 @@ class Monitor:
 		ff_num = ffr.readlines()[0].split('\n')[0]
 
 		self.path = "/home/sourabh/Desktop/Sherry/exp" + ff_num + "/"			#Experiment path
+
+		try:
+			self.log_file = open("/home/sourabh/Desktop/Sherry/log" + ff_num + ".txt", 'a+')
+		except:
+			self.log_file = open("/home/sourabh/Desktop/Sherry/log.txt", 'a')
+		
+		self.log_file.write("\nSession started\n")
 		self.log_file.write("\nDirectory :: " + self.path + "\n")
 		ffr.close()
 		#Experiment number
