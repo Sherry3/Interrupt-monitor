@@ -39,6 +39,8 @@ Versions:-
 	- Underclocked cpu not working
 	- 202, 203, 501, 502, 503 completed
 	- running 601, 602, 603
+
+7.2	- 
 -------------------------------------------------------
 
 exp1	- irqbalance off

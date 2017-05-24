@@ -2,6 +2,7 @@ import os
 from subprocess import call
 import subprocess
 import time
+from timeit import default_timer as timer
 
 class Monitor:
 	def __init__(self):
@@ -130,7 +131,6 @@ class Monitor:
 
 
 		for k in range(int(self.d['work_delay']) + int(self.d['copy_time']) + int(self.d['after_copy_time'])):
-
 			if(k % 100 == 1):
 				print(k)
 
@@ -210,6 +210,8 @@ class Monitor:
 						self.log_file.write("Executing "+ cmd_temp + "&\n")
 
 
+			start = timer()
+
 			#Memory info
 			if(self.d['b_memory'] == 'true'):
 				mem = open("/proc/meminfo", "r")
@@ -258,7 +260,9 @@ class Monitor:
 			
 				f_h.write("\n")
 			
-			time.sleep(1)
+			end = timer()
+			if(1 - (end - start) >= 0):
+				time.sleep(1 - (end - start))
 
 	def copy(self):	
 		fr = open(self.path + 'plot_num.txt', 'r')
