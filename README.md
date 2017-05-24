@@ -8,6 +8,8 @@ exp201, exp404, exp416, exp464, exp465 completed
 exp202, exp203, exp501, exp502, exp503 completed
 
 exp601, exp602, exp603 completed
+
+exp801, exp802 running
 -------------------------------------------------------
 Versions:-
 
@@ -42,6 +44,8 @@ Versions:-
 
 7.2	- Underclocked cpu worked
 	- 601, 602, 603 completed
+
+7.3	- 801, 802 running
 -------------------------------------------------------
 
 exp1	- irqbalance off
@@ -132,5 +136,14 @@ exp602	- irqbalance off
 exp603	- irqbalance off
 	- multiple big files
 	- stress 50 cores
+	- cpu_frequency(worked)
+
+exp801	- irqbalance off
+	- multiple big files(4)
+	- stress 10 cores
+
+exp802	- irqbalance off
+	- multiple big files(4)
+	- stress 10 cores
 	- cpu_frequency(worked)
 
