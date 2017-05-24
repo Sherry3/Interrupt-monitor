@@ -40,7 +40,7 @@ Versions:-
 	- 202, 203, 501, 502, 503 completed
 	- running 601, 602, 603
 
-7.2	- 
+7.2	- Underclocked cpu worked
 -------------------------------------------------------
 
 exp1	- irqbalance off
@@ -121,15 +121,15 @@ exp503	- irqbalance off
 
 exp601	- irqbalance off
 	- multiple big files
-	- cpu_frequency()
+	- cpu_frequency(worked)
 
 exp602	- irqbalance off
 	- multiple big files
 	- stress 10 cores
-	- cpu_frequency()
+	- cpu_frequency(worked)
 
 exp603	- irqbalance off
 	- multiple big files
 	- stress 50 cores
-	- cpu_frequency()
+	- cpu_frequency(worked)
 
