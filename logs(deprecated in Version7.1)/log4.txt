@@ -1,0 +1,63 @@
+Gangs.of.WaseyPur-1 (copy).mkv
+Gangs.of.WaseyPur-1.mkv
+Gangs.of.Wasseypur.2.2012.720p.BluRay.nHD.x264.POISON.mkv
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp4/
+Changed to 5
+Core affinity started --- Core affinity closed
+Monitoring started --- Executing  stress -c 8 -t 500&
+Reached stress1 --- true
+Executing  cp /media/sourabh/SHERRY/Big/* /home/sourabh/Desktop/big_files&
+Reached stress2 --- big_filesMonitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- 
+
+Removing txt stopped
+Removing big_files started --- 
+
+Removing big_files stopped
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
+Gangs.of.WaseyPur-1 (copy).mkv
+Gangs.of.WaseyPur-1.mkv
+Gangs.of.Wasseypur.2.2012.720p.BluRay.nHD.x264.POISON.mkv
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp5/
+Changed to 4
+Core affinity started --- Core affinity closed
+Monitoring started --- Executing  stress -c 8 -t 500&
+Reached stress1 --- true
+Executing  cp /media/sourabh/SHERRY/Big/* /home/sourabh/Desktop/big_files&
+Reached stress2 --- big_filesMonitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- 
+
+Removing txt stopped
+Removing big_files started --- 
+
+Removing big_files stopped
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
+Gangs.of.WaseyPur-1 (copy).mkv
+Gangs.of.WaseyPur-1.mkv
+Gangs.of.Wasseypur.2.2012.720p.BluRay.nHD.x264.POISON.mkv
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp4/
+Changed to 5
+Core affinity started --- Core affinity closed
+Monitoring started --- Executing  stress -c 8 -t 500&
+Reached stress1 --- true
+Executing  cp /media/sourabh/SHERRY/Big/* /home/sourabh/Desktop/big_files&
+Reached stress2 --- big_filesMonitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- 
+
+Removing txt stopped
+Removing big_files started --- 
+
+Removing big_files stopped
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
