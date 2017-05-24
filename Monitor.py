@@ -53,12 +53,12 @@ class Monitor:
 			self.set_core_affinity()
 			self.log_file.write("Core affinity closed\n")
 
-		'''
+		
 		if('cpu_freq' in self.d and self.d['cpu_freq'] == 'true'):
 			self.log_file.write("CPU frequency started\n")
 			self.change_cpu_frequency()
 			self.log_file.write("CPU frequency stopped\n")
-		'''
+		
 
 		self.log_file.write("Monitoring started\n")
 		self.start_monitor1()
@@ -277,8 +277,7 @@ class Monitor:
 		return int(num)
 
 	def change_cpu_frequency(self):
-		os.system("sudo ./changeFreq.sh")
+		os.system("sudo " + self.path + "../changeFreq.sh")
 	
-
 
 A = Monitor()

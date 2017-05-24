@@ -38,9 +38,7 @@ Versions:-
 	- monitor2() removed
 	- Underclocked cpu not working
 	- 202, 203, 501, 502, 503 completed
-
-	- 601, 602, 603 running
-	- Underclocking mechanism moved to Automatic.py
+	- running 601, 602, 603
 -------------------------------------------------------
 
 exp1	- irqbalance off
@@ -121,15 +119,15 @@ exp503	- irqbalance off
 
 exp601	- irqbalance off
 	- multiple big files
-	- cpu_frequency(testing)
+	- cpu_frequency()
 
 exp602	- irqbalance off
 	- multiple big files
 	- stress 10 cores
-	- cpu_frequency(testing)
+	- cpu_frequency()
 
 exp603	- irqbalance off
 	- multiple big files
 	- stress 50 cores
-	- cpu_frequency(testing)
+	- cpu_frequency()
 
