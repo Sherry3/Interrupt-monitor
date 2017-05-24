@@ -28,6 +28,12 @@ Versions:-
 
 6.3	- running 202, 203, 501, 502, 503	
 	- Underclocked CPU
+
+7.0	- partial results of 202, 203, 501, 502, 503
+	- Underclocked cpu not working
+
+7.1	- Seaperate folder for logs removed
+	- monitor2() removed
 -------------------------------------------------------
 
 exp1	- irqbalance off
