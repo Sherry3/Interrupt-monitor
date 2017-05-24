@@ -9,11 +9,9 @@ class Monitor:
 		self.interrupt_name = '0000:00:1f.2'						#HDD interrupt name
 		
 		self.next_exp = {}
-		self.next_exp["501"] = "502"
-		self.next_exp["502"] = "503"
-		self.next_exp["503"] = "202"
-		self.next_exp["202"] = "203"
-		self.next_exp["203"] = "501"
+		self.next_exp["601"] = "602"
+		self.next_exp["602"] = "603"
+		self.next_exp["603"] = "601"
 	
 		#Experiment number
 		ff_input = "/home/sourabh/Desktop/Sherry/input" 				#Experiment number input file
@@ -55,11 +53,12 @@ class Monitor:
 			self.set_core_affinity()
 			self.log_file.write("Core affinity closed\n")
 
-
+		'''
 		if('cpu_freq' in self.d and self.d['cpu_freq'] == 'true'):
 			self.log_file.write("CPU frequency started\n")
 			self.change_cpu_frequency()
 			self.log_file.write("CPU frequency stopped\n")
+		'''
 
 		self.log_file.write("Monitoring started\n")
 		self.start_monitor1()

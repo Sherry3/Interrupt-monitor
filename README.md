@@ -5,7 +5,9 @@ exp101, exp104, exp116, exp164, exp165 completed
 
 exp201, exp404, exp416, exp464, exp465 completed
 
-exp202, exp203, exp501, exp502, exp503 running
+exp202, exp203, exp501, exp502, exp503 completed
+
+exp601, exp602, exp603 running
 -------------------------------------------------------
 Versions:-
 
@@ -34,6 +36,11 @@ Versions:-
 
 7.1	- Seaperate folder for logs removed
 	- monitor2() removed
+	- Underclocked cpu not working
+	- 202, 203, 501, 502, 503 completed
+
+	- 601, 602, 603 running
+	- Underclocking mechanism moved to Automatic.py
 -------------------------------------------------------
 
 exp1	- irqbalance off
@@ -100,15 +107,29 @@ exp203	- irqbalance off
 
 exp501	- irqbalance off
 	- multiple big files
-	- cpu_frequency
+	- cpu_frequency(didn't worked)
 
 exp502	- irqbalance off
 	- multiple big files
 	- stress 10 cores
-	- cpu_frequency
+	- cpu_frequency(didn't worked)
 
 exp503	- irqbalance off
 	- multiple big files
 	- stress 50 cores
-	- cpu_frequency
+	- cpu_frequency(didn't worked)
+
+exp601	- irqbalance off
+	- multiple big files
+	- cpu_frequency(testing)
+
+exp602	- irqbalance off
+	- multiple big files
+	- stress 10 cores
+	- cpu_frequency(testing)
+
+exp603	- irqbalance off
+	- multiple big files
+	- stress 50 cores
+	- cpu_frequency(testing)
 
