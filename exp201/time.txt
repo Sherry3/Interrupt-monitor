@@ -538,7 +538,6 @@ Context_Switch_Forced 20
 Context_Switch 13269
 
 
-Command exited with non-zero status 1
 Elapsed_Time 0.04
 Kernel_Time 0.00
 User_Time 0.00
@@ -551,7 +550,6 @@ Context_Switch_Forced 1
 Context_Switch 5
 
 
-Command exited with non-zero status 1
 Elapsed_Time 0.04
 Kernel_Time 0.00
 User_Time 0.00

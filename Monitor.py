@@ -25,7 +25,7 @@ class Monitor:
 		self.log_file_path = ''
 
 		try:
-			self.log_file_path = "/home/sourabh/Desktop/Sherry/log" + ff_num + ".txt"
+			self.log_file_path = "/home/sourabh/Desktop/Sherry/logs/log" + ff_num + ".txt"
 			self.log_file = open(self.log_file_path, 'a+')
 		except:
 			self.log_file_path = "/home/sourabh/Desktop/Sherry/log.txt"

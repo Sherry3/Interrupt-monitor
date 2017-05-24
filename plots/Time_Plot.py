@@ -8,7 +8,14 @@ class Plot():
 		self.pattern = []
 
 		if(len(sys.argv) != 1):
-			self.pattern = ['go', 'ro', 'yo', 'bo']
+			self.pattern1 = ['g', 'r', 'y', 'b', 'c']
+			self.pattern2 = ['o', 's', '+', '*']
+
+			self.pattern = []
+			for i in self.pattern2:
+				for j in self.pattern1:
+					self.pattern.append(i + j)
+
 			for a in sys.argv[1:]:
 				self.path.append("/home/sourabh/Desktop/Sherry/exp" + a + "/time.txt")
 		else:		
@@ -31,6 +38,7 @@ class Plot():
 			
 			self.data[path] = {}			
 
+			#Extract all attributes from file
 			for i in lines:
 				if(len(i.split()) < 2):
 					break
@@ -40,7 +48,7 @@ class Plot():
 
 			for i in lines:
 				j = i.split('\n')[0].split('%')[0].split()
-				if(len(j) >= 2):
+				if(len(j) == 2):
 					self.data[path][j[0]].append(float(j[1]))	
 
 	def plot(self, attr):
