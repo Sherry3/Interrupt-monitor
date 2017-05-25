@@ -9,7 +9,7 @@ class Plot():
 
 		if(len(sys.argv) != 1):
 			self.pattern1 = ['g', 'r', 'y', 'b', 'c']
-			self.pattern2 = ['o', 's', '+', '*']
+			self.pattern2 = [ 'o', '+', '*', '', '--', 's']
 
 			self.pattern = []
 			for i in self.pattern2:
@@ -52,27 +52,43 @@ class Plot():
 					self.data[path][j[0]].append(float(j[1]))	
 
 	def plot(self, attr):
+		num_plots = [3, 4]
 		for i in attr:
 			plt.title(i)
 			mi = min(self.data[self.path[0]][i])
 			mx = min(self.data[self.path[0]][i])
 			
 			k = 0
+			data = []
+
 			for j in self.path:
+				data.clear()
+				for t in range(num_plots[k]):
+					data.append([])
 				#print(self.data[j][i])
-				plt.plot(range(len(self.data[j][i]) + 1)[1:], self.data[j][i], self.pattern[k])
+				for t in range(len(self.data[j][i])):
+					data[t%num_plots[k]].append(self.data[j][i][t])
+
+				for t in range(num_plots[k]):
+					#print(data[t])
+					p = self.pattern1[k] + self.pattern2[t]
+					#print(p)
+					plt.plot(range(len(data[t]) + 1)[1:], data[t], p)
+
+				#plt.plot(range(len(self.data[j][i]) + 1)[1:], self.data[j][i], self.pattern[k])		
 				mi = min(mi, min(self.data[j][i]))
 				mx = max(mx, max(self.data[j][i]))
 				k = k + 1
 		
-			plt.axis([0, len(self.data[self.path[0]][i]), mi, mx])
+			#plt.axis([0, len(self.data[self.path[0]][i]), mi, mx])
+			plt.axis([0, len(data[0]), mi, mx])
 			plt.show()
 
 		
 a = Plot()
-a.plot(['Kernel_Time', 'User_Time', 'Elapsed_Time', 'Context_Switch_Forced', 'Context_Switch'])
+#a.plot(['Kernel_Time', 'User_Time', 'Elapsed_Time', 'Context_Switch_Forced', 'Context_Switch'])
 
-#a.plot(['Kernel_Time', 'User_Time', 'Elapsed_Time', 'CPU', 'Context_Switch_Forced', 'Context_Switch', 'Major_Page_Faults', 'Minor_Page_Faults', 'Swapped_Out_From_Main_Memory', 'Maximum_Resident_Set_Size'])
+a.plot(['Kernel_Time', 'User_Time', 'Elapsed_Time', 'CPU', 'Context_Switch_Forced', 'Context_Switch', 'Major_Page_Faults', 'Minor_Page_Faults', 'Swapped_Out_From_Main_Memory', 'Maximum_Resident_Set_Size'])
 
 
 
