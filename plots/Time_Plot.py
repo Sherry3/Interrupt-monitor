@@ -9,7 +9,7 @@ class Plot():
 
 		if(len(sys.argv) != 1):
 			self.pattern1 = ['g', 'r', 'y', 'b', 'c', 'k']
-			self.pattern2 = ['o', '', '--', '*', '+', 's']
+			self.pattern2 = ['o', '', '--', '*', 's', '+']
 
 			self.pattern = []
 			for i in self.pattern2:
@@ -52,7 +52,16 @@ class Plot():
 					self.data[path][j[0]].append(float(j[1]))	
 
 	def plot(self, attr):
-		num_plots = [1, 1, 1, 2, 2, 2]
+	
+		plots_dict = {1:1, 2:1, 3:1, 6:1, 7:1, 8:1, 101:1, 104:1, 116:1, 164:1, 165:1, 404:1, 416:1, 464:1, 465:1, 201:3, 202:4, 203:4, 501:3, 502:4, 503:4, 601:3, 602:4, 603:4, 801:5, 802:5}
+		num_plots = []
+
+		row = 1
+		col = 2
+
+		for i in sys.argv[1:]:
+			num_plots.append(plots_dict[int(i)])
+
 		for i in attr:
 			plt.title(i)
 			mi = min(self.data[self.path[0]][i])
@@ -72,19 +81,26 @@ class Plot():
 					else:
 						data[t%num_plots[k]].append(self.data[j][i][t])
 
-				for t in range(min(num_plots)):
+
+				plt.subplot(row, col, k + 1)
+				plt.title('EXP :: ' + sys.argv[1 + k])
+
+				for t in range(max(num_plots)):
 					#print(data[t])
 					p = self.pattern1[k] + self.pattern2[t]
 					#print(p)
 					plt.plot(range(len(data[t]) + 1)[1:], data[t], p)
 
-				#plt.plot(range(len(self.data[j][i]) + 1)[1:], self.data[j][i], self.pattern[k])		
 				mi = min(mi, min(self.data[j][i]))
 				mx = max(mx, max(self.data[j][i]))
 				k = k + 1
 		
-			#plt.axis([0, len(self.data[self.path[0]][i]), mi, mx])
-			plt.axis([0, len(data[0]), mi, mx])
+			k = 0
+			for j in self.path:
+				plt.subplot(row, col, k + 1)
+				plt.axis([0, len(data[0]), mi, mx])
+				k = k + 1
+
 			plt.show()
 
 		

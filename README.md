@@ -9,7 +9,9 @@ exp202, exp203, exp501, exp502, exp503 completed
 
 exp601, exp602, exp603 completed
 
-exp801, exp802 running
+exp801, exp802 completed
+
+exp1102, exp1002 running
 -------------------------------------------------------
 Versions:-
 
@@ -45,7 +47,9 @@ Versions:-
 7.2	- Underclocked cpu worked
 	- 601, 602, 603 completed
 
-7.3	- 801, 802 running
+7.3	- 801, 802 completed
+
+8.0	- 1002, 1102 running
 -------------------------------------------------------
 
 exp1	- irqbalance off
