@@ -79,7 +79,7 @@ class Monitor:
 		if(self.d['stress2'] == 'small_files_to_usb'):
 			self.log_file.write("Removing " + self.d['stress2'] + " started --- ")
 			#os.system("ls /home/sourabh/Desktop/" + self.d['stress2'] + " >> /home/sourabh/Desktop/Sherry/log.txt")
-			os.system("sudo rm -rf /media/sourabh/SHERRY/*')
+			os.system("sudo rm -rf /media/sourabh/SHERRY/*")
 			self.log_file.write("Removing " + self.d['stress2'] + " stopped\n")
 
 		elif(self.d['stress2'] != "false"):

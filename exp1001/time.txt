@@ -1,0 +1,13 @@
+Command exited with non-zero status 1
+Elapsed_Time 1204.37
+Kernel_Time 27.02
+User_Time 1.53
+Major_Page_Faults 0
+Minor_Page_Faults 160
+Maximum_Resident_Set_Size 2616
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 106
+Context_Switch 116770
+
+
