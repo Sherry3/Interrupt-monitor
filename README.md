@@ -11,7 +11,7 @@ exp601, exp602, exp603 completed
 
 exp801, exp802 completed
 
-exp1102, exp1002 running
+exp1001, exp1003 running
 -------------------------------------------------------
 Versions:-
 
@@ -49,7 +49,7 @@ Versions:-
 
 7.3	- 801, 802 completed
 
-8.0	- 1002, 1102 running
+8.0	- 1001, 1003 running
 -------------------------------------------------------
 
 exp1	- irqbalance off
@@ -148,4 +148,11 @@ exp802	- irqbalance off
 	- multiple big files(4)
 	- stress 10 cores
 	- cpu_frequency(worked)
+
+exp1001	- irqbalance off
+	- small files to usb
+ 
+exp1003	- irqbalance off
+	- all interrupts to core 3 
+	- small files to usb
 

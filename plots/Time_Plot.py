@@ -56,8 +56,8 @@ class Plot():
 		plots_dict = {1:1, 2:1, 3:1, 6:1, 7:1, 8:1, 101:1, 104:1, 116:1, 164:1, 165:1, 404:1, 416:1, 464:1, 465:1, 201:3, 202:4, 203:4, 501:3, 502:4, 503:4, 601:3, 602:4, 603:4, 801:5, 802:5}
 		num_plots = []
 
-		row = 1
-		col = 2
+		row = int(input("rows : "))
+		col = int(input("cols : "))
 
 		for i in sys.argv[1:]:
 			num_plots.append(plots_dict[int(i)])

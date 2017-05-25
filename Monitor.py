@@ -10,8 +10,8 @@ class Monitor:
 		self.interrupt_name = '0000:00:1f.2'						#HDD interrupt name
 		
 		self.next_exp = {}
-		self.next_exp["801"] = "802"
-		self.next_exp["802"] = "801"
+		self.next_exp["1001"] = "1003"
+		self.next_exp["1003"] = "1001"
 
 		#Experiment number
 		ff_input = "/home/sourabh/Desktop/Sherry/input" 				#Experiment number input file
@@ -75,10 +75,17 @@ class Monitor:
 		os.system("rm " + self.path + "txt/*")
 		self.log_file.write("Removing txt stopped\n")
 
-		if(self.d['stress2'] != "false"):
+
+		if(self.d['stress2'] == 'small_files_to_usb'):
 			self.log_file.write("Removing " + self.d['stress2'] + " started --- ")
 			#os.system("ls /home/sourabh/Desktop/" + self.d['stress2'] + " >> /home/sourabh/Desktop/Sherry/log.txt")
-			os.system("rm /home/sourabh/Desktop/" + self.d['stress2'] + '/*')
+			os.system("rm -rf /media/sourabh/SHERRY/*')
+			self.log_file.write("Removing " + self.d['stress2'] + " stopped\n")
+
+		elif(self.d['stress2'] != "false"):
+			self.log_file.write("Removing " + self.d['stress2'] + " started --- ")
+			#os.system("ls /home/sourabh/Desktop/" + self.d['stress2'] + " >> /home/sourabh/Desktop/Sherry/log.txt")
+			os.system("rm -rf /home/sourabh/Desktop/" + self.d['stress2'] + '/*')
 			self.log_file.write("Removing " + self.d['stress2'] + " stopped\n")
 	
 		#if(limit_reached == 30):
@@ -190,10 +197,18 @@ class Monitor:
 					cmd2 = cmd2 + ' taskset ' + self.d['taskset_affinity']
 
 				if(self.d['stress2'] == 'small_files'):
-					cmd2 = cmd2 + ' cp /media/sourabh/SHERRY/Small/* /home/sourabh/Desktop/' + self.d['stress2']
+					cmd2 = cmd2 + ' cp -r /media/sourabh/SHERRY/Small/* /home/sourabh/Desktop/' + self.d['stress2']
 					os.system(cmd2 + "&")
 					self.log_file.write("Reached stress2 " + self.d['stress2'])
 					self.log_file.write("Executing "+ cmd2 + "&\n")
+
+
+				if(self.d['stress2'] == 'small_files_to_usb'):
+					cmd2 = cmd2 + ' cp -r /home/sourabh/Desktop/' + self.d['stress2'] + '/* /media/sourabh/SHERRY/'
+					os.system(cmd2 + "&")
+					self.log_file.write("Reached stress2 " + self.d['stress2'])
+					self.log_file.write("Executing "+ cmd2 + "&\n")
+
 
 				if(self.d['stress2'] == 'big_files'):
 					cmd2 = cmd2 + ' cp /media/sourabh/SHERRY/Big/* /home/sourabh/Desktop/' + self.d['stress2']
