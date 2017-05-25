@@ -8,8 +8,8 @@ class Plot():
 		self.pattern = []
 
 		if(len(sys.argv) != 1):
-			self.pattern1 = ['g', 'r', 'y', 'b', 'c']
-			self.pattern2 = [ 'o', '+', '*', '', '--', 's']
+			self.pattern1 = ['g', 'r', 'y', 'b', 'c', 'k']
+			self.pattern2 = ['o', '', '--', '*', '+', 's']
 
 			self.pattern = []
 			for i in self.pattern2:
@@ -52,7 +52,7 @@ class Plot():
 					self.data[path][j[0]].append(float(j[1]))	
 
 	def plot(self, attr):
-		num_plots = [3, 4]
+		num_plots = [1, 1, 1, 2, 2, 2]
 		for i in attr:
 			plt.title(i)
 			mi = min(self.data[self.path[0]][i])
@@ -63,13 +63,16 @@ class Plot():
 
 			for j in self.path:
 				data.clear()
-				for t in range(num_plots[k]):
+				for t in range(max(num_plots)):
 					data.append([])
 				#print(self.data[j][i])
 				for t in range(len(self.data[j][i])):
-					data[t%num_plots[k]].append(self.data[j][i][t])
+					if(t%max(num_plots) >= num_plots[k]):
+						data[t%max(num_plots)].append(0)
+					else:
+						data[t%num_plots[k]].append(self.data[j][i][t])
 
-				for t in range(num_plots[k]):
+				for t in range(min(num_plots)):
 					#print(data[t])
 					p = self.pattern1[k] + self.pattern2[t]
 					#print(p)
@@ -86,9 +89,11 @@ class Plot():
 
 		
 a = Plot()
+a.plot(['Elapsed_Time'])
+
 #a.plot(['Kernel_Time', 'User_Time', 'Elapsed_Time', 'Context_Switch_Forced', 'Context_Switch'])
 
-a.plot(['Kernel_Time', 'User_Time', 'Elapsed_Time', 'CPU', 'Context_Switch_Forced', 'Context_Switch', 'Major_Page_Faults', 'Minor_Page_Faults', 'Swapped_Out_From_Main_Memory', 'Maximum_Resident_Set_Size'])
+#a.plot(['Kernel_Time', 'User_Time', 'Elapsed_Time', 'CPU', 'Context_Switch_Forced', 'Context_Switch', 'Major_Page_Faults', 'Minor_Page_Faults', 'Swapped_Out_From_Main_Memory', 'Maximum_Resident_Set_Size'])
 
 
 

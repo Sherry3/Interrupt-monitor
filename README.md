@@ -56,11 +56,9 @@ exp2	- irqbalance off
 	- all interrupts to core 3 
 	- big files
 
-exp5	- irqbalance off
-	- core 3 isolated
+exp3	- irqbalance off
 	- all interrupts to core 3 
 	- big files
-	- stress 8 cores for 500s
 
 exp6	- equivalent to exp4 with time
 	- irqbalance off
