@@ -11,7 +11,9 @@ exp601, exp602, exp603 completed
 
 exp801, exp802 completed
 
-exp1001, exp1003 running
+exp1001, exp1003 completed
+
+exp204, exp604, exp11, exp13, exp21, exp23 running
 -------------------------------------------------------
 Versions:-
 
@@ -49,7 +51,8 @@ Versions:-
 
 7.3	- 801, 802 completed
 
-8.0	- 1001, 1003 running
+8.0	- 1001, 1003 completed
+	- 204, 604, 11, 13, 21, 23 running
 -------------------------------------------------------
 
 exp1	- irqbalance off
@@ -63,6 +66,24 @@ exp2	- irqbalance off
 exp3	- irqbalance off
 	- all interrupts to core 3 
 	- big files
+
+exp11	- irqbalance off
+	- big files
+	- stress 1 cores for 500s
+
+exp13	- irqbalance off
+	- all interrupts to core 3 
+	- big files
+	- stress 1 cores for 500s
+
+exp21	- irqbalance off
+	- big files
+	- stress 2 cores for 500s
+
+exp23	- irqbalance off
+	- all interrupts to core 3 
+	- big files
+	- stress 2 cores for 500s
 
 exp6	- equivalent to exp4 with time
 	- irqbalance off
@@ -112,6 +133,10 @@ exp203	- irqbalance off
 	- multiple big files
 	- stress 50 cores
 
+exp204	- irqbalance off
+	- multiple big files
+	- all interrupts to core 3 
+
 exp501	- irqbalance off
 	- multiple big files
 	- cpu_frequency(didn't worked)
@@ -139,6 +164,11 @@ exp603	- irqbalance off
 	- multiple big files
 	- stress 50 cores
 	- cpu_frequency(worked)
+
+exp604	- irqbalance off
+	- multiple big files
+	- cpu_frequency(worked)
+	- all interrupts to core 3 
 
 exp801	- irqbalance off
 	- multiple big files(4)

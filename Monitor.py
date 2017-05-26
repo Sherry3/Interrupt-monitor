@@ -10,8 +10,12 @@ class Monitor:
 		self.interrupt_name = '0000:00:1f.2'						#HDD interrupt name
 		
 		self.next_exp = {}
-		self.next_exp["1001"] = "1003"
-		self.next_exp["1003"] = "1001"
+		self.next_exp["204"] = "604"
+		self.next_exp["604"] = "11"
+		self.next_exp["11"] = "13"
+		self.next_exp["13"] = "21"
+		self.next_exp["21"] = "23"
+		self.next_exp["23"] = "204"
 
 		#Experiment number
 		ff_input = "/home/sourabh/Desktop/Sherry/input" 				#Experiment number input file
