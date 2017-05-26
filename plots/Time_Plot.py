@@ -53,7 +53,7 @@ class Plot():
 
 	def plot(self, attr):
 	
-		plots_dict = {1:1, 2:1, 3:1, 6:1, 7:1, 8:1, 101:1, 104:1, 116:1, 164:1, 165:1, 404:1, 416:1, 464:1, 465:1, 201:3, 202:4, 203:4, 501:3, 502:4, 503:4, 601:3, 602:4, 603:4, 801:5, 802:5}
+		plots_dict = {1:1, 2:1, 3:1, 6:1, 7:1, 8:1, 101:1, 104:1, 116:1, 164:1, 165:1, 404:1, 416:1, 464:1, 465:1, 201:3, 202:4, 203:4, 501:3, 502:4, 503:4, 601:3, 602:4, 603:4, 801:5, 802:5, 1001:1, 1003:1}
 		num_plots = []
 
 		row = int(input("rows : "))
@@ -83,7 +83,7 @@ class Plot():
 
 
 				plt.subplot(row, col, k + 1)
-				plt.title('EXP :: ' + sys.argv[1 + k])
+				plt.title(i + ' ' + sys.argv[1 + k])
 
 				for t in range(max(num_plots)):
 					#print(data[t])
@@ -93,6 +93,8 @@ class Plot():
 
 				mi = min(mi, min(self.data[j][i]))
 				mx = max(mx, max(self.data[j][i]))
+				print(mi)
+				print(mx)
 				k = k + 1
 		
 			k = 0

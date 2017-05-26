@@ -1,7 +1,8 @@
 
 Session started
 
-Directory :: /home/sourabh/Desktop/Sherry/exp1001/
+Directory :: /home/sourabh/Desktop/Sherry/exp1003/
+Core affinity started --- Core affinity closed
 Monitoring started
 Reached stress2 small_files_to_usbExecuting /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -14,18 +15,19 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp1001/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
+" -o /home/sourabh/Desktop/Sherry/exp1003/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
 Monitoring stopped
 txt copy started --- txt copy stopped
 Removing txt started --- Removing txt stopped
 Removing small_files_to_usb started --- Removing small_files_to_usb stopped
-Changed to 1003
+Changed to 1001
 3100000
 BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
 
 Session started
 
-Directory :: /home/sourabh/Desktop/Sherry/exp1001/
+Directory :: /home/sourabh/Desktop/Sherry/exp1003/
+Core affinity started --- Core affinity closed
 Monitoring started
 Reached stress2 small_files_to_usbExecuting /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -38,18 +40,19 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp1001/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
+" -o /home/sourabh/Desktop/Sherry/exp1003/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
 Monitoring stopped
 txt copy started --- txt copy stopped
 Removing txt started --- Removing txt stopped
 Removing small_files_to_usb started --- Removing small_files_to_usb stopped
-Changed to 1003
+Changed to 1001
 3100000
 BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
 
 Session started
 
-Directory :: /home/sourabh/Desktop/Sherry/exp1001/
+Directory :: /home/sourabh/Desktop/Sherry/exp1003/
+Core affinity started --- Core affinity closed
 Monitoring started
 Reached stress2 small_files_to_usbExecuting /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -62,18 +65,19 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp1001/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
+" -o /home/sourabh/Desktop/Sherry/exp1003/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
 Monitoring stopped
 txt copy started --- txt copy stopped
 Removing txt started --- Removing txt stopped
 Removing small_files_to_usb started --- Removing small_files_to_usb stopped
-Changed to 1003
+Changed to 1001
 3100000
 BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
 
 Session started
 
-Directory :: /home/sourabh/Desktop/Sherry/exp1001/
+Directory :: /home/sourabh/Desktop/Sherry/exp1003/
+Core affinity started --- Core affinity closed
 Monitoring started
 Reached stress2 small_files_to_usbExecuting /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -86,18 +90,19 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp1001/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
+" -o /home/sourabh/Desktop/Sherry/exp1003/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
 Monitoring stopped
 txt copy started --- txt copy stopped
 Removing txt started --- Removing txt stopped
 Removing small_files_to_usb started --- Removing small_files_to_usb stopped
-Changed to 1003
+Changed to 1001
 3100000
 BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
 
 Session started
 
-Directory :: /home/sourabh/Desktop/Sherry/exp1001/
+Directory :: /home/sourabh/Desktop/Sherry/exp1003/
+Core affinity started --- Core affinity closed
 Monitoring started
 Reached stress2 small_files_to_usbExecuting /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -110,18 +115,19 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp1001/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
+" -o /home/sourabh/Desktop/Sherry/exp1003/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
 Monitoring stopped
 txt copy started --- txt copy stopped
 Removing txt started --- Removing txt stopped
 Removing small_files_to_usb started --- Removing small_files_to_usb stopped
-Changed to 1003
+Changed to 1001
 3100000
 BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
 
 Session started
 
-Directory :: /home/sourabh/Desktop/Sherry/exp1001/
+Directory :: /home/sourabh/Desktop/Sherry/exp1003/
+Core affinity started --- Core affinity closed
 Monitoring started
 Reached stress2 small_files_to_usbExecuting /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -134,18 +140,19 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp1001/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
+" -o /home/sourabh/Desktop/Sherry/exp1003/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
 Monitoring stopped
 txt copy started --- txt copy stopped
 Removing txt started --- Removing txt stopped
 Removing small_files_to_usb started --- Removing small_files_to_usb stopped
-Changed to 1003
+Changed to 1001
 3100000
 BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
 
 Session started
 
-Directory :: /home/sourabh/Desktop/Sherry/exp1001/
+Directory :: /home/sourabh/Desktop/Sherry/exp1003/
+Core affinity started --- Core affinity closed
 Monitoring started
 Reached stress2 small_files_to_usbExecuting /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -158,18 +165,19 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp1001/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
+" -o /home/sourabh/Desktop/Sherry/exp1003/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
 Monitoring stopped
 txt copy started --- txt copy stopped
 Removing txt started --- Removing txt stopped
 Removing small_files_to_usb started --- Removing small_files_to_usb stopped
-Changed to 1003
+Changed to 1001
 3100000
 BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
 
 Session started
 
-Directory :: /home/sourabh/Desktop/Sherry/exp1001/
+Directory :: /home/sourabh/Desktop/Sherry/exp1003/
+Core affinity started --- Core affinity closed
 Monitoring started
 Reached stress2 small_files_to_usbExecuting /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -182,18 +190,19 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp1001/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
+" -o /home/sourabh/Desktop/Sherry/exp1003/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
 Monitoring stopped
 txt copy started --- txt copy stopped
 Removing txt started --- Removing txt stopped
 Removing small_files_to_usb started --- Removing small_files_to_usb stopped
-Changed to 1003
+Changed to 1001
 3100000
 BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
 
 Session started
 
-Directory :: /home/sourabh/Desktop/Sherry/exp1001/
+Directory :: /home/sourabh/Desktop/Sherry/exp1003/
+Core affinity started --- Core affinity closed
 Monitoring started
 Reached stress2 small_files_to_usbExecuting /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -206,18 +215,19 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp1001/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
+" -o /home/sourabh/Desktop/Sherry/exp1003/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
 Monitoring stopped
 txt copy started --- txt copy stopped
 Removing txt started --- Removing txt stopped
 Removing small_files_to_usb started --- Removing small_files_to_usb stopped
-Changed to 1003
+Changed to 1001
 3100000
 BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
 
 Session started
 
-Directory :: /home/sourabh/Desktop/Sherry/exp1001/
+Directory :: /home/sourabh/Desktop/Sherry/exp1003/
+Core affinity started --- Core affinity closed
 Monitoring started
 Reached stress2 small_files_to_usbExecuting /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -230,18 +240,19 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp1001/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
+" -o /home/sourabh/Desktop/Sherry/exp1003/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
 Monitoring stopped
 txt copy started --- txt copy stopped
 Removing txt started --- Removing txt stopped
 Removing small_files_to_usb started --- Removing small_files_to_usb stopped
-Changed to 1003
+Changed to 1001
 3100000
 BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
 
 Session started
 
-Directory :: /home/sourabh/Desktop/Sherry/exp1001/
+Directory :: /home/sourabh/Desktop/Sherry/exp1003/
+Core affinity started --- Core affinity closed
 Monitoring started
 Reached stress2 small_files_to_usbExecuting /usr/bin/time -a -f "Elapsed_Time %e
 Kernel_Time %S
@@ -254,35 +265,11 @@ Swapped_Out_From_Main_Memory %W
 Context_Switch_Forced %c
 Context_Switch %w
 
-" -o /home/sourabh/Desktop/Sherry/exp1001/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
+" -o /home/sourabh/Desktop/Sherry/exp1003/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
 Monitoring stopped
 txt copy started --- txt copy stopped
 Removing txt started --- Removing txt stopped
 Removing small_files_to_usb started --- Removing small_files_to_usb stopped
-Changed to 1003
-3100000
-BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7
-
-Session started
-
-Directory :: /home/sourabh/Desktop/Sherry/exp1001/
-Monitoring started
-Reached stress2 small_files_to_usbExecuting /usr/bin/time -a -f "Elapsed_Time %e
-Kernel_Time %S
-User_Time %U
-Major_Page_Faults %F
-Minor_Page_Faults %R
-Maximum_Resident_Set_Size %M
-CPU %P
-Swapped_Out_From_Main_Memory %W
-Context_Switch_Forced %c
-Context_Switch %w
-
-" -o /home/sourabh/Desktop/Sherry/exp1001/time.txt  cp -r /home/sourabh/Desktop/small_files_to_usb/* /media/sourabh/SHERRY/&
-Monitoring stopped
-txt copy started --- txt copy stopped
-Removing txt started --- Removing txt stopped
-Removing small_files_to_usb started --- Removing small_files_to_usb stopped
-Changed to 1003
+Changed to 1001
 3100000
 BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash vt.handoff=7

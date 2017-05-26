@@ -247,6 +247,9 @@ if(a.d['plot_int'] == '1'):
 	a.plot_int1()
 if(a.d['plot_int'] == '2'):
 	a.plot_int2()
+if(a.d['plot_int'] == '3'):
+	a.plot_int1()
+	a.plot_int2()
 if(a.d['plot_core'] == 'true'):
 	a.plot_core()
 if(a.d['plot_disk'] == 'true'):
