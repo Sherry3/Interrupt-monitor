@@ -10,7 +10,8 @@ class Monitor:
 		self.interrupt_name = '0000:00:1f.2'						#HDD interrupt name
 		
 		self.next_exp = {}
-		self.next_exp["204"] = "604"
+		self.next_exp["204"] = "601"
+		self.next_exp["601"] = "604"
 		self.next_exp["604"] = "11"
 		self.next_exp["11"] = "13"
 		self.next_exp["13"] = "21"
@@ -221,7 +222,7 @@ class Monitor:
 					self.log_file.write("Executing "+ cmd2 + "&\n")
 
 				if(self.d['stress2'] == 'multiple_big_files'):
-					for i in range(4):
+					for i in range(3):
 						cmd_temp = cmd2 + ' cp /media/sourabh/SHERRY/Big/' + str(i + 1) + '.mkv /home/sourabh/Desktop/' + self.d['stress2']
 						os.system(cmd_temp + "&")
 						self.log_file.write("Reached stress2" + self.d['stress2'] + "\n")
