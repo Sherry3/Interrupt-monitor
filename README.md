@@ -13,7 +13,9 @@ exp801, exp802 completed
 
 exp1001, exp1003 completed
 
-exp204, exp604, exp11, exp13, exp21, exp23 running
+exp204, exp604, exp11, exp13, exp21, exp23 completed
+
+exp12, exp22 running
 -------------------------------------------------------
 Versions:-
 
@@ -52,7 +54,8 @@ Versions:-
 7.3	- 801, 802 completed
 
 8.0	- 1001, 1003 completed
-	- 204, 604, 11, 13, 21, 23 running
+	- 204, 604, 11, 13, 21, 23 completed
+	- 12, 22 running
 -------------------------------------------------------
 
 exp1	- irqbalance off
