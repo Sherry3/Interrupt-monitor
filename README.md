@@ -71,6 +71,12 @@ exp11	- irqbalance off
 	- big files
 	- stress 1 cores for 500s
 
+exp12	- irqbalance off
+	- big files
+	- core 3 isolated
+	- all interrupts to core 3
+	- stress 1 cores for 500s
+
 exp13	- irqbalance off
 	- all interrupts to core 3 
 	- big files
@@ -78,6 +84,12 @@ exp13	- irqbalance off
 
 exp21	- irqbalance off
 	- big files
+	- stress 2 cores for 500s
+
+exp22	- irqbalance off
+	- big files
+	- core 3 isolated
+	- all interrupts to core 3
 	- stress 2 cores for 500s
 
 exp23	- irqbalance off
