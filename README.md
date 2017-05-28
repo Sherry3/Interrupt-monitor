@@ -152,6 +152,11 @@ exp204	- irqbalance off
 	- multiple big files
 	- all interrupts to core 3 
 
+exp205	- irqbalance off
+	- multiple big files
+	- all interrupts to core 3 
+	- isolated core 3
+
 exp501	- irqbalance off
 	- multiple big files
 	- cpu_frequency(didn't worked)
@@ -184,6 +189,12 @@ exp604	- irqbalance off
 	- multiple big files
 	- cpu_frequency(worked)
 	- all interrupts to core 3 
+
+exp605	- irqbalance off
+	- multiple big files
+	- cpu_frequency(worked)
+	- all interrupts to core 3 
+	- isolated core 3
 
 exp801	- irqbalance off
 	- multiple big files(4)

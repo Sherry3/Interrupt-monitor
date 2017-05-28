@@ -11,7 +11,9 @@ class Monitor:
 		
 		self.next_exp = {}
 		self.next_exp["12"] = "22"
-		self.next_exp["22"] = "12"
+		self.next_exp["22"] = "205"
+		self.next_exp["205"] = "605"
+		self.next_exp["605"] = "12"
 
 		#Experiment number
 		ff_input = "/home/sourabh/Desktop/Sherry/input" 				#Experiment number input file
