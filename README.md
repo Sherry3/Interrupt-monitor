@@ -15,7 +15,9 @@ exp1001, exp1003 completed
 
 exp204, exp604, exp11, exp13, exp21, exp23 completed
 
-exp12, exp22 running
+exp12, exp22, exp205, exp605 completed
+
+Project closed
 -------------------------------------------------------
 Versions:-
 
@@ -56,6 +58,8 @@ Versions:-
 8.0	- 1001, 1003 completed
 	- 204, 604, 11, 13, 21, 23 completed
 	- 12, 22 running
+
+8.1	- 12, 22, 205, 605 completed
 -------------------------------------------------------
 
 exp1	- irqbalance off
