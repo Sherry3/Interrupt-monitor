@@ -16,7 +16,7 @@ class Plot():
 
 			else:
 				self.pattern1 = ['g', 'r', 'y', 'b', 'c', 'k']
-				self.pattern2 = ['', '', '--', '*', 's', '+']
+				self.pattern2 = ['', '--', '*', 's', '+']
 
 				for a in sys.argv[1:]:
 					self.path.append("/home/sourabh/Desktop/Sherry/exp" + a + "/time.txt")
@@ -103,7 +103,7 @@ class Plot():
 					mi = min(self.data[j][i])
 			
 				if('mx' in locals()):
-					mx = max(mx, max(self.data[j][i]) - 170)
+					mx = max(mx, max(self.data[j][i]))
 				else:
 					mx = max(self.data[j][i])
 
@@ -156,8 +156,8 @@ class Plot():
 					print("An error is occured")
 
 
-				p = self.pattern1[k] + self.pattern2[0]
-				plt.plot(range(len(data_plot) + 1)[1:], data_plot, p)
+				p = self.pattern1[k%6] + self.pattern2[int(k/6)]
+				plt.plot(range(len(data_plot) + 1)[1:], data_plot, p, label = sys.argv[2 + k])
 
 				if('mi' in locals()):
 					mi = min(mi, min(data_plot))
@@ -173,12 +173,13 @@ class Plot():
 		
 
 			plt.axis([0, len(data_plot), mi, mx])
+			plt.legend()
 			plt.show()
 
 		
 a = Plot()
 
-plots_dict = {1:1, 2:1, 3:1, 6:1, 7:1, 8:1, 11:2, 13:2, 21:2, 23:2, 101:1, 104:1, 116:1, 164:1, 165:1, 404:1, 416:1, 464:1, 465:1, 201:3, 202:4, 203:4, 204:3, 501:3, 502:4, 503:4, 601:3, 602:4, 603:4, 604:3, 801:5, 802:5, 1001:1, 1003:1}
+plots_dict = {1:1, 2:1, 3:1, 6:1, 7:1, 8:1, 11:2, 12:2, 13:2, 21:2, 22:2, 23:2, 101:1, 104:1, 116:1, 164:1, 165:1, 404:1, 416:1, 464:1, 465:1, 201:3, 202:4, 203:4, 204:3, 205:3, 501:3, 502:4, 503:4, 601:3, 602:4, 603:4, 604:3, 605:3, 801:5, 802:5, 1001:1, 1003:1}
 
 if(len(sys.argv) != 1 and sys.argv[1] == "same"):
 	a.plot_same(['Elapsed_Time'], plots_dict)
