@@ -8,13 +8,20 @@ class Plot():
 
 		#self.plots_all = [1, 2, 3, 6, 7, 8, 11, 12, 13, 21, 22, 23, 101, 104, 116, 164, 165, 404, 416, 464, 465, 201, 202, 203, 204, 205, 501, 502, 503, 601, 602, 603, 604, 605, 801, 802, 1001, 1003]
 
-		self.plots_all = [1, 3, 2, 11, 13, 12, 21, 23, 22, 8, 6, 7, 201, 204, 205, 601, 604, 605]
+		if(sys.argv[2] == '1'):
+			self.plots_all = [201, 204, 205, 601, 604, 605, 1, 3, 2, 11, 13, 12, 21, 23, 22, 8, 6, 7]
+			self.pattern1 = ['b+', 'g+', 'r+']
+		if(sys.argv[2] == '2'):
+			self.plots_all = [1, 3, 2, 11, 13, 12, 21, 23, 22, 8, 6, 7]
+			self.pattern1 = ['bs', 'gs', 'rs']
+		if(sys.argv[2] == '3'):
+			self.plots_all = [201, 204, 205, 601, 604, 605]
+			self.pattern1 = ['bo', 'go', 'ro']
 
 		if(len(sys.argv) != 1):
 			if(sys.argv[1] == "all"):
 				for a in self.plots_all:
 					self.path.append("/home/sourabh/Desktop/Sherry/exp" + str(a) + "/time.txt")
-				self.pattern1 = ['b', 'g', 'r']
 			else:
 				self.pattern1 = ['g', 'r', 'y', 'b', 'c', 'k']
 				self.pattern2 = ['', '--', '*', 's', '+']
@@ -131,7 +138,7 @@ class Plot():
 			points = []
 			
 			for l in range(3):
-				points.append([0])
+				points.append([])
 
 			for j in self.path:
 				data.clear()
@@ -173,14 +180,31 @@ class Plot():
 					print("An error is occured")
 
 				points[k%3].append(sum(data_plot)/len(data_plot))
+
+				if('mi' in locals()):
+					mi = min(mi, sum(data_plot)/len(data_plot))
+				else:
+					mi = sum(data_plot)/len(data_plot)
+			
+				if('mx' in locals()):
+					mx = max(mx, sum(data_plot)/len(data_plot))
+				else:
+					mx = sum(data_plot)/len(data_plot)
+
 				k = k + 1
 
-			for l in range(3):
-				points[l].append(0)
-			for l in range(3):
-				plt.plot(range(int(len(self.plots_all)/3) + 2), points[l], self.pattern1[l] + '+')
+			lab = ['Normal', 'Core 3 isolated', 'IRQ to core 3']
 
+			for l in range(3):
+				points[l].append(mi - 1)
+				points[l] = [mi - 1] + points[l]
+				plt.plot(range(int(len(self.plots_all)/3) + 2), points[l], self.pattern1[l], label = lab[l])
+
+			
+			plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3, ncol=3, mode="expand", borderaxespad=0.)
+			plt.savefig('pictures/plot_elapsed_time' + sys.argv[2])
 			plt.show()
+			plt.close()
 		
 a = Plot()
 

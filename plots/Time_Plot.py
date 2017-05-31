@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import sys
+import os
 
 class Plot():
 	def __init__(self):
@@ -191,6 +192,37 @@ class Plot():
 			plt.axis([0, len(data_plot), mi, mx])
 			plt.legend()
 			plt.show()
+
+
+	def plot_int2(self):
+		
+		result = {}
+
+		for k in self.path:
+			k = k[:-8]
+			result[k] = 0
+
+			exps = os.listdir(k)
+			for i in exps:
+				try:					
+					f = open(k + i + "/hdd_int.txt", "r")
+					lines = f.readlines()
+
+					intr1 = [int(lines[0].split()[int(0) + 1])]
+					intr2 = []
+
+					for i in lines:
+						if(i != "\n"):
+							intr1.append(int(i.split()[int(self.d['int_core']) + 1]))
+
+					for i in range(len(intr1)):
+						result[k] = result[k] + (intr1[i] - intr1[i-1])
+					
+				except:
+					print(k + i + "/hdd_int.txt" + " is not what you want")
+
+		print(result)
+		return result
 
 		
 a = Plot()

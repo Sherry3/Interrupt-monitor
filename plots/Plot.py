@@ -59,6 +59,14 @@ class Plot():
 		plt.title('HDD interrupts ' + self.exp)
 		plt.plot(range(len(intr2)), intr2, 'g+')
 		plt.axis([0, len(intr2), 0, max(intr2)])
+
+		'''
+		print("avg =", str(sum(intr2[100 : 600]) / 500))
+		print("min =", str(min(intr2[100 : 600])))
+		print("max =", str(max(intr2[100 : 600])))
+		print()
+		'''
+
 		plt.show()
 
 	def plot_memory(self):
