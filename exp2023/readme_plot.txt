@@ -1,4 +1,4 @@
-plot_int 2
+plot_int 3
 plot_disk false
 plot_core false
 plot_memory false
