@@ -6,14 +6,15 @@ class Plot():
 		self.path = []
 		self.data = {}
 
+		#self.plots_all = [1, 2, 3, 6, 7, 8, 11, 12, 13, 21, 22, 23, 101, 104, 116, 164, 165, 404, 416, 464, 465, 201, 202, 203, 204, 205, 501, 502, 503, 601, 602, 603, 604, 605, 801, 802, 1001, 1003]
+
+		self.plots_all = [1, 3, 2, 11, 13, 12, 21, 23, 22, 8, 6, 7, 201, 204, 205, 601, 604, 605]
+
 		if(len(sys.argv) != 1):
-			if(sys.argv[1] == "same"):
-				self.pattern1 = ['g', 'r', 'y', 'b', 'c', 'k']
-				self.pattern2 = ['', '--']
-
-				for a in sys.argv[2:]:
-					self.path.append("/home/sourabh/Desktop/Sherry/exp" + a + "/time.txt")
-
+			if(sys.argv[1] == "all"):
+				for a in self.plots_all:
+					self.path.append("/home/sourabh/Desktop/Sherry/exp" + str(a) + "/time.txt")
+				self.pattern1 = ['b', 'g', 'r']
 			else:
 				self.pattern1 = ['g', 'r', 'y', 'b', 'c', 'k']
 				self.pattern2 = ['', '--', '*', 's', '+']
@@ -77,27 +78,13 @@ class Plot():
 				data.clear()
 				for t in range(max(num_plots)):
 					data.append([])
-
-				'''
-				print('-------------------------------------')
-				print(len(self.data[j][i]) / num_plots[k])
-				print(self.data[j][i])
-				print('-------------------------------------')
-				'''
-			
+				#print(self.data[j][i])
 				for t in range(len(self.data[j][i])):
-					data[t%num_plots[k]].append(self.data[j][i][t])
+					if(t%max(num_plots) >= num_plots[k]):
+						data[t%max(num_plots)].append(0)
+					else:
+						data[t%num_plots[k]].append(self.data[j][i][t])
 
-				for z in range(num_plots[k], max(num_plots)):
-					for t in range(int(len(self.data[j][i]) / num_plots[k])):
-						data[z].append(0)
-
-				'''
-				for t in range(max(num_plots)):
-					print(len(data[t]))
-					print(data[t])
-					print()
-				'''
 
 				plt.subplot(row, col, k + 1)
 
@@ -131,67 +118,69 @@ class Plot():
 
 			plt.show()
 
-	def plot_same(self, attr, plots_dict):
+	def plot_all(self, attr, plots_dict):
 		num_plots = []
 
-		if(len(sys.argv) != 2):
-			for i in sys.argv[2:]:
-				num_plots.append(plots_dict[int(i)])
-		else:
-			for i in self.exp:
-				num_plots.append(plots_dict[int(i)])
+		for i in self.plots_all:
+			num_plots.append(plots_dict[int(i)])
 
-
-		for i in attr:
-			plt.title(i)
-			
+		for i in attr:	
 			k = 0
 			data = []
 			data_plot = []
+			points = []
+			
+			for l in range(3):
+				points.append([0])
 
 			for j in self.path:
 				data.clear()
 				data_plot.clear()
 				for t in range(max(num_plots)):
 					data.append([])
+
+				#print(self.data[j][i], end = "\n\n")
+
+				#print('-------------------------------------')
+				#print(len(self.data[j][i]) / num_plots[k])
 				#print(self.data[j][i])
-				for z in range(max(num_plots)):
-					if(z >= num_plots[k]):
-						for t in range(int(len(self.data[j][i]) / num_plots[k])):
-							data[z].append(0)
-					else:
-						for t in range(len(self.data[j][i])):
-							data[t%num_plots[k]].append(self.data[j][i][t])
+				#print('-------------------------------------')
+			
+				for t in range(len(self.data[j][i])):
+					data[t%num_plots[k]].append(self.data[j][i][t])
+
+				for z in range(num_plots[k], max(num_plots)):
+					for t in range(int(len(self.data[j][i]) / num_plots[k])):
+						data[z].append(0)
+
+				'''
+				for t in range(max(num_plots)):
+					print(len(data[t]))
+					print(data[t])
+					print()
+				'''
 
 				try:
 					for f in range(len(data[0])):
 						data_plot.append(0)
-						for t in range(min(num_plots)):
-							data_plot[f] = data_plot[f] + data[t][f]
+						if(num_plots[k] == 1 or num_plots[k] == 3):
+							for t in range(num_plots[k]):
+								data_plot[f] = data_plot[f] + data[t][f]
+						else:
+							for t in range(num_plots[k] - 1):
+								data_plot[f] = data_plot[f] + data[t][f]
 				except:
 					print("An error is occured")
 
-
-				p = self.pattern1[k%6] + self.pattern2[int(k/6)]
-				plt.plot(range(len(data_plot) + 1)[1:], data_plot, p, label = sys.argv[2 + k])
-
-				if('mi' in locals()):
-					mi = min(mi, min(data_plot))
-				else:
-					mi = min(data_plot)
-			
-				if('mx' in locals()):
-					mx = max(mx, max(data_plot))
-				else:
-					mx = max(data_plot)
-
+				points[k%3].append(sum(data_plot)/len(data_plot))
 				k = k + 1
-		
 
-			plt.axis([0, len(data_plot), mi, mx])
-			plt.legend()
+			for l in range(3):
+				points[l].append(0)
+			for l in range(3):
+				plt.plot(range(int(len(self.plots_all)/3) + 2), points[l], self.pattern1[l] + '+')
+
 			plt.show()
-
 		
 a = Plot()
 
@@ -199,6 +188,8 @@ plots_dict = {1:1, 2:1, 3:1, 6:1, 7:1, 8:1, 11:2, 12:2, 13:2, 21:2, 22:2, 23:2, 
 
 if(len(sys.argv) != 1 and sys.argv[1] == "same"):
 	a.plot_same(['Elapsed_Time'], plots_dict)
+elif(len(sys.argv) != 1 and sys.argv[1] == "all"):
+	a.plot_all(['Elapsed_Time'], plots_dict)
 else:
 	a.plot(['Elapsed_Time'], plots_dict)
 
