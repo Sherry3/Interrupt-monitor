@@ -17,7 +17,7 @@ exp204, exp604, exp11, exp13, exp21, exp23 completed
 
 exp12, exp22, exp205, exp605 completed
 
-Project closed
+exp2001, exp2003 running
 -------------------------------------------------------
 Versions:-
 
@@ -60,6 +60,8 @@ Versions:-
 	- 12, 22 running
 
 8.1	- 12, 22, 205, 605 completed
+
+9.0	- 2001, 2003 running
 -------------------------------------------------------
 
 exp1	- irqbalance off
@@ -215,4 +217,11 @@ exp1001	- irqbalance off
 exp1003	- irqbalance off
 	- all interrupts to core 3 
 	- small files to usb
+
+exp1	- irqbalance off
+	- big files, hdd to hdd
+ 
+exp3	- irqbalance off
+	- all interrupts to core 3 
+	- big files, hdd to hdd
 

@@ -218,13 +218,19 @@ class Monitor:
 					self.log_file.write("Reached stress2" + self.d['stress2'] + "\n")
 					self.log_file.write("Executing "+ cmd2 + "&\n")
 
+
+				if(self.d['stress2'] == 'hdd_big_files'):
+					cmd2 = cmd2 + ' cp /home/sourabh/Desktop/big_files/* /home/sourabh/Desktop/' + self.d['stress2']
+					os.system(cmd2 + "&")
+					self.log_file.write("Reached stress2" + self.d['stress2'] + "\n")
+					self.log_file.write("Executing "+ cmd2 + "&\n")
+
 				if(self.d['stress2'] == 'multiple_big_files'):
 					for i in range(3):
 						cmd_temp = cmd2 + ' cp /media/sourabh/SHERRY/Big/' + str(i + 1) + '.mkv /home/sourabh/Desktop/' + self.d['stress2']
 						os.system(cmd_temp + "&")
 						self.log_file.write("Reached stress2" + self.d['stress2'] + "\n")
 						self.log_file.write("Executing "+ cmd_temp + "&\n")
-
 
 			start = timer()
 
