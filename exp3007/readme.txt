@@ -6,7 +6,7 @@ other_irqs 08
 hdd_irqs 08 
 b_disk_rw false 
 work_delay 100 
-copy_time 900 
+copy_time 360 
 after_copy_time 200 
 taskset false 
 taskset_affinity 0x00 
