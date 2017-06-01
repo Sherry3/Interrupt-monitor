@@ -13,7 +13,7 @@ class Plot():
 			self.pattern1 = ['bs', 'gs', 'rs']
 		if(sys.argv[2] == '2'):
 			self.plots_all = [1, 3, 2, 11, 13, 12, 21, 23, 22, 8, 6, 7]
-			self.pattern1 = ['bs', 'rs', 'gs']
+			self.pattern1 = ['bs', 'gs', 'rs']
 		if(sys.argv[2] == '3'):
 			self.plots_all = [201, 204, 205, 601, 604, 605]
 			self.pattern1 = ['bs', 'gs', 'rs']

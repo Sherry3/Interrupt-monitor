@@ -86,6 +86,11 @@ class Monitor:
 			self.log_file.write("Removing " + self.d['stress2'] + " started --- ")
 			#os.system("ls /home/sourabh/Desktop/" + self.d['stress2'] + " >> /home/sourabh/Desktop/Sherry/log.txt")
 			os.system("sudo rm -rf /media/sourabh/SHERRY/*")
+
+		elif(self.d['stress2'] == "hdd_big_files"):
+			self.log_file.write("Removing " + self.d['stress2'] + " started --- ")
+			#os.system("ls /home/sourabh/Desktop/" + self.d['stress2'] + " >> /home/sourabh/Desktop/Sherry/log.txt")
+			os.system("rm -rf /home/sourabh/Desktop/big_files/*')
 			self.log_file.write("Removing " + self.d['stress2'] + " stopped\n")
 
 		elif(self.d['stress2'] != "false"):
@@ -224,7 +229,7 @@ class Monitor:
 
 
 				if(self.d['stress2'] == 'hdd_big_files'):
-					cmd2 = cmd2 + ' cp /home/sourabh/Desktop/big_files/* /home/sourabh/Desktop/' + self.d['stress2']
+					cmd2 = cmd2 + ' cp /home/sourabh/Desktop/' + self.d['stress2'] + '/* /home/sourabh/Desktop/big_files'
 					os.system(cmd2 + "&")
 					self.log_file.write("Reached stress2" + self.d['stress2'] + "\n")
 					self.log_file.write("Executing "+ cmd2 + "&\n")

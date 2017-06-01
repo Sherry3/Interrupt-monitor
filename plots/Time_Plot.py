@@ -9,14 +9,14 @@ class Plot():
 
 		if(len(sys.argv) != 1):
 			if(sys.argv[1] == "same"):
-				self.pattern1 = ['g', 'r', 'y', 'b', 'c', 'k']
+				self.pattern1 = ['b', 'r', 'g', 'y', 'c', 'k']
 				self.pattern2 = ['', '--']
 
 				for a in sys.argv[2:]:
 					self.path.append("/home/sourabh/Desktop/Sherry/exp" + a + "/time.txt")
 
 			else:
-				self.pattern1 = ['g', 'r', 'y', 'b', 'c', 'k']
+				self.pattern1 = ['b', 'r', 'g', 'y', 'c', 'k']
 				self.pattern2 = ['', '--', '*', 's', '+']
 
 				for a in sys.argv[1:]:
@@ -127,11 +127,11 @@ class Plot():
 			k = 0
 			for j in self.path:
 				plt.subplot(row, col, k + 1)
-				plt.axis([0, len(data[0]), mi, mx - 180])
+				plt.axis([0, len(data[0]), mi, mx])
 				k = k + 1
 
 			plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3, ncol=3, mode="expand", borderaxespad=0.)
-			#plt.savefig('pictures/plot_elapsed_time' + str(sys.argv[1:]))
+			plt.savefig('pictures/plot_elapsed_time' + str(sys.argv[1:]))
 			plt.show()
 			plt.close()		
 
@@ -158,23 +158,26 @@ class Plot():
 				data_plot.clear()
 				for t in range(max(num_plots)):
 					data.append([])
+
 				#print(self.data[j][i])
-				for z in range(max(num_plots)):
-					if(z >= num_plots[k]):
-						for t in range(int(len(self.data[j][i]) / num_plots[k])):
-							data[z].append(0)
+				for t in range(len(self.data[j][i])):
+					if(t%max(num_plots) >= num_plots[k]):
+						data[t%max(num_plots)].append(0)
 					else:
-						for t in range(len(self.data[j][i])):
-							data[t%num_plots[k]].append(self.data[j][i][t])
+						data[t%num_plots[k]].append(self.data[j][i][t])
 
 				try:
 					for f in range(len(data[0])):
 						data_plot.append(0)
-						for t in range(max(num_plots)):
-							data_plot[f] = data_plot[f] + data[t][f]
+						if(num_plots[k] == 1):
+							data_plot[f] = data[0][f]
+						elif(num_plots[k] == 3):
+							data_plot[f] = data[2][f]
+						else:
+							data_plot[f] = data[num_plots[k] - 2][f]
+							
 				except:
 					print("An error is occured")
-
 
 				p = self.pattern1[k%6] + self.pattern2[int(k/6)]
 				plt.plot(range(len(data_plot) + 1)[1:], data_plot, p, label = sys.argv[2 + k])
@@ -193,7 +196,7 @@ class Plot():
 		
 
 			plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3, ncol=3, mode="expand", borderaxespad=0.)
-			#plt.savefig('pictures/plot_elapsed_time' + str(sys.argv[2:]))
+			plt.savefig('pictures/plot_elapsed_time' + str(sys.argv[2:]))
 			plt.show()
 			plt.close()		
 
