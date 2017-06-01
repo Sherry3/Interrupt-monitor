@@ -17,7 +17,8 @@ exp204, exp604, exp11, exp13, exp21, exp23 completed
 
 exp12, exp22, exp205, exp605 completed
 
-exp2001, exp2003 running
+exp2001, exp2003, exp2006, exp2008, exp2011, exp2013, exp2021, exp2023 completed
+exp3001, exp3003, exp3006, exp3008, exp3011, exp3013, exp3021, exp3023 running
 -------------------------------------------------------
 Versions:-
 
@@ -61,7 +62,8 @@ Versions:-
 
 8.1	- 12, 22, 205, 605 completed
 
-9.0	- 2001, 2003 running
+9.0	- 2001, 2003, 2006, 2008, 2011, 2013, 2021, 2023 completed
+	- 3001, 3003, 3006, 3008, 3011, 3013, 3021, 3023 running
 -------------------------------------------------------
 
 exp1	- irqbalance off
@@ -124,6 +126,10 @@ exp8	- irqbalance off
 	- big files
  
 exp5[x]	- Similar to exp[x] with small_files
+
+exp[2000]	- Similar to exp[x] with hdd_to_hdd
+
+exp[3000]	- Similar to exp[x] with underclock
 
 exp101	- 1G of stress on harddisk
 
@@ -218,10 +224,4 @@ exp1003	- irqbalance off
 	- all interrupts to core 3 
 	- small files to usb
 
-exp1	- irqbalance off
-	- big files, hdd to hdd
- 
-exp3	- irqbalance off
-	- all interrupts to core 3 
-	- big files, hdd to hdd
 

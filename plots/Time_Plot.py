@@ -127,10 +127,13 @@ class Plot():
 			k = 0
 			for j in self.path:
 				plt.subplot(row, col, k + 1)
-				plt.axis([0, len(data[0]), mi, mx])
+				plt.axis([0, len(data[0]), mi, mx - 180])
 				k = k + 1
 
+			plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3, ncol=3, mode="expand", borderaxespad=0.)
+			#plt.savefig('pictures/plot_elapsed_time' + str(sys.argv[1:]))
 			plt.show()
+			plt.close()		
 
 	def plot_same(self, attr, plots_dict):
 		num_plots = []
@@ -167,7 +170,7 @@ class Plot():
 				try:
 					for f in range(len(data[0])):
 						data_plot.append(0)
-						for t in range(min(num_plots)):
+						for t in range(max(num_plots)):
 							data_plot[f] = data_plot[f] + data[t][f]
 				except:
 					print("An error is occured")
@@ -189,10 +192,10 @@ class Plot():
 				k = k + 1
 		
 
-			plt.axis([0, len(data_plot), mi, mx])
-			plt.legend()
+			plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3, ncol=3, mode="expand", borderaxespad=0.)
+			#plt.savefig('pictures/plot_elapsed_time' + str(sys.argv[2:]))
 			plt.show()
-
+			plt.close()		
 
 	def plot_int2(self):
 		

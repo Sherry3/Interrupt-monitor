@@ -10,13 +10,13 @@ class Plot():
 
 		if(sys.argv[2] == '1'):
 			self.plots_all = [201, 204, 205, 601, 604, 605, 1, 3, 2, 11, 13, 12, 21, 23, 22, 8, 6, 7]
-			self.pattern1 = ['b+', 'g+', 'r+']
+			self.pattern1 = ['bs', 'gs', 'rs']
 		if(sys.argv[2] == '2'):
 			self.plots_all = [1, 3, 2, 11, 13, 12, 21, 23, 22, 8, 6, 7]
-			self.pattern1 = ['bs', 'gs', 'rs']
+			self.pattern1 = ['bs', 'rs', 'gs']
 		if(sys.argv[2] == '3'):
 			self.plots_all = [201, 204, 205, 601, 604, 605]
-			self.pattern1 = ['bo', 'go', 'ro']
+			self.pattern1 = ['bs', 'gs', 'rs']
 
 		if(len(sys.argv) != 1):
 			if(sys.argv[1] == "all"):
@@ -170,12 +170,13 @@ class Plot():
 				try:
 					for f in range(len(data[0])):
 						data_plot.append(0)
-						if(num_plots[k] == 1 or num_plots[k] == 3):
-							for t in range(num_plots[k]):
-								data_plot[f] = data_plot[f] + data[t][f]
+						if(num_plots[k] == 1):
+							data_plot[f] = data_plot[f] + data[0][f]
+						elif(num_plots[k] == 3):
+							data_plot[f] = data_plot[f] + data[2][f]
 						else:
-							for t in range(num_plots[k] - 1):
-								data_plot[f] = data_plot[f] + data[t][f]
+							data_plot[f] = data_plot[f] + data[num_plots[k] - 2][f]
+							
 				except:
 					print("An error is occured")
 
@@ -193,13 +194,14 @@ class Plot():
 
 				k = k + 1
 
-			lab = ['Normal', 'Core 3 isolated', 'IRQ to core 3']
+			lab = ['Normal', 'IRQ to core 3', 'Core 3 isolated']
 
 			for l in range(3):
 				points[l].append(mi - 1)
 				points[l] = [mi - 1] + points[l]
 				plt.plot(range(int(len(self.plots_all)/3) + 2), points[l], self.pattern1[l], label = lab[l])
-
+				plt.plot(range(1, int(len(self.plots_all)/3) + 1), points[l][1:-1], self.pattern1[l][0])
+ 
 			
 			plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3, ncol=3, mode="expand", borderaxespad=0.)
 			plt.savefig('pictures/plot_elapsed_time' + sys.argv[2])
