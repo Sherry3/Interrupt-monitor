@@ -40,7 +40,6 @@ class Monitor:
 		ffr.close()
 		#Experiment number
 		
-		print('yo')		
 
 		#if(self.path[-1] != '/'):
 		#	self.path = self.path + '/'
