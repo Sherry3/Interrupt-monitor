@@ -18,7 +18,10 @@ exp204, exp604, exp11, exp13, exp21, exp23 completed
 exp12, exp22, exp205, exp605 completed
 
 exp2001, exp2003, exp2006, exp2008, exp2011, exp2013, exp2021, exp2023 completed
-exp3001, exp3003, exp3006, exp3008, exp3011, exp3013, exp3021, exp3023 running
+
+exp3001, exp3003, exp3006, exp3008, exp3011, exp3013, exp3021, exp3023 completed
+
+exp3002, exp3007 exp3012, exp3022 running
 -------------------------------------------------------
 Versions:-
 
@@ -64,6 +67,9 @@ Versions:-
 
 9.0	- 2001, 2003, 2006, 2008, 2011, 2013, 2021, 2023 completed
 	- 3001, 3003, 3006, 3008, 3011, 3013, 3021, 3023 running
+
+9.1 	- 3001, 3003, 3006, 3008, 3011, 3013, 3021, 3023 completed
+	- 3002, 3007, 3012, 3022 running
 -------------------------------------------------------
 
 exp1	- irqbalance off
