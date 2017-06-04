@@ -142,31 +142,6 @@ Context_Switch_Forced 1063
 Context_Switch 6
 
 
-Command exited with non-zero status 1
-Elapsed_Time 0.05
-Kernel_Time 0.00
-User_Time 0.00
-Major_Page_Faults 2
-Minor_Page_Faults 118
-Maximum_Resident_Set_Size 2440
-CPU 0%
-Swapped_Out_From_Main_Memory 0
-Context_Switch_Forced 3
-Context_Switch 4
-
-
-Elapsed_Time 500.03
-Kernel_Time 0.00
-User_Time 499.90
-Major_Page_Faults 1
-Minor_Page_Faults 111
-Maximum_Resident_Set_Size 1688
-CPU 99%
-Swapped_Out_From_Main_Memory 0
-Context_Switch_Forced 506
-Context_Switch 6
-
-
 Elapsed_Time 301.58
 Kernel_Time 17.58
 User_Time 0.13
@@ -308,31 +283,6 @@ Maximum_Resident_Set_Size 1744
 CPU 99%
 Swapped_Out_From_Main_Memory 0
 Context_Switch_Forced 571
-Context_Switch 6
-
-
-Command exited with non-zero status 1
-Elapsed_Time 0.05
-Kernel_Time 0.00
-User_Time 0.00
-Major_Page_Faults 2
-Minor_Page_Faults 116
-Maximum_Resident_Set_Size 2420
-CPU 0%
-Swapped_Out_From_Main_Memory 0
-Context_Switch_Forced 1
-Context_Switch 4
-
-
-Elapsed_Time 500.03
-Kernel_Time 0.00
-User_Time 499.96
-Major_Page_Faults 1
-Minor_Page_Faults 115
-Maximum_Resident_Set_Size 1836
-CPU 99%
-Swapped_Out_From_Main_Memory 0
-Context_Switch_Forced 208
 Context_Switch 6
 
 
