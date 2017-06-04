@@ -326,7 +326,7 @@ class Plot():
 		
 
 			plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3, ncol=3, mode="expand", borderaxespad=0.)
-			plt.savefig('pictures/plot_elapsed_time' + str(sys.argv[2:]))
+			plt.savefig('pictures/plot_elapsed_time' + str(sys.argv[1:]))
 			plt.show()
 			plt.close()		
 
