@@ -154,19 +154,6 @@ Context_Switch_Forced 51
 Context_Switch 21941
 
 
-Command exited with non-zero status 1
-Elapsed_Time 0.03
-Kernel_Time 0.00
-User_Time 0.00
-Major_Page_Faults 1
-Minor_Page_Faults 80
-Maximum_Resident_Set_Size 1632
-CPU 0%
-Swapped_Out_From_Main_Memory 0
-Context_Switch_Forced 1
-Context_Switch 2
-
-
 Elapsed_Time 291.36
 Kernel_Time 18.46
 User_Time 0.15
@@ -177,19 +164,6 @@ CPU 6%
 Swapped_Out_From_Main_Memory 0
 Context_Switch_Forced 32
 Context_Switch 21960
-
-
-Command exited with non-zero status 1
-Elapsed_Time 0.03
-Kernel_Time 0.00
-User_Time 0.00
-Major_Page_Faults 1
-Minor_Page_Faults 83
-Maximum_Resident_Set_Size 1792
-CPU 0%
-Swapped_Out_From_Main_Memory 0
-Context_Switch_Forced 1
-Context_Switch 2
 
 
 Elapsed_Time 311.00
@@ -204,19 +178,6 @@ Context_Switch_Forced 46
 Context_Switch 21956
 
 
-Command exited with non-zero status 1
-Elapsed_Time 0.03
-Kernel_Time 0.00
-User_Time 0.00
-Major_Page_Faults 1
-Minor_Page_Faults 82
-Maximum_Resident_Set_Size 1788
-CPU 0%
-Swapped_Out_From_Main_Memory 0
-Context_Switch_Forced 1
-Context_Switch 3
-
-
 Elapsed_Time 290.79
 Kernel_Time 18.52
 User_Time 0.14
@@ -227,19 +188,6 @@ CPU 6%
 Swapped_Out_From_Main_Memory 0
 Context_Switch_Forced 38
 Context_Switch 21944
-
-
-Command exited with non-zero status 1
-Elapsed_Time 0.03
-Kernel_Time 0.00
-User_Time 0.00
-Major_Page_Faults 1
-Minor_Page_Faults 84
-Maximum_Resident_Set_Size 1700
-CPU 0%
-Swapped_Out_From_Main_Memory 0
-Context_Switch_Forced 1
-Context_Switch 3
 
 
 Elapsed_Time 295.97
@@ -254,19 +202,6 @@ Context_Switch_Forced 29
 Context_Switch 21947
 
 
-Command exited with non-zero status 1
-Elapsed_Time 0.03
-Kernel_Time 0.00
-User_Time 0.00
-Major_Page_Faults 1
-Minor_Page_Faults 82
-Maximum_Resident_Set_Size 1692
-CPU 0%
-Swapped_Out_From_Main_Memory 0
-Context_Switch_Forced 1
-Context_Switch 3
-
-
 Elapsed_Time 297.08
 Kernel_Time 18.47
 User_Time 0.17
@@ -277,19 +212,6 @@ CPU 6%
 Swapped_Out_From_Main_Memory 0
 Context_Switch_Forced 28
 Context_Switch 21944
-
-
-Command exited with non-zero status 1
-Elapsed_Time 0.03
-Kernel_Time 0.00
-User_Time 0.00
-Major_Page_Faults 1
-Minor_Page_Faults 83
-Maximum_Resident_Set_Size 1792
-CPU 0%
-Swapped_Out_From_Main_Memory 0
-Context_Switch_Forced 1
-Context_Switch 2
 
 
 Elapsed_Time 298.76

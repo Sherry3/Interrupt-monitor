@@ -22,6 +22,8 @@ exp2001, exp2003, exp2006, exp2008, exp2011, exp2013, exp2021, exp2023 completed
 exp3001, exp3003, exp3006, exp3008, exp3011, exp3013, exp3021, exp3023 completed
 
 exp3002, exp3007 exp3012, exp3022, exp2002, exp2007 exp2012, exp2022 completed
+
+exp2302, exp2307, exp2312, exp2322 running 
 -------------------------------------------------------
 Versions:-
 
@@ -71,6 +73,8 @@ Versions:-
 9.1 	- 3001, 3003, 3006, 3008, 3011, 3013, 3021, 3023 completed
 	- 3002, 3007, 3012, 3022, 2002, 2007, 2012, 2022 completed
 	- Time_Plot.py merged with Histogram.py
+
+10.0	- 2302, 2307, 2312, 2322 running 
 -------------------------------------------------------
 
 exp1	- irqbalance off
@@ -135,6 +139,8 @@ exp8	- irqbalance off
 exp5[x]	- Similar to exp[x] with small_files
 
 exp[2000]	- Similar to exp[x] with hdd_to_hdd
+
+exp[2300]	- Similar to exp[x] with underclock and hdd_to_hdd
 
 exp[3000]	- Similar to exp[x] with underclock
 

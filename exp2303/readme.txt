@@ -1,9 +1,9 @@
 data 6GB 
 irq_balance false 
-isolated 3 
-b_smp_affinity false 
-other_irqs 00 
-hdd_irqs 00 
+isolated false 
+b_smp_affinity true 
+other_irqs 08 
+hdd_irqs 08 
 b_disk_rw false 
 work_delay 60 
 copy_time 300 
@@ -21,6 +21,7 @@ stress_memory false
 memory_workers 0 
 memory_size 0 
 stress_period 0 
+cpu_freq true 
 b_memory true 
 b_core true 
 b_disk true 

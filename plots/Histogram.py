@@ -29,7 +29,7 @@ class Plot():
 				for a in self.plots_all:
 					self.path.append("/home/sourabh/Desktop/Sherry/exp" + str(a) + "/time.txt")
 
-			elif(sys.argv[1] == "same"):
+			elif(sys.argv[1] == "same" or sys.argv[1] == "mul"):
 				self.pattern1 = ['b', 'r', 'g', 'y', 'c', 'k']
 				self.pattern2 = ['', '--']
 
