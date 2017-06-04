@@ -178,7 +178,7 @@ class Plot():
 		col = int(input("cols : "))
 
 		if(len(sys.argv) != 1):
-			for i in sys.argv[1:]:
+			for i in sys.argv[2:]:
 				num_plots.append(plots_dict[int(i)])
 		else:
 			for i in self.exp:
@@ -222,7 +222,7 @@ class Plot():
 				plt.subplot(row, col, k + 1)
 
 				if(len(sys.argv) != 1):
-					plt.title(i + ' ' + sys.argv[1 + k])
+					plt.title(i + ' ' + sys.argv[2 + k])
 				else:
 					plt.title(i + ' ' + self.exp[k])
 
@@ -330,69 +330,6 @@ class Plot():
 			plt.show()
 			plt.close()		
 
-	def plot_mul(self, attr, plots_dict):
-	
-		num_plots = []
-
-		row = int(input("rows : "))
-		col = int(input("cols : "))
-
-		if(len(sys.argv) != 1):
-			for i in sys.argv[1:]:
-				num_plots.append(plots_dict[int(i)])
-		else:
-			for i in self.exp:
-				num_plots.append(plots_dict[int(i)])
-
-		for i in attr:
-			plt.title(i)
-			
-			k = 0
-			data = []
-
-			for j in self.path:
-				data.clear()
-				for t in range(max(num_plots)):
-					data.append([])
-				#print(self.data[j][i])
-				for t in range(len(self.data[j][i])):
-					if(t%max(num_plots) >= num_plots[k]):
-						data[t%max(num_plots)].append(0)
-					else:
-						data[t%num_plots[k]].append(self.data[j][i][t])
-
-
-				plt.subplot(row, col, k + 1)
-
-				if(len(sys.argv) != 1):
-					plt.title(i + ' ' + sys.argv[1 + k])
-				else:
-					plt.title(i + ' ' + self.exp[k])
-
-				for t in range(max(num_plots)):
-					#print(data[t])
-					p = self.pattern1[k] + self.pattern2[t]
-					plt.plot(range(len(data[t]) + 1)[1:], data[t], p)
-
-				if('mi' in locals()):
-					mi = min(mi, min(self.data[j][i]))
-				else:
-					mi = min(self.data[j][i])
-			
-				if('mx' in locals()):
-					mx = max(mx, max(self.data[j][i]))
-				else:
-					mx = max(self.data[j][i])
-
-				k = k + 1
-		
-			k = 0
-			for j in self.path:
-				plt.subplot(row, col, k + 1)
-				plt.axis([0, len(data[0]), mi, mx])
-				k = k + 1
-
-			plt.show()
 
 	def plot_all(self, attr, plots_dict):
 		num_plots = []
@@ -513,6 +450,8 @@ plots_dict = {1:1, 2:1, 3:1, 6:1, 7:1, 8:1, 11:2, 12:2, 13:2, 21:2, 22:2, 23:2, 
 
 if(len(sys.argv) != 1 and sys.argv[1] == "same"):
 	a.plot_same(['Elapsed_Time'], plots_dict)
+elif(len(sys.argv) != 1 and sys.argv[1] == "mul"):
+	a.plot_mul(['Elapsed_Time'], plots_dict)
 elif(len(sys.argv) != 1 and sys.argv[1] == "all"):
 	a.plot_all(['Elapsed_Time'], plots_dict)
 elif(len(sys.argv) != 1 and sys.argv[1] == "hist"):
