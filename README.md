@@ -23,7 +23,9 @@ exp3001, exp3003, exp3006, exp3008, exp3011, exp3013, exp3021, exp3023 completed
 
 exp3002, exp3007 exp3012, exp3022, exp2002, exp2007 exp2012, exp2022 completed
 
-exp2302, exp2307, exp2312, exp2322 running 
+exp2302, exp2307, exp2312, exp2322 completed
+
+exp2301, exp2303, exp2306, exp2308, exp2311, exp2313, exp2321, exp2323 completed
 -------------------------------------------------------
 Versions:-
 
@@ -74,7 +76,8 @@ Versions:-
 	- 3002, 3007, 3012, 3022, 2002, 2007, 2012, 2022 completed
 	- Time_Plot.py merged with Histogram.py
 
-10.0	- 2302, 2307, 2312, 2322 running 
+10.0	- 2302, 2307, 2312, 2322 completed
+	- 2301, 2303, 2306, 2308, 2311, 2313, 2321, 2323 running 
 -------------------------------------------------------
 
 exp1	- irqbalance off
