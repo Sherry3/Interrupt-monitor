@@ -81,8 +81,10 @@ Versions:-
 
 10.1	- Gone through each readme file to find errors
 	- 3008, 8 was wrong
-	- 3008, 8 deleted, running again
+	- 3008, 8 deleted
+	- 3008, 8 completed
 	- 2002, 2302 was wrong, deleted
+	- 2002, 2302 running
 -------------------------------------------------------
 
 exp1	- irqbalance off

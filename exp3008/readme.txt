@@ -7,7 +7,7 @@ hdd_irqs 00
 b_disk_rw false 
 work_delay 100 
 copy_time 360 
-after_copy_time 300 
+after_copy_time 200 
 taskset false 
 taskset_affinity 0x00 
 stress1 true 
