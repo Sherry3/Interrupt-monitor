@@ -7,7 +7,7 @@ hdd_irqs 00
 b_disk_rw false 
 work_delay 100 
 copy_time 360 
-after_copy_time 200 
+after_copy_time 300 
 taskset false 
 taskset_affinity 0x00 
 stress1 true 
@@ -16,11 +16,11 @@ stress_disk false
 disk_workers 0 
 disk_size 0 
 stress_cores true 
-core_workers 4 
+core_workers 8 
 stress_memory false 
 memory_workers 0 
 memory_size 0 
-stress_period 0 
+stress_period 500 
 cpu_freq true 
 b_memory true 
 b_core true 
