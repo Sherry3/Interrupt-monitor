@@ -190,3 +190,27 @@ Context_Switch_Forced 29
 Context_Switch 21791
 
 
+Elapsed_Time 235.96
+Kernel_Time 18.18
+User_Time 0.18
+Major_Page_Faults 1
+Minor_Page_Faults 130
+Maximum_Resident_Set_Size 2424
+CPU 7%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 45
+Context_Switch 21813
+
+
+Elapsed_Time 236.91
+Kernel_Time 18.62
+User_Time 0.13
+Major_Page_Faults 1
+Minor_Page_Faults 130
+Maximum_Resident_Set_Size 2412
+CPU 7%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 34
+Context_Switch 21853
+
+

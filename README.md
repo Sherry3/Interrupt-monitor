@@ -77,7 +77,7 @@ Versions:-
 	- Time_Plot.py merged with Histogram.py
 
 10.0	- 2302, 2307, 2312, 2322 completed
-	- 2301, 2303, 2306, 2308, 2311, 2313, 2321, 2323 running 
+	- 2301, 2303, 2306, 2308, 2311, 2313, 2321, 2323 completed
 -------------------------------------------------------
 
 exp1	- irqbalance off
