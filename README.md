@@ -26,6 +26,8 @@ exp3002, exp3007 exp3012, exp3022, exp2002, exp2007 exp2012, exp2022 completed
 exp2302, exp2307, exp2312, exp2322 completed
 
 exp2301, exp2303, exp2306, exp2308, exp2311, exp2313, exp2321, exp2323 completed
+
+200 and 600 series running without isolation
 -------------------------------------------------------
 Versions:-
 
@@ -84,6 +86,7 @@ Versions:-
 	- 3008, 8 completed
 	- 2002, 2302 was wrong, deleted
 	- 2002, 2302 completd
+	- 200 and 600 series running without isolation
 -------------------------------------------------------
 
 exp1	- irqbalance off
@@ -191,15 +194,6 @@ exp205	- irqbalance off
 	- all interrupts to core 3 
 	- isolated core 3
 
-exp501	- irqbalance off
-	- multiple big files
-	- cpu_frequency(didn't worked)
-
-exp502	- irqbalance off
-	- multiple big files
-	- stress 10 cores
-	- cpu_frequency(didn't worked)
-
 exp503	- irqbalance off
 	- multiple big files
 	- stress 50 cores
@@ -238,12 +232,4 @@ exp802	- irqbalance off
 	- multiple big files(4)
 	- stress 10 cores
 	- cpu_frequency(worked)
-
-exp1001	- irqbalance off
-	- small files to usb
- 
-exp1003	- irqbalance off
-	- all interrupts to core 3 
-	- small files to usb
-
 
