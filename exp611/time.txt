@@ -1,0 +1,720 @@
+Elapsed_Time 152.47
+Kernel_Time 3.51
+User_Time 0.02
+Major_Page_Faults 1
+Minor_Page_Faults 131
+Maximum_Resident_Set_Size 2528
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 940
+Context_Switch 4343
+
+
+Elapsed_Time 166.48
+Kernel_Time 3.56
+User_Time 0.02
+Major_Page_Faults 0
+Minor_Page_Faults 128
+Maximum_Resident_Set_Size 2424
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 1064
+Context_Switch 4393
+
+
+Elapsed_Time 291.12
+Kernel_Time 10.53
+User_Time 0.02
+Major_Page_Faults 0
+Minor_Page_Faults 130
+Maximum_Resident_Set_Size 2404
+CPU 3%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 1231
+Context_Switch 13296
+
+
+Elapsed_Time 500.05
+Kernel_Time 0.00
+User_Time 499.93
+Major_Page_Faults 1
+Minor_Page_Faults 111
+Maximum_Resident_Set_Size 1740
+CPU 99%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 313
+Context_Switch 6
+
+
+Elapsed_Time 164.38
+Kernel_Time 3.30
+User_Time 0.03
+Major_Page_Faults 0
+Minor_Page_Faults 130
+Maximum_Resident_Set_Size 2412
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 87
+Context_Switch 4339
+
+
+Elapsed_Time 166.97
+Kernel_Time 3.32
+User_Time 0.00
+Major_Page_Faults 1
+Minor_Page_Faults 126
+Maximum_Resident_Set_Size 2376
+CPU 1%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 87
+Context_Switch 4344
+
+
+Elapsed_Time 291.12
+Kernel_Time 10.21
+User_Time 0.07
+Major_Page_Faults 1
+Minor_Page_Faults 126
+Maximum_Resident_Set_Size 2424
+CPU 3%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 180
+Context_Switch 13273
+
+
+Elapsed_Time 500.03
+Kernel_Time 0.58
+User_Time 499.33
+Major_Page_Faults 1
+Minor_Page_Faults 112
+Maximum_Resident_Set_Size 1792
+CPU 99%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 1076
+Context_Switch 6
+
+
+Elapsed_Time 161.59
+Kernel_Time 3.70
+User_Time 0.02
+Major_Page_Faults 1
+Minor_Page_Faults 130
+Maximum_Resident_Set_Size 2412
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 1228
+Context_Switch 4342
+
+
+Elapsed_Time 162.52
+Kernel_Time 3.74
+User_Time 0.01
+Major_Page_Faults 1
+Minor_Page_Faults 130
+Maximum_Resident_Set_Size 2460
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 1236
+Context_Switch 4359
+
+
+Elapsed_Time 282.32
+Kernel_Time 10.84
+User_Time 0.05
+Major_Page_Faults 1
+Minor_Page_Faults 129
+Maximum_Resident_Set_Size 2412
+CPU 3%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 1568
+Context_Switch 13259
+
+
+Elapsed_Time 500.03
+Kernel_Time 0.74
+User_Time 499.21
+Major_Page_Faults 1
+Minor_Page_Faults 109
+Maximum_Resident_Set_Size 1792
+CPU 99%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 907
+Context_Switch 6
+
+
+Elapsed_Time 163.38
+Kernel_Time 3.33
+User_Time 0.01
+Major_Page_Faults 1
+Minor_Page_Faults 130
+Maximum_Resident_Set_Size 2384
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 64
+Context_Switch 4340
+
+
+Elapsed_Time 163.42
+Kernel_Time 3.32
+User_Time 0.02
+Major_Page_Faults 1
+Minor_Page_Faults 130
+Maximum_Resident_Set_Size 2408
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 101
+Context_Switch 4345
+
+
+Elapsed_Time 288.98
+Kernel_Time 10.35
+User_Time 0.08
+Major_Page_Faults 1
+Minor_Page_Faults 129
+Maximum_Resident_Set_Size 2416
+CPU 3%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 253
+Context_Switch 13291
+
+
+Elapsed_Time 500.03
+Kernel_Time 0.27
+User_Time 499.70
+Major_Page_Faults 1
+Minor_Page_Faults 114
+Maximum_Resident_Set_Size 1848
+CPU 99%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 527
+Context_Switch 6
+
+
+Elapsed_Time 162.25
+Kernel_Time 3.77
+User_Time 0.02
+Major_Page_Faults 1
+Minor_Page_Faults 131
+Maximum_Resident_Set_Size 2492
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 869
+Context_Switch 4354
+
+
+Elapsed_Time 167.78
+Kernel_Time 3.76
+User_Time 0.00
+Major_Page_Faults 0
+Minor_Page_Faults 131
+Maximum_Resident_Set_Size 2360
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 883
+Context_Switch 4348
+
+
+Elapsed_Time 286.93
+Kernel_Time 11.62
+User_Time 0.09
+Major_Page_Faults 0
+Minor_Page_Faults 134
+Maximum_Resident_Set_Size 2532
+CPU 4%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 905
+Context_Switch 13292
+
+
+Elapsed_Time 500.05
+Kernel_Time 0.10
+User_Time 499.84
+Major_Page_Faults 1
+Minor_Page_Faults 110
+Maximum_Resident_Set_Size 1788
+CPU 99%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 328
+Context_Switch 6
+
+
+Elapsed_Time 164.23
+Kernel_Time 3.59
+User_Time 0.02
+Major_Page_Faults 1
+Minor_Page_Faults 128
+Maximum_Resident_Set_Size 2408
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 195
+Context_Switch 4343
+
+
+Elapsed_Time 167.87
+Kernel_Time 3.60
+User_Time 0.02
+Major_Page_Faults 1
+Minor_Page_Faults 130
+Maximum_Resident_Set_Size 2412
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 264
+Context_Switch 4342
+
+
+Elapsed_Time 290.18
+Kernel_Time 10.50
+User_Time 0.06
+Major_Page_Faults 1
+Minor_Page_Faults 129
+Maximum_Resident_Set_Size 2412
+CPU 3%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 642
+Context_Switch 13299
+
+
+Elapsed_Time 500.03
+Kernel_Time 0.72
+User_Time 499.25
+Major_Page_Faults 1
+Minor_Page_Faults 114
+Maximum_Resident_Set_Size 1732
+CPU 99%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 1212
+Context_Switch 6
+
+
+Elapsed_Time 154.93
+Kernel_Time 3.28
+User_Time 0.02
+Major_Page_Faults 0
+Minor_Page_Faults 131
+Maximum_Resident_Set_Size 2432
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 102
+Context_Switch 4338
+
+
+Elapsed_Time 158.97
+Kernel_Time 3.30
+User_Time 0.01
+Major_Page_Faults 1
+Minor_Page_Faults 132
+Maximum_Resident_Set_Size 2392
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 72
+Context_Switch 4334
+
+
+Elapsed_Time 279.25
+Kernel_Time 10.24
+User_Time 0.08
+Major_Page_Faults 1
+Minor_Page_Faults 128
+Maximum_Resident_Set_Size 2348
+CPU 3%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 237
+Context_Switch 13251
+
+
+Elapsed_Time 500.03
+Kernel_Time 0.37
+User_Time 499.56
+Major_Page_Faults 1
+Minor_Page_Faults 112
+Maximum_Resident_Set_Size 1844
+CPU 99%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 569
+Context_Switch 6
+
+
+Elapsed_Time 162.26
+Kernel_Time 3.66
+User_Time 0.01
+Major_Page_Faults 1
+Minor_Page_Faults 129
+Maximum_Resident_Set_Size 2416
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 911
+Context_Switch 4348
+
+
+Elapsed_Time 165.72
+Kernel_Time 3.82
+User_Time 0.01
+Major_Page_Faults 1
+Minor_Page_Faults 127
+Maximum_Resident_Set_Size 2452
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 809
+Context_Switch 4363
+
+
+Elapsed_Time 293.65
+Kernel_Time 10.88
+User_Time 0.08
+Major_Page_Faults 1
+Minor_Page_Faults 127
+Maximum_Resident_Set_Size 2404
+CPU 3%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 1398
+Context_Switch 13271
+
+
+Elapsed_Time 500.03
+Kernel_Time 0.54
+User_Time 499.40
+Major_Page_Faults 1
+Minor_Page_Faults 113
+Maximum_Resident_Set_Size 1848
+CPU 99%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 1088
+Context_Switch 6
+
+
+Elapsed_Time 159.16
+Kernel_Time 3.34
+User_Time 0.02
+Major_Page_Faults 1
+Minor_Page_Faults 131
+Maximum_Resident_Set_Size 2448
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 34
+Context_Switch 4335
+
+
+Elapsed_Time 160.35
+Kernel_Time 3.32
+User_Time 0.02
+Major_Page_Faults 1
+Minor_Page_Faults 125
+Maximum_Resident_Set_Size 2352
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 60
+Context_Switch 4333
+
+
+Elapsed_Time 275.98
+Kernel_Time 10.26
+User_Time 0.06
+Major_Page_Faults 1
+Minor_Page_Faults 130
+Maximum_Resident_Set_Size 2408
+CPU 3%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 160
+Context_Switch 13262
+
+
+Elapsed_Time 500.03
+Kernel_Time 0.22
+User_Time 499.74
+Major_Page_Faults 1
+Minor_Page_Faults 110
+Maximum_Resident_Set_Size 1696
+CPU 99%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 406
+Context_Switch 6
+
+
+Elapsed_Time 155.01
+Kernel_Time 3.73
+User_Time 0.03
+Major_Page_Faults 1
+Minor_Page_Faults 131
+Maximum_Resident_Set_Size 2360
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 1318
+Context_Switch 4339
+
+
+Elapsed_Time 158.77
+Kernel_Time 3.82
+User_Time 0.02
+Major_Page_Faults 1
+Minor_Page_Faults 131
+Maximum_Resident_Set_Size 2424
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 1397
+Context_Switch 4349
+
+
+Elapsed_Time 288.06
+Kernel_Time 10.76
+User_Time 0.06
+Major_Page_Faults 1
+Minor_Page_Faults 128
+Maximum_Resident_Set_Size 2412
+CPU 3%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 1351
+Context_Switch 13294
+
+
+Elapsed_Time 500.03
+Kernel_Time 0.03
+User_Time 499.95
+Major_Page_Faults 1
+Minor_Page_Faults 111
+Maximum_Resident_Set_Size 1732
+CPU 99%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 411
+Context_Switch 6
+
+
+Elapsed_Time 146.50
+Kernel_Time 3.59
+User_Time 0.03
+Major_Page_Faults 1
+Minor_Page_Faults 128
+Maximum_Resident_Set_Size 2460
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 1378
+Context_Switch 4341
+
+
+Elapsed_Time 160.77
+Kernel_Time 3.64
+User_Time 0.00
+Major_Page_Faults 1
+Minor_Page_Faults 128
+Maximum_Resident_Set_Size 2452
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 494
+Context_Switch 4343
+
+
+Elapsed_Time 274.50
+Kernel_Time 10.78
+User_Time 0.07
+Major_Page_Faults 1
+Minor_Page_Faults 131
+Maximum_Resident_Set_Size 2412
+CPU 3%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 1273
+Context_Switch 13264
+
+
+Elapsed_Time 500.03
+Kernel_Time 0.17
+User_Time 499.79
+Major_Page_Faults 1
+Minor_Page_Faults 115
+Maximum_Resident_Set_Size 1876
+CPU 99%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 705
+Context_Switch 6
+
+
+Elapsed_Time 158.49
+Kernel_Time 3.31
+User_Time 0.02
+Major_Page_Faults 1
+Minor_Page_Faults 130
+Maximum_Resident_Set_Size 2412
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 79
+Context_Switch 4331
+
+
+Elapsed_Time 163.03
+Kernel_Time 3.31
+User_Time 0.01
+Major_Page_Faults 1
+Minor_Page_Faults 127
+Maximum_Resident_Set_Size 2404
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 65
+Context_Switch 4335
+
+
+Elapsed_Time 280.73
+Kernel_Time 10.18
+User_Time 0.05
+Major_Page_Faults 1
+Minor_Page_Faults 131
+Maximum_Resident_Set_Size 2548
+CPU 3%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 292
+Context_Switch 13282
+
+
+Elapsed_Time 500.03
+Kernel_Time 0.63
+User_Time 499.30
+Major_Page_Faults 1
+Minor_Page_Faults 114
+Maximum_Resident_Set_Size 1840
+CPU 99%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 1232
+Context_Switch 6
+
+
+Elapsed_Time 167.21
+Kernel_Time 3.72
+User_Time 0.01
+Major_Page_Faults 1
+Minor_Page_Faults 131
+Maximum_Resident_Set_Size 2412
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 1016
+Context_Switch 4361
+
+
+Elapsed_Time 169.67
+Kernel_Time 3.78
+User_Time 0.02
+Major_Page_Faults 1
+Minor_Page_Faults 132
+Maximum_Resident_Set_Size 2524
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 1277
+Context_Switch 4344
+
+
+Elapsed_Time 291.85
+Kernel_Time 10.88
+User_Time 0.06
+Major_Page_Faults 1
+Minor_Page_Faults 133
+Maximum_Resident_Set_Size 2392
+CPU 3%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 1674
+Context_Switch 13295
+
+
+Elapsed_Time 500.03
+Kernel_Time 0.90
+User_Time 499.06
+Major_Page_Faults 1
+Minor_Page_Faults 112
+Maximum_Resident_Set_Size 1796
+CPU 99%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 1579
+Context_Switch 6
+
+
+Elapsed_Time 151.52
+Kernel_Time 3.29
+User_Time 0.02
+Major_Page_Faults 1
+Minor_Page_Faults 130
+Maximum_Resident_Set_Size 2504
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 68
+Context_Switch 4339
+
+
+Elapsed_Time 177.70
+Kernel_Time 3.33
+User_Time 0.03
+Major_Page_Faults 1
+Minor_Page_Faults 126
+Maximum_Resident_Set_Size 2400
+CPU 1%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 67
+Context_Switch 4332
+
+
+Elapsed_Time 290.62
+Kernel_Time 10.35
+User_Time 0.07
+Major_Page_Faults 1
+Minor_Page_Faults 132
+Maximum_Resident_Set_Size 2408
+CPU 3%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 350
+Context_Switch 13277
+
+
+Elapsed_Time 500.03
+Kernel_Time 0.28
+User_Time 499.68
+Major_Page_Faults 1
+Minor_Page_Faults 112
+Maximum_Resident_Set_Size 1832
+CPU 99%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 600
+Context_Switch 6
+
+
+Elapsed_Time 162.66
+Kernel_Time 3.72
+User_Time 0.02
+Major_Page_Faults 0
+Minor_Page_Faults 130
+Maximum_Resident_Set_Size 2408
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 830
+Context_Switch 4356
+
+
+Elapsed_Time 167.20
+Kernel_Time 3.82
+User_Time 0.04
+Major_Page_Faults 1
+Minor_Page_Faults 130
+Maximum_Resident_Set_Size 2372
+CPU 2%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 1045
+Context_Switch 4350
+
+
+Elapsed_Time 286.97
+Kernel_Time 10.89
+User_Time 0.06
+Major_Page_Faults 1
+Minor_Page_Faults 130
+Maximum_Resident_Set_Size 2400
+CPU 3%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 1160
+Context_Switch 13313
+
+
+Elapsed_Time 500.05
+Kernel_Time 0.62
+User_Time 499.34
+Major_Page_Faults 1
+Minor_Page_Faults 112
+Maximum_Resident_Set_Size 1696
+CPU 99%
+Swapped_Out_From_Main_Memory 0
+Context_Switch_Forced 791
+Context_Switch 6
+
+

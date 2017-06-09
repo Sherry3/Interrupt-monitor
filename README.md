@@ -27,7 +27,9 @@ exp2302, exp2307, exp2312, exp2322 completed
 
 exp2301, exp2303, exp2306, exp2308, exp2311, exp2313, exp2321, exp2323 completed
 
-200 and 600 series running without isolation
+200 and 600 series without isolation completed
+
+200 and 600 series running with isolation
 -------------------------------------------------------
 Versions:-
 
@@ -87,6 +89,9 @@ Versions:-
 	- 2002, 2302 was wrong, deleted
 	- 2002, 2302 completd
 	- 200 and 600 series running without isolation
+
+11.0	- 200 and 600 series without isolation completed
+	- 200 and 600 series with isolation running
 -------------------------------------------------------
 
 exp1	- irqbalance off

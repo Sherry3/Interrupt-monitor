@@ -13,6 +13,7 @@ class Plot():
 				#	self.plots_all = [201, 204, 205, 601, 604, 605, 1, 3, 2, 11, 13, 12, 21, 23, 22, 8, 6, 7]
 				#	self.pattern1 = ['bs', 'gs', 'rs']
 	
+				self.n = 3
 				if(sys.argv[2] == '1'):
 					self.plots_all = [1, 3, 2, 11, 13, 12, 21, 23, 22, 8, 6, 7]
 					self.pattern1 = ['bs', 'gs', 'rs']
@@ -32,13 +33,23 @@ class Plot():
 				if(sys.argv[2] == 'mul600'):
 					self.plots_all = [601, 604, 605, 611, 614, 615, 621, 624, 625, 681, 684, 685]
 					self.pattern1 = ['bs', 'gs', 'rs']
+				if(sys.argv[2] == 'mul'):
+					self.plots_all = [201, 204, 205, 211, 214, 215, 221, 224, 225, 281, 284, 285, 601, 604, 605, 611, 614, 615, 621, 624, 625, 681, 684, 685]
+					self.pattern1 = ['bs', 'gs', 'rs', 'b*', 'g*', 'r*']
+					self.n = 6
+
+
+				if(sys.argv[2] == 'test'):
+					self.plots_all = [1, 3, 2, 11, 13, 12, 21, 23, 22, 8, 6, 7, 3001, 3003, 3002, 3011, 3013, 3012, 3021, 3023, 3022, 3008, 3006, 3007]
+					self.pattern1 = ['bs', 'gs', 'rs', 'b*', 'g*', 'r*']
+					self.n = 6
 
 				for a in self.plots_all:
 					self.path.append("/home/sourabh/Desktop/Sherry/exp" + str(a) + "/time.txt")
 
 			elif(sys.argv[1] == "same" or sys.argv[1] == "mul"):
 				self.pattern1 = ['b', 'r', 'g', 'y', 'c', 'k']
-				self.pattern2 = ['', '--']
+				self.pattern2 = ['', '--', 's', 'o', '*', '+']
 
 				for a in sys.argv[2:]:
 					self.path.append("/home/sourabh/Desktop/Sherry/exp" + a + "/time.txt")
@@ -233,20 +244,37 @@ class Plot():
 				else:
 					plt.title(i + ' ' + self.exp[k])
 
-				for t in range(max(num_plots)):
-					#print(data[t])
-					p = self.pattern1[k] + self.pattern2[t]
-					plt.plot(range(len(data[t]) + 1)[1:], data[t], p)
+				if(max(num_plots) % 2 == 1):
+					for t in range(max(num_plots)):
+						#print(data[t])
+						p = self.pattern1[k] + self.pattern2[t]
+						plt.plot(range(len(data[t]) + 1)[1:], data[t], p)
 
-				if('mi' in locals()):
-					mi = min(mi, min(self.data[j][i]))
-				else:
-					mi = min(self.data[j][i])
+						if('mi' in locals()):
+							mi = min(mi, min(self.data[j][i]))
+						else:
+							mi = min(self.data[j][i])
 			
-				if('mx' in locals()):
-					mx = max(mx, max(self.data[j][i]))
+						if('mx' in locals()):
+							mx = max(mx, max(self.data[j][i]))
+						else:
+							mx = max(self.data[j][i])
+
 				else:
-					mx = max(self.data[j][i])
+					for t in range(max(num_plots) - 1):
+						#print(data[t])
+						p = self.pattern1[k] + self.pattern2[t]
+						plt.plot(range(len(data[t]) + 1)[1:], data[t], p)
+
+						if('mi' in locals()):
+							mi = min(mi, min(self.data[j][i]))
+						else:
+							mi = min(self.data[j][i])
+			
+						if('mx' in locals()):
+							mx = max(mx, max(self.data[j][i]))
+						else:
+							mx = max(self.data[j][i])
 
 				k = k + 1
 		
@@ -338,7 +366,7 @@ class Plot():
 			plt.close()		
 
 
-	def plot_all(self, attr, plots_dict):
+	def plot_all(self, attr, plots_dict, plot_type):
 		num_plots = []
 
 		for i in self.plots_all:
@@ -350,7 +378,7 @@ class Plot():
 			data_plot = []
 			points = []
 			
-			for l in range(3):
+			for l in range(self.n):
 				points.append([])
 
 			for j in self.path:
@@ -380,20 +408,34 @@ class Plot():
 					print()
 				'''
 
-				try:
-					for f in range(len(data[0])):
-						data_plot.append(0)
-						if(num_plots[k] == 1):
-							data_plot[f] = data_plot[f] + data[0][f]
-						elif(num_plots[k] == 3):
-							data_plot[f] = data_plot[f] + data[2][f]
-						else:
-							data_plot[f] = data_plot[f] + data[num_plots[k] - 2][f]
+				if(plot_type == 'max'):
+					try:
+						for f in range(len(data[0])):
+							data_plot.append(0)
+							if(num_plots[k] == 1):
+								data_plot[f] = data_plot[f] + data[0][f]
+							elif(num_plots[k] == 3):
+								data_plot[f] = data_plot[f] + data[2][f]
+							else:
+								data_plot[f] = data_plot[f] + data[num_plots[k] - 2][f]
 							
-				except:
-					print("An error is occured")
+					except:
+						print("An error is occured, max")
+				elif(plot_type == 'sum'):
+					try:
+						for f in range(len(data[0])):
+							data_plot.append(0)
+							if(num_plots[k] == 1 or num_plots[k] == 2):
+								data_plot[f] = data_plot[f] + data[0][f]
+							if(num_plots[k] == 3 or num_plots[k] == 4):
+								data_plot[f] = data_plot[f] + data[0][f] + data[1][f] + data[2][f]
+						
+							
+					except:
+						print("An error is occured, sum")
 
-				points[k%3].append(sum(data_plot)/len(data_plot))
+
+				points[k%self.n].append(sum(data_plot)/len(data_plot))
 
 				if('mi' in locals()):
 					mi = min(mi, sum(data_plot)/len(data_plot))
@@ -409,15 +451,15 @@ class Plot():
 
 			lab = ['Normal', 'IRQ to core 3', 'Core 3 isolated']
 
-			for l in range(3):
+			for l in range(self.n):
 				points[l].append(mi - 1)
 				points[l] = [mi - 1] + points[l]
-				plt.plot(range(int(len(self.plots_all)/3) + 2), points[l], self.pattern1[l], label = lab[l])
-				plt.plot(range(1, int(len(self.plots_all)/3) + 1), points[l][1:-1], self.pattern1[l][0])
+				plt.plot(range(int(len(self.plots_all)/self.n) + 2), points[l], self.pattern1[l], label = lab[l%3])
+				plt.plot(range(1, int(len(self.plots_all)/self.n) + 1), points[l][1:-1], self.pattern1[l][0])
  
 			
-			plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3, ncol=3, mode="expand", borderaxespad=0.)
-			plt.savefig('pictures/plot_elapsed_time' + sys.argv[2])
+			plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3, ncol=self.n, mode="expand", borderaxespad=0.)
+			plt.savefig('pictures/plot_elapsed_time' + str(sys.argv[2:]))
 			plt.show()
 			plt.close()
 
@@ -460,7 +502,7 @@ if(len(sys.argv) != 1 and sys.argv[1] == "same"):
 elif(len(sys.argv) != 1 and sys.argv[1] == "mul"):
 	a.plot_mul(['Elapsed_Time'], plots_dict)
 elif(len(sys.argv) != 1 and sys.argv[1] == "all"):
-	a.plot_all(['Elapsed_Time'], plots_dict)
+	a.plot_all(['Elapsed_Time'], plots_dict, sys.argv[3])
 elif(len(sys.argv) != 1 and sys.argv[1] == "hist"):
 	a.plot_all(['Elapsed_Time'], "hist", plots_dict)
 else:
