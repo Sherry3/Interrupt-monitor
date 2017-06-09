@@ -126,6 +126,12 @@ class Plot():
 		plt.axis([0, len(cache), min(cache), max(cache)])
 		plt.show()
 
+
+
+	def nextCur(self, old_value, new_value, n):
+		result = (new_value * (n + 1)) - (old_value * n)
+		return result
+	
 	def plot_core(self):
 		f = open(self.path + "cores.txt", "r")
 		lines = f.readlines()
@@ -134,26 +140,53 @@ class Plot():
 		sys = []
 		iowait = []
 		idle = []
+		
+		new_usr = []
+		new_sys = []
+		new_iowait = []
+		new_idle = []
 
 		for i in range(5):
 			usr.append([])
 			sys.append([])
 			iowait.append([])
 			idle.append([])
+			
+		for i in range(5):
+			new_usr.append([])
+			new_sys.append([])
+			new_iowait.append([])
+			new_idle.append([])
 
 		for i in lines:
 			k = i.split()	
 			if(len(k) > 1 and k[2] != 'CPU'):
 				if(k[2] == 'all'):
-					usr[4].append(float(k[3]))
-					sys[4].append(float(k[5]))
-					iowait[4].append(float(k[6]))
-					idle[4].append(float(k[12]))
+					new_usr[4].append(float(k[3]))
+					new_sys[4].append(float(k[5]))
+					new_iowait[4].append(float(k[6]))
+					new_idle[4].append(float(k[12]))
 				else:
-					usr[int(k[2])].append(float(k[3]))
-					sys[int(k[2])].append(float(k[5]))
-					iowait[int(k[2])].append(float(k[6]))
-					idle[int(k[2])].append(float(k[12]))
+					new_usr[int(k[2])].append(float(k[3]))
+					new_sys[int(k[2])].append(float(k[5]))
+					new_iowait[int(k[2])].append(float(k[6]))
+					new_idle[int(k[2])].append(float(k[12]))
+
+
+		for j in range(5):
+			usr[j].append(new_usr[j][0])
+			sys[j].append(new_sys[j][0])
+			iowait[j].append(new_iowait[j][0])
+			idle[j].append(new_idle[j][0])
+			for i in range(1, len(new_usr[j])):
+				x = self.nextCur(new_usr[j][i-1], new_usr[j][i], i)
+				usr[j].append(x)
+				x = self.nextCur(new_sys[j][i-1], new_sys[j][i], i)
+				sys[j].append(x)
+				x = self.nextCur(new_iowait[j][i-1], new_iowait[j][i], i)
+				iowait[j].append(x)
+				x = self.nextCur(new_idle[j][i-1], new_idle[j][i], i)
+				idle[j].append(x)
 
 
 		if(self.d['core_choice'] == 'cpu'):
@@ -168,6 +201,7 @@ class Plot():
 				plt.show()
 
 		else:
+			print(usr[0])
 			plt.title('usr ' + self.exp)
 			plt.plot(range(len(usr[0])), usr[0], 'r+')
 			plt.plot(range(len(usr[1])), usr[1], 'g+')
