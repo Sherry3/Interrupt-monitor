@@ -35,7 +35,10 @@ class Plot():
 
 		for i in lines:
 			if(i != "\n"):
-				intr.append(int(i.split()[int(self.d['int_core']) + 1]))
+				temp = 0
+				for k in range(4):
+					temp = temp + int(i.split()[k + 1])
+				intr.append(temp)
 
 		plt.title('HDD interrupts ' + self.exp)
 		plt.plot(range(len(intr)), intr, 'k')
@@ -51,7 +54,10 @@ class Plot():
 
 		for i in lines:
 			if(i != "\n"):
-				intr1.append(int(i.split()[int(self.d['int_core']) + 1]))
+				temp = 0
+				for k in range(4):
+					temp = temp + int(i.split()[k + 1])
+				intr1.append(temp)
 
 		for i in range(len(intr1)):
 			intr2.append(intr1[i] - intr1[i-1])
@@ -188,20 +194,36 @@ class Plot():
 				x = self.nextCur(new_idle[j][i-1], new_idle[j][i], i)
 				idle[j].append(x)
 
+		if(self.d['core_choice'] == 'both'):
+			plt.title('iowait ' + self.exp)
+			plt.plot(range(len(iowait[0])), iowait[0], 'r.')
+			plt.plot(range(len(iowait[1])), iowait[1], 'g.')
+			plt.plot(range(len(iowait[2])), iowait[2], 'b.')
+			plt.plot(range(len(iowait[3])), iowait[3], 'y.')
+			#plt.plot(range(len(iowait[4])), iowait[4], 'c.')
+			plt.axis([0, len(usr[0]), 0, 100])
+			plt.show()
 
-		if(self.d['core_choice'] == 'cpu'):
+			for i in range(5):
+				plt.title('CPU ' + str(i) + ' ' + self.exp)
+				plt.plot(range(len(iowait[i])), iowait[i], 'rs')
+				plt.plot(range(len(idle[i])), idle[i], 'go')
+
+				plt.axis([0, len(usr[i]), 0, 100])
+				plt.show()
+
+		elif(self.d['core_choice'] == 'cpu'):
 			for i in range(5):
 				plt.title('CPU ' + str(i) + ' ' + self.exp)
 				plt.plot(range(len(usr[i])), usr[i], 'ro')
 				plt.plot(range(len(sys[i])), sys[i], 'b+')
-				plt.plot(range(len(iowait[i])), iowait[i], 'r+')
-				plt.plot(range(len(idle[i])), idle[i], 'g+')
+				plt.plot(range(len(iowait[i])), iowait[i], 'rs')
+				plt.plot(range(len(idle[i])), idle[i], 'go')
 
 				plt.axis([0, len(usr[i]), 0, 100])
 				plt.show()
 
 		else:
-			print(usr[0])
 			plt.title('usr ' + self.exp)
 			plt.plot(range(len(usr[0])), usr[0], 'r+')
 			plt.plot(range(len(usr[1])), usr[1], 'g+')
@@ -219,16 +241,18 @@ class Plot():
 			plt.plot(range(len(sys[4])), sys[4], 'c+')
 			plt.axis([0, len(usr[0]), 0, 100])
 			plt.show()
+			
 
 			plt.title('iowait ' + self.exp)
-			plt.plot(range(len(iowait[0])), iowait[0], 'r+')
-			plt.plot(range(len(iowait[1])), iowait[1], 'g+')
-			plt.plot(range(len(iowait[2])), iowait[2], 'b+')
-			plt.plot(range(len(iowait[3])), iowait[3], 'y+')
-			plt.plot(range(len(iowait[4])), iowait[4], 'c+')
+			plt.plot(range(len(iowait[0])), iowait[0], 'r')
+			plt.plot(range(len(iowait[1])), iowait[1], 'g')
+			plt.plot(range(len(iowait[2])), iowait[2], 'b')
+			plt.plot(range(len(iowait[3])), iowait[3], 'y')
+			plt.plot(range(len(iowait[4])), iowait[4], 'c')
 			plt.axis([0, len(usr[0]), 0, 100])
 			plt.show()
 
+			
 			plt.title('idle ' + self.exp)
 			plt.plot(range(len(idle[0])), idle[0], 'r+')
 			plt.plot(range(len(idle[1])), idle[1], 'g+')
@@ -237,6 +261,7 @@ class Plot():
 			plt.plot(range(len(idle[4])), idle[4], 'c+')
 			plt.axis([0, len(usr[0]), 0, 100])
 			plt.show()
+			
 
 	def plot_disk(self):	
 		f = open(self.path + "disk.txt", "r")

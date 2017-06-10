@@ -7,7 +7,7 @@ class Plot():
 		self.data = {}
 
 		if(len(sys.argv) != 1):
-			if(sys.argv[1] == "all"):
+			if(sys.argv[1] == "all" or sys.argv[1] == "bigbang"):
 
 				#if(sys.argv[2] == '1'):
 				#	self.plots_all = [201, 204, 205, 601, 604, 605, 1, 3, 2, 11, 13, 12, 21, 23, 22, 8, 6, 7]
@@ -35,14 +35,20 @@ class Plot():
 					self.pattern1 = ['bs', 'gs', 'rs']
 				if(sys.argv[2] == 'mul'):
 					self.plots_all = [201, 204, 205, 211, 214, 215, 221, 224, 225, 281, 284, 285, 601, 604, 605, 611, 614, 615, 621, 624, 625, 681, 684, 685]
-					self.pattern1 = ['bs', 'gs', 'rs', 'b*', 'g*', 'r*']
+					self.pattern1 = ['bs', 'gs', 'rs', 'bo', 'go', 'ro']
 					self.n = 6
 
 
 				if(sys.argv[2] == 'test'):
 					self.plots_all = [1, 3, 2, 11, 13, 12, 21, 23, 22, 8, 6, 7, 3001, 3003, 3002, 3011, 3013, 3012, 3021, 3023, 3022, 3008, 3006, 3007]
-					self.pattern1 = ['bs', 'gs', 'rs', 'b*', 'g*', 'r*']
+					self.pattern1 = ['bs', 'gs', 'rs', 'bo', 'go', 'ro']
 					self.n = 6
+
+				if(sys.argv[2] == 'allnormal'):
+					self.plots_all = [1, 3, 2, 11, 13, 12, 21, 23, 22, 8, 6, 7, 2001, 2003, 2002, 2011, 2013, 2012, 2021, 2023, 2022, 2008, 2006, 2007, 201, 204, 205, 211, 214, 215, 221, 224, 225, 281, 284, 285]
+					self.pattern1 = ['bs', 'gs', 'rs', 'bo', 'go', 'ro', 'b*', 'g*', 'r*']
+					self.n = 9
+
 
 				for a in self.plots_all:
 					self.path.append("/home/sourabh/Desktop/Sherry/exp" + str(a) + "/time.txt")
@@ -90,7 +96,7 @@ class Plot():
 
 			for i in lines:
 				j = i.split('\n')[0].split('%')[0].split()
-				if(len(j) == 2 and float(j[1]) > 1):
+				if(len(j) == 2 and float(j[1]) >= 0):
 					self.data[path][j[0]].append(float(j[1]))	
 
 
@@ -209,8 +215,8 @@ class Plot():
 			data = []
 
 			for j in self.path:
-				print(j)
-				print(self.data[j][i], end = "\n\n")
+				#print(j)
+				#print(self.data[j][i], end = "\n\n")
 						
 				data.clear()
 				for t in range(max(num_plots)):
@@ -377,11 +383,16 @@ class Plot():
 			data = []
 			data_plot = []
 			points = []
+
+			plt.title(i + " " + sys.argv[2], y = -0)
 			
 			for l in range(self.n):
 				points.append([])
 
 			for j in self.path:
+				#print(j)
+				#print(self.data[j][i], end = "\n\n")
+				
 				data.clear()
 				data_plot.clear()
 				for t in range(max(num_plots)):
@@ -419,8 +430,9 @@ class Plot():
 							else:
 								data_plot[f] = data_plot[f] + data[num_plots[k] - 2][f]
 							
-					except:
-						print("An error is occured, max")
+					except Exception as e:
+						print("An error is occured, max\n", e)
+
 				elif(plot_type == 'sum'):
 					try:
 						for f in range(len(data[0])):
@@ -429,14 +441,14 @@ class Plot():
 								data_plot[f] = data_plot[f] + data[0][f]
 							if(num_plots[k] == 3 or num_plots[k] == 4):
 								data_plot[f] = data_plot[f] + data[0][f] + data[1][f] + data[2][f]
-						
 							
-					except:
-						print("An error is occured, sum")
+							
+					except Exception as e:
+						print("An error is occured, sum\n", e)
 
 
-				points[k%self.n].append(sum(data_plot)/len(data_plot))
-
+				points[3*int(k/12) + (k%3)].append(sum(data_plot)/len(data_plot))
+				
 				if('mi' in locals()):
 					mi = min(mi, sum(data_plot)/len(data_plot))
 				else:
@@ -459,7 +471,7 @@ class Plot():
  
 			
 			plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3, ncol=self.n, mode="expand", borderaxespad=0.)
-			plt.savefig('pictures/plot_elapsed_time' + str(sys.argv[2:]))
+			plt.savefig('pictures/plot_' + str(i) + str(sys.argv[2:]))
 			plt.show()
 			plt.close()
 
@@ -505,6 +517,8 @@ elif(len(sys.argv) != 1 and sys.argv[1] == "all"):
 	a.plot_all(['Elapsed_Time'], plots_dict, sys.argv[3])
 elif(len(sys.argv) != 1 and sys.argv[1] == "hist"):
 	a.plot_all(['Elapsed_Time'], "hist", plots_dict)
+elif(len(sys.argv) != 1 and sys.argv[1] == "bigbang"):
+	a.plot_all(['Elapsed_Time', 'Context_Switch_Forced', 'Major_Page_Faults', 'CPU'], plots_dict, sys.argv[3])
 else:
 	a.plot(['Elapsed_Time'], plots_dict)
 

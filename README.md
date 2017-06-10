@@ -29,7 +29,9 @@ exp2301, exp2303, exp2306, exp2308, exp2311, exp2313, exp2321, exp2323 completed
 
 200 and 600 series without isolation completed
 
-200 and 600 series running with isolation
+200 and 600 series with isolation completed
+
+Project closed
 -------------------------------------------------------
 Versions:-
 
@@ -91,7 +93,7 @@ Versions:-
 	- 200 and 600 series running without isolation
 
 11.0	- 200 and 600 series without isolation completed
-	- 200 and 600 series with isolation running
+	- 200 and 600 series with isolation completed
 -------------------------------------------------------
 
 exp1	- irqbalance off
