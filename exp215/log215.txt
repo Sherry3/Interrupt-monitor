@@ -323,3 +323,653 @@ Removing multiple_big_files started --- Removing multiple_big_files stopped
 Changed to 225
 3100000
 BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash isolcpus=3 vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp215/
+Core affinity started --- Core affinity closed
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  stress -c 1 -t 500&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Removing multiple_big_files started --- Removing multiple_big_files stopped
+Changed to 225
+3100000
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash isolcpus=3 vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp215/
+Core affinity started --- Core affinity closed
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  stress -c 1 -t 500&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Removing multiple_big_files started --- Removing multiple_big_files stopped
+Changed to 225
+3100000
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash isolcpus=3 vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp215/
+Core affinity started --- Core affinity closed
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  stress -c 1 -t 500&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Removing multiple_big_files started --- Removing multiple_big_files stopped
+Changed to 225
+3100000
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash isolcpus=3 vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp215/
+Core affinity started --- Core affinity closed
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  stress -c 1 -t 500&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Removing multiple_big_files started --- Removing multiple_big_files stopped
+Changed to 225
+3100000
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash isolcpus=3 vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp215/
+Core affinity started --- Core affinity closed
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  stress -c 1 -t 500&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Removing multiple_big_files started --- Removing multiple_big_files stopped
+Changed to 225
+3100000
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash isolcpus=3 vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp215/
+Core affinity started --- Core affinity closed
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  stress -c 1 -t 500&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Removing multiple_big_files started --- Removing multiple_big_files stopped
+Changed to 225
+3100000
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash isolcpus=3 vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp215/
+Core affinity started --- Core affinity closed
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  stress -c 1 -t 500&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Removing multiple_big_files started --- Removing multiple_big_files stopped
+Changed to 225
+3100000
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash isolcpus=3 vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp215/
+Core affinity started --- Core affinity closed
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  stress -c 1 -t 500&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Removing multiple_big_files started --- Removing multiple_big_files stopped
+Changed to 225
+3100000
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash isolcpus=3 vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp215/
+Core affinity started --- Core affinity closed
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  stress -c 1 -t 500&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Removing multiple_big_files started --- Removing multiple_big_files stopped
+Changed to 225
+3100000
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash isolcpus=3 vt.handoff=7
+
+Session started
+
+Directory :: /home/sourabh/Desktop/Sherry/exp215/
+Core affinity started --- Core affinity closed
+Monitoring started
+Reached stress1 true
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  stress -c 1 -t 500&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/1.mkv /home/sourabh/Desktop/multiple_big_files&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/2.mkv /home/sourabh/Desktop/multiple_big_files&
+Reached stress2multiple_big_files
+Executing /usr/bin/time -a -f "Elapsed_Time %e
+Kernel_Time %S
+User_Time %U
+Major_Page_Faults %F
+Minor_Page_Faults %R
+Maximum_Resident_Set_Size %M
+CPU %P
+Swapped_Out_From_Main_Memory %W
+Context_Switch_Forced %c
+Context_Switch %w
+
+" -o /home/sourabh/Desktop/Sherry/exp215/time.txt  cp /media/sourabh/SHERRY/Big/3.mkv /home/sourabh/Desktop/multiple_big_files&
+Monitoring stopped
+txt copy started --- txt copy stopped
+Removing txt started --- Removing txt stopped
+Removing multiple_big_files started --- Removing multiple_big_files stopped
+Changed to 225
+3100000
+BOOT_IMAGE=/boot/vmlinuz-4.4.0-75-generic root=UUID=4e559157-10d2-4ca3-815e-51bf6e625d38 ro reboot=efi quiet splash isolcpus=3 vt.handoff=7
