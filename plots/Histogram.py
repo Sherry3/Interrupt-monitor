@@ -17,35 +17,31 @@ class Plot():
 								
 
 				self.n = 3
+				self.pattern1 = ['bs', 'go', 'r*']
+
 				if(sys.argv[2] == '1'):
 					self.plots_all = [1, 3, 2, 11, 13, 12, 21, 23, 22, 8, 6, 7]
-					self.pattern1 = ['bs', 'gs', 'rs']
 					plt.text(0.7, 0.1, "Single process\nPendrive to HDD", transform=plt.gca().transAxes, bbox = box)
 
 				if(sys.argv[2] == '2000'):
 					self.plots_all = [2001, 2003, 2002, 2011, 2013, 2012, 2021, 2023, 2022, 2008, 2006, 2007]
-					self.pattern1 = ['bs', 'gs', 'rs']
 					plt.text(0.7, 0.1, "Single process\nHDD to pendrive", transform=plt.gca().transAxes, bbox = box)
 
 				if(sys.argv[2] == '2300'):
 					self.plots_all = [2301, 2303, 2302, 2311, 2313, 2312, 2321, 2323, 2322, 2308, 2306, 2307]
-					self.pattern1 = ['bs', 'gs', 'rs']
 					plt.text(0.7, 0.1, "Single process\nHDD to pendrive\nCores underclocked", transform=plt.gca().transAxes, bbox = box)
 
 				if(sys.argv[2] == '3000'):
 					self.plots_all = [3001, 3003, 3002, 3011, 3013, 3012, 3021, 3023, 3022, 3008, 3006, 3007]
-					self.pattern1 = ['bs', 'gs', 'rs']
 					plt.text(0.7, 0.1, "Single process\nPendrive to HDD\nCores underclocked", transform=plt.gca().transAxes, bbox = box)
 
 
 				if(sys.argv[2] == 'mul200'):
 					self.plots_all = [201, 204, 205, 211, 214, 215, 221, 224, 225, 281, 284, 285]
-					self.pattern1 = ['bs', 'gs', 'rs']
 					plt.text(0.7, 0.1, "Multiple processes\nPendrive to HDD", transform=plt.gca().transAxes, bbox = box)
 
 				if(sys.argv[2] == 'mul600'):
 					self.plots_all = [601, 604, 605, 611, 614, 615, 621, 624, 625, 681, 684, 685]
-					self.pattern1 = ['bs', 'gs', 'rs']
 					plt.text(0.7, 0.1, "Multiple processes\nPendrive to HDD\nCores underclocked", transform=plt.gca().transAxes, bbox = box)
 
 				'''
