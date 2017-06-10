@@ -39,13 +39,13 @@ class Plot():
 					self.n = 6
 
 
-				if(sys.argv[2] == 'test'):
-					self.plots_all = [1, 3, 2, 11, 13, 12, 21, 23, 22, 8, 6, 7, 3001, 3003, 3002, 3011, 3013, 3012, 3021, 3023, 3022, 3008, 3006, 3007]
-					self.pattern1 = ['bs', 'gs', 'rs', 'bo', 'go', 'ro']
-					self.n = 6
-
 				if(sys.argv[2] == 'allnormal'):
 					self.plots_all = [1, 3, 2, 11, 13, 12, 21, 23, 22, 8, 6, 7, 2001, 2003, 2002, 2011, 2013, 2012, 2021, 2023, 2022, 2008, 2006, 2007, 201, 204, 205, 211, 214, 215, 221, 224, 225, 281, 284, 285]
+					self.pattern1 = ['bs', 'gs', 'rs', 'bo', 'go', 'ro', 'b*', 'g*', 'r*']
+					self.n = 9
+
+				if(sys.argv[2] == 'allclocked'):
+					self.plots_all = [3001, 3003, 3002, 3011, 3013, 3012, 3021, 3023, 3022, 3008, 3006, 3007, 2301, 2303, 2302, 2311, 2313, 2312, 2321, 2323, 2322, 2308, 2306, 2307, 601, 604, 605, 611, 614, 615, 621, 624, 625, 681, 684, 685]
 					self.pattern1 = ['bs', 'gs', 'rs', 'bo', 'go', 'ro', 'b*', 'g*', 'r*']
 					self.n = 9
 
@@ -518,7 +518,7 @@ elif(len(sys.argv) != 1 and sys.argv[1] == "all"):
 elif(len(sys.argv) != 1 and sys.argv[1] == "hist"):
 	a.plot_all(['Elapsed_Time'], "hist", plots_dict)
 elif(len(sys.argv) != 1 and sys.argv[1] == "bigbang"):
-	a.plot_all(['Elapsed_Time', 'Context_Switch_Forced', 'Major_Page_Faults', 'CPU'], plots_dict, sys.argv[3])
+	a.plot_all(['Elapsed_Time', 'Context_Switch_Forced', 'CPU', 'Kernel_Time', 'Major_Page_Faults'], plots_dict, sys.argv[3])
 else:
 	a.plot(['Elapsed_Time'], plots_dict)
 
