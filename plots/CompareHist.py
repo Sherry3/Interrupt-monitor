@@ -1,8 +1,7 @@
 import os
+import sys
 
-exp = input("Enter experiment code : ").split()
-
-for i in exp:
-	os.system('python3 Histogram.py bigbang ' + i + " max&")
+for i in sys.argv[1:]:
+	os.system('python3 Histogram.py all ' + i + " sum&")
 
 

@@ -1,10 +1,12 @@
 import matplotlib.pyplot as plt
+import matplotlib.axes as plt_text
 import sys
 
 class Plot():
 	def __init__(self):
 		self.path = []
-		self.data = {}
+		self.data = {}		
+		box = dict(boxstyle="Round, pad=0.3", fc="white")
 
 		if(len(sys.argv) != 1):
 			if(sys.argv[1] == "all" or sys.argv[1] == "bigbang"):
@@ -12,27 +14,41 @@ class Plot():
 				#if(sys.argv[2] == '1'):
 				#	self.plots_all = [201, 204, 205, 601, 604, 605, 1, 3, 2, 11, 13, 12, 21, 23, 22, 8, 6, 7]
 				#	self.pattern1 = ['bs', 'gs', 'rs']
-	
+								
+
 				self.n = 3
 				if(sys.argv[2] == '1'):
 					self.plots_all = [1, 3, 2, 11, 13, 12, 21, 23, 22, 8, 6, 7]
 					self.pattern1 = ['bs', 'gs', 'rs']
+					plt.text(0.7, 0.1, "Single process\nPendrive to HDD", transform=plt.gca().transAxes, bbox = box)
+
 				if(sys.argv[2] == '2000'):
 					self.plots_all = [2001, 2003, 2002, 2011, 2013, 2012, 2021, 2023, 2022, 2008, 2006, 2007]
 					self.pattern1 = ['bs', 'gs', 'rs']
-				if(sys.argv[2] == '3000'):
-					self.plots_all = [3001, 3003, 3002, 3011, 3013, 3012, 3021, 3023, 3022, 3008, 3006, 3007]
-					self.pattern1 = ['bs', 'gs', 'rs']
+					plt.text(0.7, 0.1, "Single process\nHDD to pendrive", transform=plt.gca().transAxes, bbox = box)
+
 				if(sys.argv[2] == '2300'):
 					self.plots_all = [2301, 2303, 2302, 2311, 2313, 2312, 2321, 2323, 2322, 2308, 2306, 2307]
 					self.pattern1 = ['bs', 'gs', 'rs']
+					plt.text(0.7, 0.1, "Single process\nHDD to pendrive\nCores underclocked", transform=plt.gca().transAxes, bbox = box)
+
+				if(sys.argv[2] == '3000'):
+					self.plots_all = [3001, 3003, 3002, 3011, 3013, 3012, 3021, 3023, 3022, 3008, 3006, 3007]
+					self.pattern1 = ['bs', 'gs', 'rs']
+					plt.text(0.7, 0.1, "Single process\nPendrive to HDD\nCores underclocked", transform=plt.gca().transAxes, bbox = box)
+
 
 				if(sys.argv[2] == 'mul200'):
 					self.plots_all = [201, 204, 205, 211, 214, 215, 221, 224, 225, 281, 284, 285]
 					self.pattern1 = ['bs', 'gs', 'rs']
+					plt.text(0.7, 0.1, "Multiple processes\nPendrive to HDD", transform=plt.gca().transAxes, bbox = box)
+
 				if(sys.argv[2] == 'mul600'):
 					self.plots_all = [601, 604, 605, 611, 614, 615, 621, 624, 625, 681, 684, 685]
 					self.pattern1 = ['bs', 'gs', 'rs']
+					plt.text(0.7, 0.1, "Multiple processes\nPendrive to HDD\nCores underclocked", transform=plt.gca().transAxes, bbox = box)
+
+				'''
 				if(sys.argv[2] == 'mul'):
 					self.plots_all = [201, 204, 205, 211, 214, 215, 221, 224, 225, 281, 284, 285, 601, 604, 605, 611, 614, 615, 621, 624, 625, 681, 684, 685]
 					self.pattern1 = ['bs', 'gs', 'rs', 'bo', 'go', 'ro']
@@ -48,6 +64,7 @@ class Plot():
 					self.plots_all = [3001, 3003, 3002, 3011, 3013, 3012, 3021, 3023, 3022, 3008, 3006, 3007, 2301, 2303, 2302, 2311, 2313, 2312, 2321, 2323, 2322, 2308, 2306, 2307, 601, 604, 605, 611, 614, 615, 621, 624, 625, 681, 684, 685]
 					self.pattern1 = ['bs', 'gs', 'rs', 'bo', 'go', 'ro', 'b*', 'g*', 'r*']
 					self.n = 9
+				'''
 
 
 				for a in self.plots_all:
@@ -115,7 +132,7 @@ class Plot():
 				num_plots.append(plots_dict[int(i)])
 
 		for i in attr:
-			plt.title(i)
+			plt.ylabel(str.join(' ', i.split('_')))
 			
 			k = 0
 			data = []
@@ -209,8 +226,8 @@ class Plot():
 				num_plots.append(plots_dict[int(i)])
 
 		for i in attr:
-			plt.title(i)
-			
+			plt.ylabel(str.join(' ', i.split('_')))
+
 			k = 0
 			data = []
 
@@ -307,7 +324,7 @@ class Plot():
 
 
 		for i in attr:
-			plt.title(i)
+			plt.ylabel(str.join(' ', i.split('_')))
 			
 			k = 0
 			data = []
@@ -384,7 +401,7 @@ class Plot():
 			data_plot = []
 			points = []
 
-			plt.title(i + " " + sys.argv[2], y = -0)
+			plt.ylabel(str.join(' ', i.split('_')))
 			
 			for l in range(self.n):
 				points.append([])
@@ -466,9 +483,12 @@ class Plot():
 			for l in range(self.n):
 				points[l].append(mi - 1)
 				points[l] = [mi - 1] + points[l]
-				plt.plot(range(int(len(self.plots_all)/self.n) + 2), points[l], self.pattern1[l], label = lab[l%3])
+
+				xticks = range(int(len(self.plots_all)/self.n) + 2)
+				plt.xticks(xticks, ['null', '0', '1', '2', '8', 'null'])
+				plt.plot(xticks, points[l], self.pattern1[l], label = lab[l%3])
 				plt.plot(range(1, int(len(self.plots_all)/self.n) + 1), points[l][1:-1], self.pattern1[l][0])
- 
+
 			
 			plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3, ncol=self.n, mode="expand", borderaxespad=0.)
 			plt.savefig('pictures/plot_' + str(i) + str(sys.argv[2:]))
@@ -510,16 +530,27 @@ a = Plot()
 plots_dict = {1:1, 2:1, 3:1, 6:1, 7:1, 8:2, 11:2, 12:2, 13:2, 21:2, 22:2, 23:2, 101:1, 104:1, 116:1, 164:1, 165:1, 404:1, 416:1, 464:1, 465:1, 201:3, 202:4, 203:4, 204:3, 205:3, 501:3, 502:4, 503:4, 601:3, 602:4, 603:4, 604:3, 605:3, 801:5, 802:5, 1001:1, 1003:1, 2001:1, 2002:1, 2003:1, 2006:2, 2007:2, 2008:2, 2011:2, 2012:2, 2013:2, 2021:2, 2022:2, 2023:2, 3001:1, 3002:1, 3003:1, 3006:2, 3007:2, 3008:2, 3011:2, 3012:2, 3013:2, 3021:2, 3022:2, 3023:2, 2301:1, 2302:1, 2303:1, 2306:2, 2307:2, 2308:2, 2311:2, 2312:2, 2313:2, 2321:2, 2322:2, 2323:2, 211:4, 214:4, 215:4, 221:4, 224:4, 225:4, 281:4, 284:4, 285:4, 611:4, 614:4, 615:4, 621:4, 624:4, 625:4, 681:4, 684:4, 685:4}
 
 if(len(sys.argv) != 1 and sys.argv[1] == "same"):
+	plt.xlabel('Experiment')
 	a.plot_same(['Elapsed_Time'], plots_dict)
+
 elif(len(sys.argv) != 1 and sys.argv[1] == "mul"):
+	plt.xlabel('Experiment')
 	a.plot_mul(['Elapsed_Time'], plots_dict)
+
 elif(len(sys.argv) != 1 and sys.argv[1] == "all"):
+	plt.xlabel('Number of stress threads')
 	a.plot_all(['Elapsed_Time'], plots_dict, sys.argv[3])
+
 elif(len(sys.argv) != 1 and sys.argv[1] == "hist"):
+	plt.xlabel('Number of stress threads')
 	a.plot_all(['Elapsed_Time'], "hist", plots_dict)
+
 elif(len(sys.argv) != 1 and sys.argv[1] == "bigbang"):
+	plt.xlabel('Number of stress threads')
 	a.plot_all(['Elapsed_Time', 'Context_Switch_Forced', 'CPU', 'Kernel_Time', 'Major_Page_Faults'], plots_dict, sys.argv[3])
+
 else:
+	plt.xlabel('Experiment')
 	a.plot(['Elapsed_Time'], plots_dict)
 
 #a.plot(['Kernel_Time', 'User_Time', 'Elapsed_Time', 'Context_Switch_Forced', 'Context_Switch'])
