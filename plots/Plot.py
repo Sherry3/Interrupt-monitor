@@ -144,23 +144,27 @@ class Plot():
 
 		usr = []
 		sys = []
+		softirq = []
 		iowait = []
 		idle = []
 		
 		new_usr = []
 		new_sys = []
+		new_softirq = []
 		new_iowait = []
 		new_idle = []
 
 		for i in range(5):
 			usr.append([])
 			sys.append([])
+			softirq.append([])
 			iowait.append([])
 			idle.append([])
 			
 		for i in range(5):
 			new_usr.append([])
 			new_sys.append([])
+			new_softirq.append([])
 			new_iowait.append([])
 			new_idle.append([])
 
@@ -170,11 +174,13 @@ class Plot():
 				if(k[2] == 'all'):
 					new_usr[4].append(float(k[3]))
 					new_sys[4].append(float(k[5]))
+					new_softirq[4].append(float(k[6]))
 					new_iowait[4].append(float(k[6]))
 					new_idle[4].append(float(k[12]))
 				else:
 					new_usr[int(k[2])].append(float(k[3]))
 					new_sys[int(k[2])].append(float(k[5]))
+					new_softirq[int(k[2])].append(float(k[6]))
 					new_iowait[int(k[2])].append(float(k[6]))
 					new_idle[int(k[2])].append(float(k[12]))
 
@@ -182,6 +188,7 @@ class Plot():
 		for j in range(5):
 			usr[j].append(new_usr[j][0])
 			sys[j].append(new_sys[j][0])
+			softirq[j].append(new_softirq[j][0])
 			iowait[j].append(new_iowait[j][0])
 			idle[j].append(new_idle[j][0])
 			for i in range(1, len(new_usr[j])):
@@ -189,24 +196,27 @@ class Plot():
 				usr[j].append(x)
 				x = self.nextCur(new_sys[j][i-1], new_sys[j][i], i)
 				sys[j].append(x)
+				x = self.nextCur(new_softirq[j][i-1], new_softirq[j][i], i)
+				softirq[j].append(x)
 				x = self.nextCur(new_iowait[j][i-1], new_iowait[j][i], i)
 				iowait[j].append(x)
 				x = self.nextCur(new_idle[j][i-1], new_idle[j][i], i)
 				idle[j].append(x)
 
 		if(self.d['core_choice'] == 'both'):
-			plt.title('iowait ' + self.exp)
-			plt.plot(range(len(iowait[0])), iowait[0], 'r.')
-			plt.plot(range(len(iowait[1])), iowait[1], 'g.')
-			plt.plot(range(len(iowait[2])), iowait[2], 'b.')
-			plt.plot(range(len(iowait[3])), iowait[3], 'y.')
-			#plt.plot(range(len(iowait[4])), iowait[4], 'c.')
+			plt.title('softirq ' + self.exp)
+			plt.plot(range(len(softirq[0])), softirq[0], 'r.')
+			plt.plot(range(len(softirq[1])), softirq[1], 'g.')
+			plt.plot(range(len(softirq[2])), softirq[2], 'b.')
+			plt.plot(range(len(softirq[3])), softirq[3], 'y.')
+			#plt.plot(range(len(softirq[4])), softirq[4], 'c.')
 			plt.axis([0, len(usr[0]), 0, 100])
 			plt.show()
 
 			for i in range(5):
 				plt.title('CPU ' + str(i) + ' ' + self.exp)
-				plt.plot(range(len(iowait[i])), iowait[i], 'rs')
+				plt.plot(range(len(softirq[i])), softirq[i], 'rs')
+				#plt.plot(range(len(iowait[i])), iowait[i], 'b.')
 				plt.plot(range(len(idle[i])), idle[i], 'go')
 
 				plt.axis([0, len(usr[i]), 0, 100])
@@ -217,6 +227,7 @@ class Plot():
 				plt.title('CPU ' + str(i) + ' ' + self.exp)
 				plt.plot(range(len(usr[i])), usr[i], 'ro')
 				plt.plot(range(len(sys[i])), sys[i], 'b+')
+				plt.plot(range(len(softirq[i])), softirq[i], 'k.')
 				plt.plot(range(len(iowait[i])), iowait[i], 'rs')
 				plt.plot(range(len(idle[i])), idle[i], 'go')
 
@@ -242,6 +253,14 @@ class Plot():
 			plt.axis([0, len(usr[0]), 0, 100])
 			plt.show()
 			
+			plt.title('softirq ' + self.exp)
+			plt.plot(range(len(softirq[0])), softirq[0], 'r+')
+			plt.plot(range(len(softirq[1])), softirq[1], 'g+')
+			plt.plot(range(len(softirq[2])), softirq[2], 'b+')
+			plt.plot(range(len(softirq[3])), softirq[3], 'y+')
+			plt.plot(range(len(softirq[4])), softirq[4], 'c+')
+			plt.axis([0, len(usr[0]), 0, 100])
+			plt.show()
 
 			plt.title('iowait ' + self.exp)
 			plt.plot(range(len(iowait[0])), iowait[0], 'r')
