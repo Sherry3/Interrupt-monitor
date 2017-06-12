@@ -10,6 +10,10 @@ class Monitor:
 		self.interrupt_name = '0000:00:1f.2'						#HDD interrupt name
 		
 		self.next_exp = {}
+		self.next_exp['3681'] = '3684'
+		self.next_exp['3684'] = '3681'
+
+		self.next_exp['3685'] = '3685'
 
 		#Experiment number
 		ff_input = "/home/sourabh/Desktop/Sherry/input" 				#Experiment number input file
@@ -80,7 +84,7 @@ class Monitor:
 			#os.system("ls /home/sourabh/Desktop/" + self.d['stress2'] + " >> /home/sourabh/Desktop/Sherry/log.txt")
 			os.system("sudo rm -rf /media/sourabh/SHERRY/*")
 
-		elif(self.d['stress2'] == "hdd_big_files"):
+		elif(self.d['stress2'] == "hdd_big_files" or self.d['stress2'] == "mhdd_big_files"):
 			self.log_file.write("Removing " + self.d['stress2'] + " started --- ")
 			#os.system("ls /home/sourabh/Desktop/" + self.d['stress2'] + " >> /home/sourabh/Desktop/Sherry/log.txt")
 			os.system("rm -rf /home/sourabh/Desktop/big_files/*")
@@ -233,6 +237,14 @@ class Monitor:
 						os.system(cmd_temp + "&")
 						self.log_file.write("Reached stress2" + self.d['stress2'] + "\n")
 						self.log_file.write("Executing "+ cmd_temp + "&\n")
+
+				if(self.d['stress2'] == 'mhdd_big_files'):
+					for i in range(3):
+						cmd_temp = cmd2 + ' cp /home/sourabh/Desktop/' + self.d['stress2'][1:] + '/' + str(i + 1) + '.mkv /home/sourabh/Desktop/big_files'
+						os.system(cmd_temp + "&")
+						self.log_file.write("Reached stress2" + self.d['stress2'] + "\n")
+						self.log_file.write("Executing "+ cmd_temp + "&\n")
+
 
 			start = timer()
 

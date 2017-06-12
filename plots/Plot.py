@@ -59,12 +59,12 @@ class Plot():
 					temp = temp + int(i.split()[k + 1])
 				intr1.append(temp)
 
-		for i in range(len(intr1)):
+		for i in range(1, len(intr1)):
 			intr2.append(intr1[i] - intr1[i-1])
 
 		plt.title('HDD interrupts ' + self.exp)
-		plt.plot(range(len(intr2)), intr2, 'g+')
-		plt.axis([0, len(intr2), 0, max(intr2)])
+		plt.plot(range(len(intr2)), intr2, 'g.')
+		plt.axis([0, len(intr2), 0, max(intr2[2:])])
 
 		'''
 		print("avg =", str(sum(intr2[100 : 600]) / 500))
@@ -73,7 +73,12 @@ class Plot():
 		print()
 		'''
 
+		plt.xlabel('seconds')
+		plt.ylabel('Interrupts/sec')
+		plt.savefig('pictures/plot_' + str(i) + str(self.exp))
 		plt.show()
+		plt.close()
+
 
 	def plot_memory(self):
 		f = open(self.path + "memory.txt", "r")
@@ -212,15 +217,22 @@ class Plot():
 			#plt.plot(range(len(softirq[4])), softirq[4], 'c.')
 			plt.axis([0, len(usr[0]), 0, 100])
 			plt.show()
-
-			for i in range(5):
-				plt.title('CPU ' + str(i) + ' ' + self.exp)
-				plt.plot(range(len(softirq[i])), softirq[i], 'rs')
+			
+			for i in range(4):
+				plt.xlabel('seconds')
+				#plt.ylabel('Load on core 3')
+				#plt.title('CPU ' + str(i) + ' ' + self.exp)
+				plt.plot(range(len(iowait[i])), iowait[i], 'r+', label = 'iowait')
 				#plt.plot(range(len(iowait[i])), iowait[i], 'b.')
-				plt.plot(range(len(idle[i])), idle[i], 'go')
+				plt.plot(range(len(idle[i])), idle[i], 'g*', label = 'Idle')
 
+				plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3, ncol=2, mode="expand", borderaxespad=0.)
+			
 				plt.axis([0, len(usr[i]), 0, 100])
+			
+				plt.savefig('pictures/plot_' + str(i) + str(self.exp))
 				plt.show()
+				plt.close()
 
 		elif(self.d['core_choice'] == 'cpu'):
 			for i in range(5):

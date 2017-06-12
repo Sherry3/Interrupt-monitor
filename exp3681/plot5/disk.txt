@@ -1,0 +1,2100 @@
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              76.27      2502.58        41.53     378215       6276
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              75.80      2486.84        41.27     378223       6276
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              75.30      2470.59        41.00     378223       6276
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              74.81      2454.56        40.73     378223       6276
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              74.33      2438.73        40.47     378223       6276
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              73.87      2423.11        40.54     378223       6328
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              73.40      2407.68        40.28     378223       6328
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              72.93      2392.45        40.03     378223       6328
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              72.47      2377.27        39.77     378223       6328
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              72.02      2362.42        39.53     378223       6328
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              71.57      2347.75        39.28     378223       6328
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              71.20      2333.27        39.38     378223       6384
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              70.77      2318.96        39.14     378223       6384
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              70.34      2304.83        38.90     378223       6384
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              69.91      2290.87        38.67     378223       6384
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              69.49      2277.08        38.43     378223       6384
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              69.08      2263.50        38.20     378231       6384
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              68.67      2249.90        37.98     378231       6384
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              68.26      2236.60        37.75     378231       6384
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.87      2223.45        37.81     378231       6432
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.48      2210.46        37.59     378231       6432
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.09      2197.61        37.37     378231       6432
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              66.70      2184.92        37.16     378231       6432
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              66.31      2172.37        36.94     378231       6432
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.94      2159.96        36.73     378231       6432
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.56      2147.70        36.52     378231       6432
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.19      2135.45        36.31     378231       6432
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              64.82      2123.46        36.11     378231       6432
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              64.46      2111.61        35.91     378231       6432
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              64.10      2099.88        35.71     378231       6432
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              63.75      2088.29        35.51     378231       6432
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              63.41      2076.82        35.36     378231       6440
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              63.06      2065.48        35.17     378231       6440
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.73      2054.26        35.04     378231       6452
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.39      2043.06        34.85     378231       6452
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.05      2032.08        34.66     378231       6452
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              61.72      2021.22        34.48     378231       6452
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              61.39      2010.48        34.30     378231       6452
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              61.07      1999.85        34.11     378231       6452
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              60.75      1989.33        33.93     378231       6452
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              60.43      1978.92        33.76     378231       6452
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              60.12      1968.62        33.58     378231       6452
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              59.80      1958.43        33.41     378231       6452
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              59.49      1948.24        33.23     378231       6452
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              59.19      1938.25        33.06     378231       6452
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.89      1928.37        32.89     378231       6452
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.61      1918.59        32.93     378231       6492
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.32      1908.91        32.91     378231       6520
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.03      1899.32        32.74     378231       6520
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              57.74      1889.83        32.58     378231       6520
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              57.45      1880.44        32.42     378231       6520
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              57.23      1871.13        32.51     378231       6572
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              56.95      1861.92        32.35     378231       6572
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              56.67      1852.71        32.19     378231       6572
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              56.39      1843.68        32.04     378231       6572
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              56.12      1834.74        31.88     378231       6572
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.85      1825.88        31.73     378231       6572
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.59      1817.11        31.63     378231       6584
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.32      1808.42        31.48     378231       6584
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.06      1799.81        31.33     378231       6584
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              54.80      1791.29        31.18     378231       6584
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              54.54      1782.85        31.03     378231       6584
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              54.28      1774.40        30.89     378231       6584
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              54.04      1766.11        30.80     378231       6596
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              53.79      1757.91        30.66     378231       6596
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              53.54      1749.77        30.51     378231       6596
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              53.29      1741.72        30.37     378231       6596
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              53.05      1733.73        30.23     378231       6596
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.81      1725.82        30.10     378231       6596
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.57      1717.98        29.96     378231       6596
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.33      1710.14        29.82     378231       6596
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.09      1702.44        29.69     378231       6596
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.86      1694.81        29.56     378231       6596
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.63      1687.25        29.42     378231       6596
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.40      1679.76        29.29     378231       6596
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.18      1672.33        29.22     378231       6608
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.95      1664.97        29.09     378231       6608
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.73      1657.67        28.96     378231       6608
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.51      1650.44        28.83     378231       6608
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.29      1643.20        28.71     378231       6608
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.07      1636.09        28.58     378231       6608
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.85      1629.04        28.46     378231       6608
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.64      1622.06        28.39     378231       6620
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.43      1615.13        28.27     378231       6620
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.22      1608.26        28.15     378231       6620
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.01      1601.45        28.03     378231       6620
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.81      1594.70        27.91     378231       6620
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.62      1587.94        27.99     378231       6668
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.41      1581.30        27.88     378231       6668
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.21      1574.72        27.76     378231       6668
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.01      1568.19        27.65     378231       6668
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.81      1561.71        27.53     378231       6668
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.65      1555.29        27.63     378231       6720
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.45      1548.92        27.52     378231       6720
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.26      1542.60        27.41     378231       6720
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.07      1536.34        27.30     378231       6720
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              46.87      1530.06        27.18     378231       6720
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              46.68      1523.90        27.07     378231       6720
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              46.50      1517.78        26.97     378231       6720
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              46.31      1511.71        26.86     378231       6720
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              46.13      1505.70        26.75     378247       6720
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              46.79      1706.68        26.80     430511       6760
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.32      1886.02        26.69     477615       6760
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.18      2145.35        26.59     545455       6760
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.69      2295.26        62.80     585911      16032
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.66      2290.40       214.41     586939      54944
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.83      2344.10       332.97     603067      85664
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.14      2463.80       355.23     636351      91748
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.11      2458.53       488.73     637375     126704
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.08      2452.77       636.30     638407     165616
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.05      2449.37       782.82     639947     204528
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.55      2604.99       822.79     683211     215792
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.72      2673.86       893.29     703947     235176
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.49      2907.64       889.84     768459     235176
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.21      3129.35       890.38     830155     236200
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.83      3327.06       887.00     885963     236200
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.83      3330.08      1003.08     890063     268104
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.80      3323.27      1135.85     891599     304736
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.77      3315.10      1273.59     892623     342928
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.11      3429.63      1313.83     926927     355088
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.20      3460.18      1414.10     938711     383632
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.14      3453.11      1537.71     940247     418704
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.10      3446.23      1670.32     941787     456464
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.07      3433.54      1831.70     941787     502416
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.04      3421.07      1984.99     941787     546448
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.39      3539.34      2023.89     977883     559180
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              53.10      3756.45      2016.59    1041627     559180
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              53.62      3927.86      2009.46    1093083     559212
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              54.21      4111.32      2005.93    1148251     560236
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              54.88      4317.68      1998.77    1210203     560236
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.58      4534.24      1991.60    1275483     560236
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.76      4582.44      2061.07    1293531     581800
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.72      4571.54      2196.94    1295071     622372
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.68      4555.30      2347.69    1295071     667448
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.62      4544.56      2458.52    1296607     701440
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.57      4534.52      2569.50    1298143     735596
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.57      4539.09      2675.87    1304035     768752
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.90      4642.03      2725.44    1338343     785772
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.86      4633.22      2845.14    1340391     823100
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.82      4622.71      2978.73    1341927     864696
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.78      4612.27      3102.20    1343463     903608
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.81      4624.20      3213.55    1351655     939320
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              56.46      4822.45      3202.70    1414375     939320
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              56.98      4991.88      3191.71    1469159     939352
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              57.61      5185.80      3184.48    1531367     940376
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.21      5370.29      3173.62    1591271     940376
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.69      5526.35      3163.05    1642983     940376
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.92      5596.90      3233.87    1669611     964696
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.90      5585.26      3312.18    1671667     991336
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.86      5575.21      3416.65    1674235    1026020
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.80      5561.82      3521.33    1675775    1060976
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.73      5544.94      3635.31    1676291    1098992
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.67      5531.72      3750.78    1677827    1137648
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.78      5580.19      3806.07    1698051    1158188
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.73      5566.76      3927.22    1699587    1199020
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.68      5551.77      4048.41    1700619    1240108
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.98      5643.87      4095.76    1734419    1258668
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              59.59      5831.30      4082.34    1797907    1258668
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              59.67      5863.16      4141.02    1813535    1280860
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              59.61      5847.58      4260.09    1814563    1321948
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              59.54      5835.56      4355.09    1816611    1355740
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              59.49      5821.80      4469.02    1818147    1395676
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              59.72      5898.03      4519.43    1847971    1416028
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              60.07      6018.32      4505.35    1891619    1416076
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              61.16      6350.48      4597.62    2017927    1460940
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              61.11      6336.42      4700.84    2020747    1499144
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              61.10      6336.03      4699.95    2021003    1499144
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              61.32      6410.45      4735.93    2051215    1515404
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              61.82      6567.53      4721.18    2108047    1515404
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.32      6724.65      4706.66    2165135    1515404
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.77      6863.69      4695.11    2216835    1516428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.72      6843.89      4796.73    2217351    1554092
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.67      6826.41      4897.06    2218379    1591396
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.63      6808.45      5003.24    2219419    1630956
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.58      6790.55      5104.03    2220443    1668968
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.62      6801.07      5182.13    2230683    1699688
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.56      6783.52      5281.55    2231711    1737576
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.51      6764.53      5390.82    2232227    1778916
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.46      6746.98      5492.16    2233251    1817904
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.48      6753.08      5577.95    2241955    1851824
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.93      6895.22      5561.37    2295971    1851824
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              63.32      7024.22      5544.55    2346019    1851824
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              63.66      7138.91      5528.11    2391463    1851860
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              63.78      7179.18      5578.15    2412203    1874260
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              64.04      7254.02      5599.32    2444459    1886860
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              63.98      7236.89      5697.38    2445995    1925656
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              64.34      7356.76      5686.61    2493867    1927704
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              64.28      7338.13      5792.99    2494891    1969560
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              64.44      7387.72      5845.45    2519211    1993300
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              64.38      7369.12      5951.12    2520239    2035284
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              64.30      7350.84      6038.81    2521263    2071252
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              64.23      7332.23      6133.83    2522287    2110036
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              64.16      7314.16      6229.76    2523311    2149204
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              64.59      7451.88      6211.68    2578351    2149240
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.12      7612.63      6193.78    2641583    2149240
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.54      7739.58      6182.17    2693295    2151332
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.69      7785.41      6226.99    2717107    2173220
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.84      7828.77      6281.21    2740147    2198488
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.81      7829.52      6333.82    2748083    2223108
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.91      7858.19      6385.73    2766003    2247712
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              66.06      7909.17      6424.93    2791859    2267936
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              66.00      7887.84      6523.93    2792375    2309536
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.94      7870.17      6607.77    2793911    2345760
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.87      7850.72      6698.33    2794935    2384672
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.80      7834.03      6781.13    2796983    2421068
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              66.21      7964.18      6762.57    2851255    2421068
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              66.69      8110.77      6743.55    2911927    2421068
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.06      8229.49      6725.19    2962615    2421068
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.16      8257.31      6774.37    2981055    2445684
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.14      8256.90      6823.56    2989247    2470332
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.29      8308.66      6847.45    3016127    2485692
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.40      8348.90      6883.30    3039167    2505660
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.34      8327.44      6974.91    3039683    2545980
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.27      8307.26      7058.12    3040707    2583484
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.20      8289.04      7147.89    3042243    2623420
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.15      8266.52      7249.16    3042243    2667836
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.50      8381.94      7233.93    3093187    2669536
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.99      8531.09      7214.57    3156675    2669536
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              68.41      8657.38      7203.60    3211975    2672608
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              68.40      8658.65      7263.98    3221191    2702344
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              68.53      8703.15      7298.18    3246535    2722440
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              68.71      8763.38      7315.30    3277767    2736140
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              68.78      8788.71      7360.49    3295943    2760332
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              68.83      8804.83      7417.17    3310791    2789004
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              68.77      8782.61      7511.37    3311307    2832012
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              68.71      8762.10      7598.50    3312335    2872460
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              68.65      8738.75      7694.42    3312335    2916492
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              68.71      8762.46      7739.49    3329999    2941240
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              69.16      8899.37      7719.18    3390927    2941240
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              69.60      9035.56      7698.98    3451855    2941240
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              69.77      9095.28      7710.51    3483855    2953432
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              69.89      9134.45      7743.74    3508175    2974060
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              70.02      9179.44      7766.38    3534543    2990444
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              70.07      9194.79      7822.85    3549647    3020012
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              70.27      9257.07      7853.85    3582671    3039596
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              70.22      9245.70      7917.60    3587795    3072424
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              70.36      9292.82      7944.70    3615187    3090728
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              70.29      9271.40      8013.39    3616215    3125544
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              70.21      9251.14      8086.43    3617751    3162280
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              70.14      9230.16      8168.97    3618775    3202728
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              70.08      9210.82      8247.07    3620311    3241512
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              70.37      9305.44      8235.47    3666903    3245268
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              70.75      9423.39      8214.83    3722711    3245268
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              71.15      9548.27      8194.09    3781591    3245268
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              71.36      9609.33      8211.32    3815383    3260304
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              71.33      9600.86      8278.36    3821527    3295120
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              71.50      9656.51      8299.33    3853527    3311932
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              71.55      9673.73      8343.33    3870171    3337916
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              71.49      9652.26      8412.55    3870943    3373768
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              71.42      9630.56      8498.07    3871967    3416648
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              71.35      9611.27      8573.42    3874015    3455688
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              71.28      9590.02      8642.48    3875039    3492168
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              71.51      9665.51      8642.11    3915207    3500660
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              71.92      9791.51      8620.62    3976135    3500660
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              72.23      9891.83      8599.86    4026567    3500660
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              72.45      9958.55      8613.01    4063687    3514624
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              72.51      9978.78      8651.99    4082119    3539356
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              72.68     10029.36      8670.90    4112839    3555764
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              72.72     10040.70      8727.24    4127431    3587508
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              72.66     10021.94      8798.01    4129739    3625396
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              72.60     10000.40      8882.59    4130767    3669044
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              72.54      9977.25      8967.27    4131279    3713076
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              72.46      9949.89      9054.77    4131791    3760084
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              72.77     10046.81      9037.15    4180175    3760088
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              73.19     10175.56      9015.48    4243919    3760088
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              73.52     10281.03      8993.92    4298191    3760088
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              73.60     10306.97      9026.08    4319443    3782648
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              73.65     10320.46      9068.37    4335315    3809352
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              73.81     10370.48      9090.40    4366803    3827784
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              73.97     10415.56      9127.82    4395991    3852488
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              73.98     10420.70      9178.42    4408791    3883208
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              73.90     10397.35      9245.82    4409307    3920968
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              73.82     10374.34      9320.95    4409819    3962056
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              73.75     10350.96      9404.60    4410335    4007112
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              73.78     10357.29      9459.08    4423391    4039784
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              74.18     10481.16      9436.76    4486879    4039784
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              74.59     10605.64      9414.55    4550879    4039784
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              74.91     10705.03      9395.31    4604127    4040828
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              74.85     10684.36      9456.83    4605919    4076744
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              75.03     10744.26      9459.37    4642271    4087112
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              75.05     10748.76      9517.71    4655075    4121928
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              75.25     10808.68      9535.37    4691939    4139208
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              75.27     10812.08      9598.47    4704227    4176200
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              75.20     10788.47      9679.78    4704743    4221256
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              75.13     10764.46      9755.37    4705255    4264168
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              75.04     10741.55      9817.98    4705767    4301160
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              74.98     10725.84      9873.46    4709607    4335336
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              75.37     10845.23      9850.57    4773095    4335336
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              75.69     10945.01      9828.97    4827623    4335364
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              75.98     11034.08      9819.57    4878055    4341132
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              76.07     11064.72      9839.46    4902887    4359964
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              76.15     11085.61      9872.87    4923119    4384540
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              76.27     11122.49      9900.69    4950511    4406696
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              76.41     11164.20      9930.84    4980463    4430248
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              76.50     11182.75      9973.83    4999919    4459400
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              76.43     11161.16     10038.00    5001203    4497928
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              76.36     11137.44     10109.14    5001715    4539912
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              76.27     11113.34     10174.95    5002227    4579848
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              76.19     11090.09     10236.61    5002739    4617736
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              76.37     11145.65     10245.69    5038835    4631972
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              76.74     11259.79     10222.85    5101811    4631972
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              77.12     11374.81     10200.33    5165299    4631972
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              77.26     11418.70     10214.16    5196535    4648364
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              77.25     11417.30     10263.16    5207543    4681132
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              77.40     11465.68     10269.92    5241079    4694484
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              77.46     11484.75     10308.33    5261047    4722144
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              77.54     11507.74     10348.16    5283319    4750944
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              77.48     11483.35     10422.86    5283835    4795872
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              77.43     11460.07     10498.42    5284351    4840928
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              77.32     11420.31     10619.29    5284863    4914184
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              77.44     11456.76     10611.04    5305855    4914184
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              77.81     11569.17     10587.95    5369599    4914184
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              78.16     11676.89     10565.64    5431039    4914184
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              78.41     11755.64     10553.96    5479423    4919308
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              78.34     11736.51     10599.46    5482239    4951112
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              78.48     11784.17     10600.06    5516287    4961992
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              78.50     11790.74     10632.43    5531391    4987992
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              78.57     11811.95     10659.09    5553151    5011160
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              78.58     11814.05     10708.20    5565955    5044952
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              78.52     11790.12     10779.59    5566471    5089368
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              78.45     11766.29     10844.73    5566983    5130968
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              78.38     11741.72     10909.29    5566983    5172312
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              78.46     11766.33     10938.98    5590535    5197436
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              78.83     11877.11     10916.00    5655047    5197436
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              79.18     11984.77     10892.67    5718535    5197436
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              79.39     12051.80     10887.35    5762567    5205788
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              79.44     12066.15     10926.80    5781255    5235356
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              79.52     12090.07     10953.09    5804807    5258908
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              79.57     12104.85     10992.05    5824007    5288604
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              79.65     12131.03     11019.54    5849099    5313180
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              79.57     12107.24     11075.64    5849615    5351196
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              79.42     12059.32     11196.27    5849615    5430976
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              79.41     12058.64     11198.89    5850127    5433028
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              79.35     12034.89     11270.90    5850639    5479236
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              79.66     12131.82     11250.89    5909775    5480644
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              79.93     12214.48     11227.89    5962255    5480672
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              79.80     12198.87     11204.71    5966955    5480672
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              79.64     12173.73     11181.62    5966955    5480672
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              79.47     12148.70     11158.63    5966955    5480672
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              79.31     12124.01     11135.96    5966955    5480672
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              79.15     12099.43     11113.37    5966955    5480672
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              79.00     12075.19     11091.14    5966955    5480688
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              78.84     12050.56     11068.52    5966955    5480688
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              78.68     12026.27     11046.21    5966955    5480688
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              78.52     12002.32     11024.21    5966955    5480688
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              78.36     11977.51     11001.42    5966955    5480688
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              78.20     11953.99     10979.82    5966955    5480688
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              78.05     11930.09     10957.87    5966955    5480688
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              77.89     11906.76     10936.44    5966955    5480688
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              77.74     11882.81     10914.44    5966955    5480688
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              77.59     11859.20     10892.78    5966955    5480704
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              77.43     11835.44     10870.96    5966955    5480704
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              77.28     11811.54     10849.01    5966955    5480704
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              77.13     11788.91     10828.22    5966955    5480704
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              76.97     11765.20     10806.44    5966955    5480704
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              76.82     11742.04     10785.18    5966955    5480704
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              76.67     11718.98     10764.00    5966955    5480704
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              76.52     11696.01     10742.90    5966955    5480704
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              76.37     11672.90     10721.67    5966955    5480704
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              76.22     11650.34     10700.95    5966955    5480704
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              76.07     11627.18     10679.68    5966955    5480704
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              75.92     11604.57     10658.91    5966955    5480704
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              75.78     11582.27     10638.43    5966955    5480704
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              75.72     11559.84     10698.46    5966959    5522332
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              75.66     11537.49     10758.95    5966959    5564316
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              75.59     11515.22     10803.43    5966959    5598120
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              75.44     11492.82     10782.41    5966959    5598120
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              75.30     11470.73     10761.68    5966959    5598120
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              75.15     11448.72     10741.04    5966959    5598124
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              75.01     11426.36     10720.06    5966959    5598124
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              74.87     11405.17     10700.19    5966959    5598124
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              74.72     11383.20     10679.57    5966959    5598124
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              74.58     11361.31     10659.03    5966959    5598124
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              74.43     11338.85     10637.99    5966959    5598136
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              74.30     11318.42     10618.82    5966959    5598136
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              74.16     11296.99     10598.72    5966959    5598136
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              74.02     11275.22     10578.29    5966959    5598136
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              73.88     11254.59     10558.93    5966959    5598136
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              73.74     11232.98     10538.68    5966959    5598148
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              73.61     11212.08     10519.13    5966959    5598176
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              73.47     11191.06     10499.40    5966959    5598176
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              73.34     11170.11     10479.75    5966959    5598176
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              73.20     11149.23     10460.17    5966959    5598176
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              73.06     11128.44     10440.66    5966959    5598176
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              72.92     11107.52     10421.03    5966959    5598176
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              72.79     11087.09     10401.86    5966959    5598176
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              72.65     11066.32     10382.37    5966959    5598176
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              72.52     11045.83     10363.15    5966959    5598176
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              72.39     11025.63     10344.20    5966959    5598176
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              72.25     11005.29     10325.12    5966959    5598176
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              72.12     10984.63     10305.73    5966959    5598176
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              71.99     10964.84     10287.17    5966959    5598176
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              71.85     10944.53     10268.11    5966959    5598176
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              71.73     10924.49     10249.36    5966959    5598200
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              71.60     10904.13     10230.25    5966959    5598200
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              71.47     10884.44     10211.78    5966959    5598200
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              71.34     10864.62     10193.19    5966959    5598200
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              71.21     10844.68     10174.48    5966959    5598200
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              71.10     10825.00     10156.15    5966959    5598272
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              70.97     10805.40     10137.76    5966959    5598272
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              70.84     10785.48     10119.07    5966959    5598272
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              70.71     10766.60     10101.36    5966959    5598272
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              70.59     10747.21     10083.16    5966959    5598272
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              70.46     10727.31     10064.49    5966959    5598272
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              70.33     10708.64     10046.97    5966959    5598272
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              70.20     10689.07     10028.61    5966959    5598272
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              70.08     10669.96     10010.68    5966959    5598272
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              69.96     10651.29      9993.20    5966959    5598292
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              69.83     10631.93      9975.09    5966959    5598320
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              69.71     10613.21      9957.53    5966959    5598320
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              69.59     10594.18      9939.67    5966959    5598320
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              69.46     10575.59      9922.23    5966959    5598320
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              69.34     10556.69      9904.50    5966959    5598320
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              69.22     10538.23      9887.22    5966959    5598340
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              69.10     10519.66      9869.79    5966959    5598340
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              68.98     10500.96      9852.24    5966959    5598340
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              68.86     10482.51      9834.93    5966959    5598340
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              68.74     10464.13      9817.69    5966959    5598340
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              68.61     10445.63      9800.33    5966959    5598340
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              68.50     10427.55      9783.39    5966959    5598352
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              68.38     10409.00      9765.99    5966959    5598352
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              68.26     10390.87      9748.98    5966959    5598352
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              68.14     10372.81      9732.03    5966959    5598352
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              68.02     10354.99      9715.31    5966959    5598352
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.90     10336.87      9698.31    5966959    5598352
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.78     10318.82      9681.38    5966959    5598352
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.67     10301.54      9665.16    5966959    5598352
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.56     10283.96      9648.67    5966959    5598352
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.44     10266.09      9631.90    5966959    5598352
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.32     10248.10      9615.03    5966959    5598352
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.21     10230.88      9598.88    5966959    5598352
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              67.09     10213.02      9582.12    5966959    5598352
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              66.97     10195.57      9565.74    5966959    5598352
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              66.88     10178.36      9549.67    5966959    5598400
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              66.77     10160.85      9533.30    5966959    5598428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              66.65     10143.40      9516.93    5966959    5598428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              66.54     10126.53      9501.10    5966959    5598428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              66.43     10109.21      9484.84    5966959    5598428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              66.31     10091.94      9468.64    5966959    5598428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              66.20     10074.90      9452.65    5966959    5598428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              66.09     10058.09      9436.88    5966959    5598428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.98     10040.82      9420.68    5966959    5598428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.87     10024.29      9405.17    5966959    5598428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.76     10007.31      9389.24    5966959    5598428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.65      9990.39      9373.36    5966959    5598428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.54      9973.86      9357.85    5966959    5598428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.43      9957.38      9342.39    5966959    5598428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.32      9940.79      9326.83    5966959    5598428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.22      9924.09      9311.25    5966959    5598480
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.11      9907.45      9295.63    5966959    5598480
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              65.00      9891.03      9280.22    5966959    5598480
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              64.89      9874.49      9264.71    5966959    5598480
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              64.79      9858.67      9249.86    5966959    5598480
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              64.68      9842.24      9234.45    5966959    5598480
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              64.58      9825.87      9219.14    5966959    5598508
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              64.47      9809.72      9203.99    5966959    5598508
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              64.37      9793.62      9188.88    5966959    5598508
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              64.26      9777.57      9173.82    5966959    5598508
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              64.15      9761.26      9158.51    5966959    5598508
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              64.05      9745.63      9143.85    5966959    5598508
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              63.95      9729.90      9129.13    5966959    5598528
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              63.84      9713.59      9113.82    5966959    5598528
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              63.74      9698.11      9099.30    5966959    5598528
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              63.64      9682.69      9084.83    5966959    5598528
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              63.53      9666.69      9069.82    5966959    5598528
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              63.43      9650.74      9054.88    5966959    5598544
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              63.33      9635.32      9040.41    5966959    5598544
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              63.23      9619.63      9025.69    5966959    5598544
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              63.14      9604.14      9011.23    5966959    5598584
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              63.04      9588.87      8996.89    5966959    5598584
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.94      9573.63      8982.60    5966959    5598584
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.84      9558.45      8968.35    5966959    5598584
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.74      9542.86      8953.72    5966959    5598584
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.64      9527.47      8939.28    5966959    5598584
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.54      9511.98      8924.75    5966959    5598584
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.44      9497.14      8910.83    5966959    5598584
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.34      9482.05      8896.69    5966959    5598596
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.26      9467.01      8883.14    5966959    5598952
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.17      9452.01      8869.07    5966959    5598956
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              62.07      9436.91      8854.90    5966959    5598956
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              61.97      9422.17      8841.06    5966963    5598956
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              61.87      9407.31      8827.12    5966963    5598956
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              61.78      9392.50      8813.23    5966963    5598956
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              61.68      9377.59      8799.30    5966963    5598996
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              61.58      9362.59      8785.22    5966963    5598996
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              61.49      9348.06      8771.59    5966963    5598996
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              61.39      9333.73      8758.15    5966963    5598996
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              61.30      9318.87      8744.20    5966963    5598996
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              61.21      9304.48      8730.76    5966963    5599036
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              61.11      9289.85      8717.03    5966963    5599036
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              61.02      9275.41      8703.55    5966963    5599080
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              60.92      9261.30      8690.31    5966963    5599080
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              60.83      9246.52      8676.44    5966963    5599080
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              60.74      9232.35      8663.17    5966963    5599092
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              60.64      9218.09      8649.78    5966963    5599092
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              60.55      9203.87      8636.44    5966963    5599092
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              60.46      9189.56      8623.01    5966963    5599092
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              60.36      9175.57      8609.88    5966963    5599092
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              60.27      9161.34      8596.60    5966963    5599140
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              60.18      9147.29      8583.43    5966963    5599140
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              60.09      9133.57      8570.55    5966963    5599140
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              60.00      9119.61      8557.45    5966963    5599140
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              59.91      9105.42      8544.13    5966963    5599140
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              59.82      9091.55      8531.11    5966963    5599140
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              59.72      9077.71      8518.13    5966963    5599140
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              59.63      9063.92      8505.20    5966963    5599140
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              59.54      9050.04      8492.17    5966963    5599140
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              59.45      9036.20      8479.20    5966963    5599152
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              59.40      9022.67      8466.65    5966963    5599252
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              59.31      9009.18      8454.00    5966963    5599252
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              59.22      8995.74      8441.38    5966963    5599252
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              59.13      8982.20      8428.67    5966963    5599252
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              59.04      8968.43      8415.75    5966963    5599252
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.95      8954.97      8403.12    5966963    5599252
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.86      8941.55      8390.53    5966963    5599252
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.78      8928.17      8377.97    5966963    5599252
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.69      8914.83      8365.46    5966963    5599252
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.60      8901.53      8353.00    5966963    5599264
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.52      8888.14      8340.43    5966963    5599264
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.43      8875.05      8328.15    5966963    5599264
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.34      8861.87      8315.78    5966963    5599264
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.26      8848.60      8303.32    5966963    5599264
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.17      8835.49      8291.03    5966963    5599264
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.09      8822.43      8278.79    5966963    5599276
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              58.00      8809.28      8266.44    5966963    5599276
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              57.91      8796.42      8254.38    5966963    5599276
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              57.83      8783.60      8242.35    5966963    5599276
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              57.74      8770.17      8229.75    5966963    5599276
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              57.66      8757.69      8218.08    5966963    5599304
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              57.58      8744.72      8205.91    5966963    5599304
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              57.49      8731.93      8193.90    5966963    5599304
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              57.41      8719.30      8182.08    5966963    5599324
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              57.33      8706.45      8170.02    5966963    5599324
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              57.25      8694.01      8158.36    5966963    5599328
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              57.16      8680.99      8146.14    5966963    5599328
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              57.08      8668.50      8134.42    5966963    5599328
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              57.00      8655.93      8122.62    5966963    5599328
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              56.91      8643.26      8110.74    5966963    5599328
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              56.83      8630.76      8099.00    5966963    5599328
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              56.75      8618.30      8087.31    5966963    5599332
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              56.67      8605.74      8075.53    5966963    5599332
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              56.59      8593.47      8064.02    5966963    5599332
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              56.51      8581.24      8052.54    5966963    5599332
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              56.42      8568.91      8040.97    5966963    5599332
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              56.34      8556.50      8029.33    5966963    5599332
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              56.26      8544.25      8017.85    5966963    5599344
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              56.18      8532.03      8006.38    5966963    5599344
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              56.10      8519.85      7994.95    5966963    5599344
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              56.03      8507.34      7983.26    5966963    5599376
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.95      8495.59      7972.23    5966963    5599376
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.87      8483.39      7960.78    5966963    5599376
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.79      8471.35      7949.54    5966963    5599416
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.71      8459.46      7938.38    5966963    5599416
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.64      8447.36      7927.03    5966963    5599416
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.56      8435.54      7915.94    5966963    5599416
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.48      8423.51      7904.65    5966963    5599416
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.40      8411.52      7893.39    5966963    5599416
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.32      8399.80      7882.39    5966963    5599416
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.24      8387.87      7871.20    5966963    5599416
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.17      8376.10      7860.17    5966963    5599428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.09      8364.47      7849.26    5966963    5599428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              55.01      8352.53      7838.05    5966963    5599428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              54.94      8341.09      7827.32    5966963    5599428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              54.86      8329.33      7816.28    5966963    5599428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              54.78      8317.72      7805.39    5966963    5599428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              54.71      8306.02      7794.41    5966963    5599428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              54.63      8294.59      7783.69    5966963    5599428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              54.56      8282.96      7772.77    5966963    5599428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              54.48      8271.37      7761.89    5966963    5599428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              54.40      8260.03      7751.25    5966963    5599428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              54.33      8248.61      7740.54    5966963    5599428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              54.25      8237.22      7729.85    5966963    5599428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              54.18      8225.98      7719.30    5966963    5599428
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              54.11      8214.66      7708.73    5966963    5599468
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              54.03      8203.25      7698.03    5966963    5599468
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              53.96      8191.88      7687.35    5966963    5599468
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              53.89      8180.98      7677.13    5966963    5599468
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              53.81      8169.67      7666.51    5966963    5599468
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              53.74      8158.39      7656.00    5966963    5599520
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              53.67      8147.25      7645.54    5966963    5599520
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              53.60      8136.03      7635.01    5966963    5599520
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              53.52      8125.06      7624.72    5966963    5599520
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              53.45      8113.79      7614.15    5966963    5599520
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              53.39      8102.99      7604.07    5966963    5599560
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              53.31      8091.78      7593.55    5966963    5599560
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              53.24      8081.05      7583.47    5966963    5599560
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              53.17      8070.12      7573.23    5966963    5599572
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              53.10      8059.11      7562.90    5966963    5599572
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              53.03      8048.13      7552.60    5966963    5599572
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.96      8037.29      7542.43    5966963    5599572
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.89      8026.48      7532.28    5966963    5599572
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.82      8015.91      7522.36    5966963    5599572
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.75      8005.16      7512.27    5966963    5599572
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.67      7994.11      7501.91    5966963    5599572
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.60      7983.31      7491.77    5966963    5599572
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.53      7972.85      7481.96    5966963    5599572
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.46      7962.32      7472.07    5966963    5599572
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.39      7951.50      7461.92    5966963    5599572
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.33      7941.55      7452.60    5966963    5599584
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.26      7930.99      7442.69    5966963    5599584
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.19      7920.36      7432.76    5966963    5599616
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.12      7909.86      7422.90    5966963    5599616
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              52.05      7899.39      7413.08    5966963    5599616
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.99      7888.95      7403.28    5966963    5599616
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.92      7878.53      7393.50    5966963    5599616
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.85      7868.14      7383.75    5966963    5599616
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.78      7857.78      7374.03    5966963    5599616
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.71      7847.45      7364.35    5966963    5599628
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.65      7837.14      7354.69    5966963    5599640
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.58      7826.76      7344.95    5966963    5599640
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.51      7816.50      7335.32    5966963    5599640
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.44      7806.28      7325.73    5966963    5599640
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.38      7796.08      7316.16    5966963    5599640
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.33      7785.98      7306.70    5967019    5599712
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.31      7776.38      7297.19    5967439    5599716
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.25      7766.26      7287.69    5967439    5599716
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.18      7756.17      7278.22    5967439    5599716
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.11      7746.10      7268.77    5967439    5599716
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              51.06      7735.96      7259.30    5967439    5599752
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.99      7725.94      7249.95    5967439    5599788
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.93      7715.95      7240.57    5967439    5599788
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.86      7705.99      7231.22    5967439    5599788
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.80      7696.05      7221.90    5967439    5599788
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.73      7686.14      7212.60    5967439    5599788
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.67      7676.25      7203.32    5967439    5599788
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.60      7666.39      7194.08    5967439    5599800
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.54      7656.45      7184.76    5967439    5599800
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.47      7646.64      7175.55    5967439    5599800
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.41      7636.86      7166.38    5967439    5599812
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.35      7627.09      7157.22    5967439    5599812
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.28      7617.36      7148.09    5967439    5599812
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.22      7607.65      7138.98    5967439    5599812
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.16      7597.96      7129.89    5967439    5599812
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.09      7588.30      7120.82    5967439    5599812
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              50.03      7578.66      7111.80    5967439    5599832
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.97      7568.95      7102.69    5967439    5599832
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.90      7559.37      7093.69    5967439    5599832
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.84      7549.80      7084.72    5967439    5599832
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.78      7540.26      7075.77    5967439    5599832
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.71      7530.75      7066.84    5967439    5599832
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.65      7521.26      7057.93    5967439    5599832
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.59      7511.79      7049.05    5967439    5599832
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.53      7502.34      7040.20    5967439    5599848
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.47      7492.83      7031.27    5967439    5599848
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.40      7483.43      7022.46    5967439    5599848
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.34      7474.06      7013.66    5967439    5599848
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.28      7464.71      7004.89    5967439    5599848
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.22      7455.38      6996.14    5967439    5599848
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.16      7446.08      6987.43    5967439    5599864
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.10      7436.80      6978.72    5967439    5599864
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              49.04      7427.55      6970.03    5967439    5599864
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.98      7418.31      6961.37    5967439    5599864
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.92      7409.01      6952.64    5967439    5599864
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.87      7399.82      6944.17    5967439    5599984
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.81      7390.66      6935.57    5967439    5599988
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.75      7381.52      6926.99    5967439    5599988
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.69      7372.40      6918.43    5967439    5599988
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.63      7363.30      6909.90    5967439    5599988
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.57      7354.23      6901.38    5967439    5599988
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.51      7345.17      6892.89    5967439    5599988
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.45      7336.14      6884.41    5967439    5599988
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.39      7327.05      6875.88    5967439    5599988
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.33      7318.06      6867.44    5967439    5599988
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.28      7309.10      6859.05    5967439    5600000
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.22      7300.16      6850.66    5967439    5600000
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.16      7291.24      6842.29    5967439    5600000
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.10      7282.34      6833.94    5967439    5600000
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              48.04      7273.46      6825.61    5967439    5600000
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.98      7264.61      6817.36    5967439    5600052
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.93      7255.69      6808.99    5967439    5600056
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.87      7246.87      6800.72    5967439    5600056
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.81      7238.08      6792.47    5967439    5600056
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.75      7229.32      6784.25    5967439    5600056
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.69      7220.57      6776.04    5967439    5600056
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.64      7211.84      6767.85    5967439    5600056
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.58      7203.14      6759.68    5967439    5600056
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.52      7194.45      6751.53    5967439    5600056
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.47      7185.79      6743.41    5967439    5600068
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.41      7177.06      6735.22    5967439    5600068
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.35      7168.44      6727.13    5967439    5600068
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.30      7159.84      6719.06    5967439    5600068
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.24      7151.26      6711.01    5967439    5600068
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.18      7142.70      6702.98    5967439    5600068
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.13      7134.16      6694.98    5967439    5600080
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.07      7125.64      6686.98    5967439    5600080
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              47.02      7117.14      6679.01    5967439    5600080
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              46.96      7108.66      6671.05    5967439    5600080
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              46.90      7100.12      6663.03    5967439    5600080
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              46.86      7091.68      6655.18    5967439    5600132
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              46.81      7083.27      6647.28    5967439    5600132
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              46.75      7074.87      6639.40    5967439    5600132
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              46.69      7066.49      6631.53    5967439    5600132
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              46.64      7058.13      6623.69    5967439    5600132
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              46.59      7049.79      6615.90    5967439    5600160
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              46.53      7041.48      6608.09    5967439    5600160
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              46.48      7033.09      6600.25    5967439    5600184
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              46.42      7024.81      6592.48    5967439    5600184
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              46.37      7016.55      6584.73    5967439    5600184
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              46.31      7008.31      6577.00    5967439    5600184
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda              46.26      7000.09      6569.28    5967439    5600184
+

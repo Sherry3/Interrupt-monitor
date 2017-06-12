@@ -19,17 +19,21 @@ class Plot():
 				self.n = 3
 				self.pattern1 = ['bs', 'go', 'r*']
 
+				if(sys.argv[2] == 'yo'):
+					self.plots_all = [3681, 3684, 3685]
+					plt.text(0.7, 0.1, "Multiple processes\nHDD to HDD\nCores underclocked", transform=plt.gca().transAxes, bbox = box)
+
 				if(sys.argv[2] == '1'):
 					self.plots_all = [1, 3, 2, 11, 13, 12, 21, 23, 22, 8, 6, 7]
 					plt.text(0.7, 0.1, "Single process\nPendrive to HDD", transform=plt.gca().transAxes, bbox = box)
 
 				if(sys.argv[2] == '2000'):
 					self.plots_all = [2001, 2003, 2002, 2011, 2013, 2012, 2021, 2023, 2022, 2008, 2006, 2007]
-					plt.text(0.7, 0.1, "Single process\nHDD to pendrive", transform=plt.gca().transAxes, bbox = box)
+					plt.text(0.7, 0.1, "Single process\nHDD to HDD", transform=plt.gca().transAxes, bbox = box)
 
 				if(sys.argv[2] == '2300'):
 					self.plots_all = [2301, 2303, 2302, 2311, 2313, 2312, 2321, 2323, 2322, 2308, 2306, 2307]
-					plt.text(0.7, 0.1, "Single process\nHDD to pendrive\nCores underclocked", transform=plt.gca().transAxes, bbox = box)
+					plt.text(0.7, 0.1, "Single process\nHDD to HDD\nCores underclocked", transform=plt.gca().transAxes, bbox = box)
 
 				if(sys.argv[2] == '3000'):
 					self.plots_all = [3001, 3003, 3002, 3011, 3013, 3012, 3021, 3023, 3022, 3008, 3006, 3007]
@@ -149,10 +153,6 @@ class Plot():
 					for t in range(int(len(self.data[j][i]) / num_plots[k])):
 						data[z].append(0)
 
-				for t in range(max(num_plots)):					
-					print(data[t])
-
-				print("\n\n")
 
 				try:
 					for f in range(len(data[0])):
@@ -341,10 +341,6 @@ class Plot():
 					for t in range(int(len(self.data[j][i]) / num_plots[k])):
 						data[z].append(0)
 
-				for t in range(max(num_plots)):					
-					print(data[t])
-
-				print("\n\n")
 
 				try:
 					for f in range(len(data[0])):
@@ -477,11 +473,13 @@ class Plot():
 			lab = ['Normal', 'IRQ to core 3', 'Core 3 isolated']
 
 			for l in range(self.n):
-				points[l].append(mi - 1)
-				points[l] = [mi - 1] + points[l]
+				points[l].append(0)
+				points[l] = [0] + points[l]
+
+				plt.axis([0, len(points[l]) - 1, mi - 1, mx + 1])
 
 				xticks = range(int(len(self.plots_all)/self.n) + 2)
-				plt.xticks(xticks, ['null', '0', '1', '2', '8', 'null'])
+				plt.xticks(xticks, ['', '0', '1', '2', '8', ''])
 				plt.plot(xticks, points[l], self.pattern1[l], label = lab[l%3])
 				plt.plot(range(1, int(len(self.plots_all)/self.n) + 1), points[l][1:-1], self.pattern1[l][0])
 
@@ -523,7 +521,7 @@ class Plot():
 		
 a = Plot()
 
-plots_dict = {1:1, 2:1, 3:1, 6:1, 7:1, 8:2, 11:2, 12:2, 13:2, 21:2, 22:2, 23:2, 101:1, 104:1, 116:1, 164:1, 165:1, 404:1, 416:1, 464:1, 465:1, 201:3, 202:4, 203:4, 204:3, 205:3, 501:3, 502:4, 503:4, 601:3, 602:4, 603:4, 604:3, 605:3, 801:5, 802:5, 1001:1, 1003:1, 2001:1, 2002:1, 2003:1, 2006:2, 2007:2, 2008:2, 2011:2, 2012:2, 2013:2, 2021:2, 2022:2, 2023:2, 3001:1, 3002:1, 3003:1, 3006:2, 3007:2, 3008:2, 3011:2, 3012:2, 3013:2, 3021:2, 3022:2, 3023:2, 2301:1, 2302:1, 2303:1, 2306:2, 2307:2, 2308:2, 2311:2, 2312:2, 2313:2, 2321:2, 2322:2, 2323:2, 211:4, 214:4, 215:4, 221:4, 224:4, 225:4, 281:4, 284:4, 285:4, 611:4, 614:4, 615:4, 621:4, 624:4, 625:4, 681:4, 684:4, 685:4}
+plots_dict = {1:1, 2:1, 3:1, 6:1, 7:1, 8:2, 11:2, 12:2, 13:2, 21:2, 22:2, 23:2, 101:1, 104:1, 116:1, 164:1, 165:1, 404:1, 416:1, 464:1, 465:1, 201:3, 202:4, 203:4, 204:3, 205:3, 501:3, 502:4, 503:4, 601:3, 602:4, 603:4, 604:3, 605:3, 801:5, 802:5, 1001:1, 1003:1, 2001:1, 2002:1, 2003:1, 2006:2, 2007:2, 2008:2, 2011:2, 2012:2, 2013:2, 2021:2, 2022:2, 2023:2, 3001:1, 3002:1, 3003:1, 3006:2, 3007:2, 3008:2, 3011:2, 3012:2, 3013:2, 3021:2, 3022:2, 3023:2, 2301:1, 2302:1, 2303:1, 2306:2, 2307:2, 2308:2, 2311:2, 2312:2, 2313:2, 2321:2, 2322:2, 2323:2, 211:4, 214:4, 215:4, 221:4, 224:4, 225:4, 281:4, 284:4, 285:4, 611:4, 614:4, 615:4, 621:4, 624:4, 625:4, 681:4, 684:4, 685:4, 3681:4, 3684:4, 3685:4}
 
 if(len(sys.argv) != 1 and sys.argv[1] == "same"):
 	plt.xlabel('Experiment')
