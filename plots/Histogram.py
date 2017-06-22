@@ -19,10 +19,6 @@ class Plot():
 				self.n = 3
 				self.pattern1 = ['bs', 'go', 'r*']
 
-				if(sys.argv[2] == 'yo'):
-					self.plots_all = [3681, 3684, 3685]
-					plt.text(0.7, 0.1, "Multiple processes\nHDD to HDD\nCores underclocked", transform=plt.gca().transAxes, bbox = box)
-
 				if(sys.argv[2] == '1'):
 					self.plots_all = [1, 3, 2, 11, 13, 12, 21, 23, 22, 8, 6, 7]
 					plt.text(0.7, 0.1, "Single process\nPendrive to HDD", transform=plt.gca().transAxes, bbox = box)
@@ -47,6 +43,12 @@ class Plot():
 				if(sys.argv[2] == 'mul600'):
 					self.plots_all = [601, 604, 605, 611, 614, 615, 621, 624, 625, 681, 684, 685]
 					plt.text(0.7, 0.1, "Multiple processes\nPendrive to HDD\nCores underclocked", transform=plt.gca().transAxes, bbox = box)
+
+				if(sys.argv[2] == '3600'):
+					self.plots_all = [3601, 3604, 3605, 3611, 3614, 3615, 3621, 3624, 3625, 3681, 3684, 3685]
+					plt.text(0.7, 0.1, "Multiple processes\nHDD to HDD\nCores underclocked\n8 threads load on cores", transform=plt.gca().transAxes, bbox = box)
+
+
 
 				'''
 				if(sys.argv[2] == 'mul'):
@@ -427,8 +429,51 @@ class Plot():
 					print(data[t])
 					print()
 				'''
+				if(plot_type == 'test1'):
+					try:
+						for f in range(len(data[0])):
+							data_plot.append(1000000000)
+							if(num_plots[k] == 1):
+								data_plot[f] = min(min(data_plot), data[0][f])
+							elif(num_plots[k] == 3):
+								data_plot[f] = min(min(data_plot), data[2][f])
+							else:
+								data_plot[f] = min(min(data_plot), data[num_plots[k] - 2][f])
+							
+					except Exception as e:
+						print("An error is occured, min\n", e)
 
-				if(plot_type == 'max'):
+				elif(plot_type == 'test2'):
+					try:
+						for f in range(len(data[0])):
+							data_plot.append(0)
+							if(num_plots[k] == 1):
+								data_plot[f] = max(max(data_plot), data[0][f])
+							elif(num_plots[k] == 3):
+								data_plot[f] = max(max(data_plot), data[2][f])
+							else:
+								data_plot[f] = max(max(data_plot), data[num_plots[k] - 2][f])
+							
+					except Exception as e:
+						print("An error is occured, min\n", e)
+
+
+
+				elif(plot_type == 'min'):
+					try:
+						for f in range(len(data[0])):
+							data_plot.append(0)
+							if(num_plots[k] == 1):
+								data_plot[f] = data_plot[f] + data[0][f]
+							elif(num_plots[k] == 3):
+								data_plot[f] = data_plot[f] + data[0][f]
+							else:
+								data_plot[f] = data_plot[f] + data[num_plots[k] - 4][f]
+							
+					except Exception as e:
+						print("An error is occured, max\n", e)
+
+				elif(plot_type == 'max'):
 					try:
 						for f in range(len(data[0])):
 							data_plot.append(0)
@@ -456,17 +501,30 @@ class Plot():
 						print("An error is occured, sum\n", e)
 
 
-				points[3*int(k/12) + (k%3)].append(sum(data_plot)/len(data_plot))
-				
-				if('mi' in locals()):
-					mi = min(mi, sum(data_plot)/len(data_plot))
-				else:
-					mi = sum(data_plot)/len(data_plot)
+				if(plot_type[:-1] == 'test'):
+					points[3*int(k/12) + (k%3)].append(data_plot[len(data_plot) - 1])
+					if('mi' in locals()):
+						mi = min(mi, data_plot[len(data_plot) - 1])
+					else:
+						mi = data_plot[len(data_plot) - 1]
 			
-				if('mx' in locals()):
-					mx = max(mx, sum(data_plot)/len(data_plot))
+					if('mx' in locals()):
+						mx = max(mx, data_plot[len(data_plot) - 1])
+					else:
+						mx = data_plot[len(data_plot) - 1]
+
 				else:
-					mx = sum(data_plot)/len(data_plot)
+					points[3*int(k/12) + (k%3)].append(sum(data_plot)/len(data_plot))
+				
+					if('mi' in locals()):
+						mi = min(mi, sum(data_plot)/len(data_plot))
+					else:
+						mi = sum(data_plot)/len(data_plot)
+			
+					if('mx' in locals()):
+						mx = max(mx, sum(data_plot)/len(data_plot))
+					else:
+						mx = sum(data_plot)/len(data_plot)
 
 				k = k + 1
 
